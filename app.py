@@ -28,6 +28,11 @@ h2 {font-size:1.4rem!important} h3 {font-size:1.15rem!important}
 @media(max-width:1100px) {h1{font-size:1.55rem!important}[data-testid="stMetric"]{padding:9px}}
 </style>''',unsafe_allow_html=True)
 
+try:  # 云端：把 Streamlit Secrets 注入环境变量，供 rag/服务层复用本地 os.getenv 读取逻辑
+    for _secret_key,_secret_value in st.secrets.items():
+        if isinstance(_secret_value,str) and not os.environ.get(_secret_key):os.environ[_secret_key]=_secret_value
+except Exception:pass
+
 _ACCESS_CODE=os.environ.get('KG_ACCESS_CODE','').strip()
 if not _ACCESS_CODE:
     try:_ACCESS_CODE=str(st.secrets.get('KG_ACCESS_CODE','')).strip()

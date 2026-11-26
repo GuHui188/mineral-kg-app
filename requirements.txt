@@ -1,7 +1,11 @@
-# 云端部署依赖（Streamlit Community Cloud）：只保留应用运行时真正需要的包。
+# 云端部署依赖（Streamlit Community Cloud）：应用运行时需要的包。
 # 本地完整环境请用 01_系统代码与数据/requirements_D.txt。
 streamlit==1.65.0
 pandas==2.3.3
 pyvis==0.3.2
 pyecharts==2.1.0
 python-dotenv
+# AI 问答（DeepSeek 经 GraphRAG 调用）；不装则自动降级为纯图谱检索
+openai==3.59.0
+neo4j-graphrag==1.24.0
+httpx==0.28.1

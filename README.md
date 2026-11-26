@@ -24,10 +24,19 @@ python serve.py            # Windows 推荐（已处理 asyncio 事件循环问�
 
 ```toml
 KG_ACCESS_CODE = "你的访问码"
+
+# AI 问答（可选但推荐）：配置后「智能问答」会做 AI 意图识别与回答润色
+DEEPSEEK_API_KEY = "sk-..."
+DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+DEEPSEEK_MODEL = "deepseek-flash"
 ```
 
-- 只配置访问码即可：未输入访问码的访客只能看到验证页。
-- **不配置** `DEEPSEEK_API_KEY` 时，「智能问答」返回确定性图谱检索结果，AI 润色显示为「未配置」；本镜像默认不安装 GraphRAG 依赖（`d_app/rag.py` 已做可选导入）。
+说明：
+
+- **只配 `KG_ACCESS_CODE`**：未输入访问码的访客只能看到验证页。
+- **配了 `DEEPSEEK_API_KEY`**：侧栏显示「AI辅助回答：已配置」，开放类问题会走 DeepSeek（每条问题消耗你的额度）；规则模板类问题仍然确定性回答，不花钱。
+- 不配密钥也**不影响**其它功能：自动降级为纯图谱检索，侧栏显示「未配置」。
+- Secrets 会在启动时注入进程环境变量，因此 `d_app/rag.py`、`d_app/service.py` 里原有的 `os.getenv(...)` 逻辑无需修改即可生效。
 
 ## 数据说明
 
