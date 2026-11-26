@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "time": "2026-11-25T18:53:09.800050+08:00",
+  "sha256": "6436886e28daa2ac345658a939696fb6e0ab13252cd3bf0913e47d2a089d27fb",
+  "checks": [
+    {
+      "kind": "eight_intent_db_snapshot_http",
+      "question": "图谱规模概览",
+      "intent": "overview",
+      "rows": 1,
+      "cypher_rows": 1,
+      "passed": true
+    },
+    {
+      "kind": "eight_intent_db_snapshot_http",
+      "question": "钴产量分布",
+      "intent": "production",
+      "rows": 9,
+      "cypher_rows": 9,
+      "passed": true
+    },
+    {
+      "kind": "eight_intent_db_snapshot_http",
+      "question": "锂集中度 HHI",
+      "intent": "concentration",
+      "rows": 7,
+      "cypher_rows": 7,
+      "passed": true
+    },
+    {
+      "kind": "eight_intent_db_snapshot_http",
+      "question": "刚果金钴断供会影响哪些企业",
+      "intent": "potential_impact",
+      "rows": 8,
+      "cypher_rows": 8,
+      "passed": true
+    },
+    {
+      "kind": "eight_intent_db_snapshot_http",
+      "question": "有哪些钴替代路线",
+      "intent": "substitution",
+      "rows": 2,
+      "cypher_rows": 2,
+      "passed": true
+    },
+    {
+      "kind": "eight_intent_db_snapshot_http",
+      "question": "针对中国的政策有哪些",
+      "intent": "policy",
+      "rows": 13,
+      "cypher_rows": 13,
+      "passed": true
+    },
+    {
+      "kind": "eight_intent_db_snapshot_http",
+      "question": "宁德时代上游供应与股权关联",
+      "intent": "upstream",
+      "rows": 6,
+      "cypher_rows": 7,
+      "passed": true
+    },
+    {
+      "kind": "eight_intent_db_snapshot_http",
+      "question": "R0191 的来源是什么",
+      "intent": "provenance",
+      "rows": 1,
+      "cypher_rows": 1,
+      "passed": true
+    },
+    {
+      "kind": "scenario_http",
+      "country": "C_COD",
+      "mineral": "M_CO",
+      "companies": 8,
+      "products": 5,
+      "alternatives": 2,
+      "passed": true
+    },
+    {
+      "kind": "scenario_http",
+      "country": "C_CHN",
+      "mineral": "M_GRA",
+      "companies": 3,
+      "products": 2,
+      "alternatives": 0,
+      "passed": true
+    },
+    {
+      "kind": "scenario_http",
+      "country": "C_AUS",
+      "mineral": "M_LI",
+      "companies": 5,
+      "products": 10,
+      "alternatives": 0,
+      "passed": true
+    },
+    {
+      "kind": "http_get",
+      "path": "/api/health",
+      "passed": true
+    },
+    {
+      "kind": "http_get",
+      "path": "/api/overview",
+      "passed": true
+    },
+    {
+      "kind": "http_get",
+      "path": "/api/entity/CO_CATL",
+      "passed": true
+    },
+    {
+      "kind": "http_get",
+      "path": "/api/search?q=CATL",
+      "passed": true
+    },
+    {
+      "kind": "http_get",
+      "path": "/openapi.json",
+      "passed": true
+    },
+    {
+      "kind": "http_answer",
+      "passed": true
+    }
+  ],
+  "count": 17,
+  "writes_to_ABC_or_Neo4j": false
+}

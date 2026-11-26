@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "overview_map_canvas_and_country_join",
+    "entity_pyvis_network",
+    "scenario_neo4j_or_snapshot_result",
+    "qa_natural_language_template_result",
+    "template_query_form"
+  ],
+  "page_errors": [],
+  "external_requests_blocked": [],
+  "status": "passed"
+}

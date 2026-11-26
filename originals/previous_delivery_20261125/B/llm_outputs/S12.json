@@ -1,0 +1,11 @@
+[
+  {"subject": "锂", "predicate": "受管制于", "object": "津巴布韦禁止未加工锂矿出口", "evidence": "banned exports of raw, unprocessed lithium ore under Statutory Instrument 213 of 2022"},
+  {"subject": "津巴布韦禁止未加工锂矿出口", "predicate": "发布于", "object": "津巴布韦", "evidence": "the Base Minerals Export Control (Unbeneficiated Lithium Bearing Ores) Order（津巴布韦矿业与矿业发展部）"},
+  {"subject": "津巴布韦", "predicate": "出产", "object": "锂", "evidence": "Zimbabwe is Africa's leading lithium producer"},
+  {"subject": "津巴布韦", "predicate": "出口至", "object": "中国", "evidence": "accounting for approximately 15% of China's total lithium import volumes in 2025"},
+  {"subject": "华友钴业", "predicate": "控股", "object": "Prospect Lithium Zimbabwe(新)", "evidence": "Prospect Lithium Zimbabwe, owned by China's Zhejiang Huayou Cobalt"},
+  {"subject": "华友钴业", "predicate": "供应", "object": "硫酸锂(新)", "evidence": "a refinery by Zhejiang Huayou Cobalt — Africa's first lithium sulphate processing facility"},
+  {"subject": "盛新锂能(新)", "predicate": "供应", "object": "津巴布韦锂精矿(新)", "evidence": "a $300 million investment from Chengxin Lithium（盛新锂能在津巴布韦投资锂矿加工）"},
+  {"subject": "津巴布韦", "predicate": "出口至", "object": "南非", "evidence": "initially to curb smuggling into South Africa and Mozambique"},
+  {"subject": "锂精矿(新)", "predicate": "受管制于", "object": "津巴布韦禁止未加工锂矿出口", "evidence": "on 10 June 2025, the government announced that exports of lithium concentrates would also be prohibited from January 2027"}
+]

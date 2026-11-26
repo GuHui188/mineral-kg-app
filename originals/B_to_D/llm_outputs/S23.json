@@ -1,0 +1,12 @@
+[
+  {"subject": "钴", "predicate": "受管制于", "object": "刚果（金）暂停钴出口", "evidence": "suspending the export of cobalt from the Democratic Republic of Congo"},
+  {"subject": "刚果（金）暂停钴出口", "predicate": "发布于", "object": "刚果（金）", "evidence": "ARECOMS imposed Decision No. 001/ARECOMS/2025 of February 22, 2025"},
+  {"subject": "钴", "predicate": "受管制于", "object": "刚果（金）以出口配额取代钴出口禁令", "evidence": "a new policy establishing an export quota, to be implemented from 16 October 2025"},
+  {"subject": "刚果（金）以出口配额取代钴出口禁令", "predicate": "发布于", "object": "刚果（金）", "evidence": "On 21 September 2025, ARECOMS extended the ban further to 15 October 2025, along with a new policy establishing an export quota"},
+  {"subject": "刚果（金）", "predicate": "出产", "object": "钴", "evidence": "The Democratic Republic of Congo accounts for about three quarters of global cobalt supply"},
+  {"subject": "洛阳钼业", "predicate": "出产", "object": "钴", "evidence": "Chinese mining giant CMOC, the world's largest cobalt producer with two mines in the DRC"},
+  {"subject": "洛阳钼业", "predicate": "控股", "object": "IXM(新)", "evidence": "its trading arm IXM declared force majeure on cobalt delivery contracts"},
+  {"subject": "嘉能可", "predicate": "出产", "object": "钴", "evidence": "Glencore, the second-largest cobalt producer, stockpiled its DRC cobalt"},
+  {"subject": "刚果（金）以出口配额取代钴出口禁令", "predicate": "作用于", "object": "中国", "evidence": "China's CMOC Group, the world's largest cobalt producer with two mines in the DRC, has been among the most affected"},
+  {"subject": "刚果（金）", "predicate": "出口至", "object": "中国", "evidence": "cobalt hydroxide, the main product exported from the DRC（主要流向中国冶炼，据上下文）"}
+]

@@ -1,0 +1,13 @@
+## S24
+来源：智利《国家锂战略》（Estrategia Nacional del Litio）
+发布：智利总统博里奇，2023年4月20日（一说4月21日）
+原文链接：https://www.gob.cl/litioparachile/
+转引：Springer 章节、智利政府公告、Codelco–SQM 协议报道
+
+In April 2023, Chile announced its National Lithium Strategy, mandating state majority control in strategically significant lithium projects through public-private partnerships. Lithium remains non-concessionable: it can only be exploited by the State or through Special Lithium Operation Contracts (CEOLs). The strategy named state copper company Codelco as lead negotiator for the Salar de Atacama and state miner Enami for several smaller salars. A National Lithium Company was proposed but not established; implementation relies on Codelco and Enami forming partnerships with private parties, with the state retaining at least majority control.
+
+The strategy created a Network of Protected Salt Flats shielding about 30% of high-altitude salars, mandates low-impact technologies such as direct lithium extraction (DLE) for exploited flats, and established a public lithium and salt-flats research institute in Antofagasta. Twelve prioritized areas were defined for CEOL tenders.
+
+The landmark Codelco–SQM joint venture (Salar Futuro / Nova Andino Litio), signed May 31, 2024 and cleared in late 2025, covers SQM's Salar de Atacama operations from 2025 through 2060. From 2025 to 2030 SQM retains operational control under its existing CORFO lease; from 2031 to 2060 Codelco holds 50 percent plus one share, giving the state operational control. The Chilean state receives about 70% of the operating margin during 2025–2030, rising to 85% from 2031. The JV is authorized to extract a cumulative 2.5 million tonnes of lithium metal equivalent through 2060, with annual production up to roughly 280,000–300,000 tonnes of lithium carbonate equivalent, and must deploy DLE in at least one module by 2031.
+
+In October 2023, Codelco acquired Lithium Power International to advance a project in Salar de Maricunga; SQM agreed to transfer its Maricunga mining tenements to Codelco. SQM is partly owned by China's Tianqi Lithium. Chile is the world's second-largest lithium producer after Australia, with the Salar de Atacama operations supplying about 20% of world lithium production.

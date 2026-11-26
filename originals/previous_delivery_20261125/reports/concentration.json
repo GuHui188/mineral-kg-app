@@ -1,0 +1,79 @@
+[
+  {
+    "mineral_id": "M_LI",
+    "mineral": "锂",
+    "coverage_pct": 96.07,
+    "partial_hhi": 2013.2,
+    "countries": 7,
+    "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+    "source_ids": [
+      "S01"
+    ]
+  },
+  {
+    "mineral_id": "M_CO",
+    "mineral": "钴",
+    "coverage_pct": 96.38,
+    "partial_hhi": 5717.79,
+    "countries": 9,
+    "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+    "source_ids": [
+      "S02"
+    ]
+  },
+  {
+    "mineral_id": "M_NI",
+    "mineral": "镍",
+    "coverage_pct": 88.59,
+    "partial_hhi": 4546.06,
+    "countries": 8,
+    "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+    "source_ids": [
+      "S03"
+    ]
+  },
+  {
+    "mineral_id": "M_RE",
+    "mineral": "稀土",
+    "coverage_pct": 97.26,
+    "partial_hhi": 5052.23,
+    "countries": 7,
+    "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+    "source_ids": [
+      "S04"
+    ]
+  },
+  {
+    "mineral_id": "M_GRA",
+    "mineral": "石墨",
+    "coverage_pct": 85.83,
+    "partial_hhi": 6082.47,
+    "countries": 3,
+    "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+    "source_ids": [
+      "S06"
+    ]
+  },
+  {
+    "mineral_id": "M_MN",
+    "mineral": "锰",
+    "coverage_pct": 71.0,
+    "partial_hhi": 2133.0,
+    "countries": 3,
+    "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+    "source_ids": [
+      "S05"
+    ]
+  },
+  {
+    "mineral_id": "M_CU",
+    "mineral": "铜",
+    "coverage_pct": 56.52,
+    "partial_hhi": 923.47,
+    "countries": 4,
+    "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+    "source_ids": [
+      "S07"
+    ]
+  }
+]

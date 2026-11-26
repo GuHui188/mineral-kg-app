@@ -1,0 +1,49 @@
+﻿company_id,name_zh,name_en,alias,company_type,country_id,founded_year,listed,ticker,stage,main_products,note,source_id,valid_year,confidence
+CO_SQM,SQM,Sociedad Quimica y Minera de Chile,化学矿业公司|SQM,矿业,C_CHL,1968,Y,NYSE:SQM,采矿,锂盐|碘|钾,阿塔卡马盐湖承租方，全球第二大锂化合物生产商,S09,2025,0.95
+CO_ALB,雅保,Albemarle,雅保|洛克伍德|ALB,矿业,C_USA,1887,Y,NYSE:ALB,采矿,锂盐|溴|催化剂,全球最大锂化合物生产商，资源分布智利、澳大利亚、美国,S01,2025,0.95
+CO_GANF,赣锋锂业,Ganfeng Lithium,赣锋|Ganfeng,冶炼,C_CHN,2000,Y,SZ:002460,冶炼,碳酸锂|氢氧化锂|金属锂,锂盐加工龙头，向上游资源与下游电池双向延伸,S15,2025,0.95
+CO_TIANQI,天齐锂业,Tianqi Lithium,天齐|Tianqi,冶炼,C_CHN,1995,Y,SZ:002466,冶炼,碳酸锂|氢氧化锂,持有 SQM 约 22% 股权，控股泰利森锂精矿,S15,2025,0.95
+CO_PILB,皮尔巴拉矿业,Pilbara Minerals,Pilbara|PLS,矿业,C_AUS,2007,Y,ASX:PLS,采矿,锂辉石精矿,Pilgangoora 矿山，锂精矿主要销往中国,S16,2025,0.90
+CO_SMM,住友金属矿山,Sumitomo Metal Mining,住友矿山|SMM,冶炼,C_JPN,1950,Y,TYO:5713,冶炼,镍|钴|正极材料,日本镍钴冶炼龙头，菲律宾与印尼镍矿权益方，兼产正极材料,S14,2025,0.90
+CO_CMOC,洛阳钼业,CMOC Group,洛阳钼业|CMOC,矿业,C_CHN,2006,Y,SH:603993,采矿,钴|铜|钼|钨,通过 TFM、KFM 两矿成为全球最大钴生产商之一,S18,2025,0.95
+CO_HUAYOU,华友钴业,Huayou Cobalt,华友|Huayou,冶炼,C_CHN,2002,Y,SH:603799,冶炼,钴|硫酸镍|三元前驱体,钴镍冶炼到前驱体一体化，印尼镍项目权益方,S18,2025,0.95
+CO_TSING,青山控股,Tsingshan Holding,青山|Tsingshan,冶炼,C_CHN,1988,N,NA,冶炼,镍铁|不锈钢,印尼镍产业链最大投资方之一，纬达贝园区运营方,S17,2025,0.90
+CO_VALE,淡水河谷,Vale,Vale|淡水河谷,矿业,C_BRA,1942,Y,NYSE:VALE,采矿,镍|铁矿石|铜,镍产量全球前列，印尼设有合资镍矿,S03,2025,0.90
+CO_BHP,必和必拓,BHP,BHP|必和必拓,矿业,C_AUS,1885,Y,ASX:BHP,采矿,镍|铜|铁矿石,2024 年起将西澳镍矿转入维护状态，2025 年镍产量大幅下降,S03,2025,0.90
+CO_RIO,力拓,Rio Tinto,Rio Tinto|力拓,矿业,C_AUS,1873,Y,ASX:RIO,采矿,锂|铜|铝,阿根廷 Rincon 盐湖、塞尔维亚 Jadar 锂项目,S01,2025,0.90
+CO_NRE,北方稀土,China Northern Rare Earth,北方稀土|包钢稀土,冶炼,C_CHN,1997,Y,SH:600111,冶炼,稀土氧化物|磁材,白云鄂博矿独家冶炼分离主体，轻稀土龙头,S04,2025,0.95
+CO_CREG,中国稀土集团,China Rare Earth Group,中稀集团|CREG,冶炼,C_CHN,2021,N,NA,冶炼,中重稀土|稀土氧化物,2021 年由中铝、五矿等稀土资产重组组建，中重稀土主力,S04,2025,0.90
+CO_LYNAS,莱纳斯,Lynas Rare Earths,Lynas|莱纳斯,冶炼,C_AUS,1983,Y,ASX:LYC,冶炼,稀土氧化物|镨钕,中国以外最大的稀土分离企业，马来西亚设关键分离厂,S04,2025,0.90
+CO_MP,MP Materials,MP Materials,MP|芒廷帕斯,矿业,C_USA,2017,Y,NYSE:MP,采矿,稀土精矿|镨钕氧化物,芒廷帕斯矿运营方；2025 年获美国国防部入股,S04,2025,0.90
+CO_RONBAY,容百科技,Ronbay Technology,容百|Ronbay,材料,C_CHN,2014,Y,SH:688005,正极材料,三元正极|前驱体,高镍三元正极龙头，宁德时代主要供应商之一,S18,2025,0.90
+CO_EASP,当升科技,Easpring Material,当升|Easpring,材料,C_CHN,2001,Y,SZ:300073,正极材料,三元正极|钴酸锂,三元正极出海较早，供货韩系电池厂,S18,2025,0.90
+CO_YUNENG,湖南裕能,Hunan Yuneng,裕能|Yuneng,材料,C_CHN,2016,Y,SZ:301358,正极材料,磷酸铁锂正极,磷酸铁锂正极出货量第一，宁德时代、比亚迪为主要客户,S18,2025,0.90
+CO_DYN,德方纳米,Dynanonic,德方|Dynanonic,材料,C_CHN,2007,Y,SZ:300769,正极材料,磷酸铁锂正极|磷酸锰铁锂,液相法磷酸铁锂，宁德时代重要供应商,S18,2025,0.90
+CO_BASF,巴斯夫,BASF,BASF|巴斯夫,材料,C_DEU,1865,Y,ETR:BAS,正极材料,三元正极|前驱体|回收,全球正极材料布局最广的化工企业，中德韩美均有产线,S19,2025,0.90
+CO_GEM,格林美,GEM,格林美|GEM,回收,C_CHN,2001,Y,SZ:002340,回收,前驱体|钴镍粉体|回收料,动力电池回收与前驱体一体化,S18,2025,0.90
+CO_CATL,宁德时代,CATL,宁王|CATL|300750,电池,C_CHN,2011,Y,SZ:300750,电芯,三元电池|磷酸铁锂电池|储能电池,全球动力电池装机量第一，2011 年成立于福建宁德,S10,2025,0.98
+CO_BYD,比亚迪,BYD,BYD|比亚迪汽车,电池,C_CHN,1995,Y,SZ:002594,电芯,磷酸铁锂电池|整车|储能,电池与整车一体化，刀片电池以自供为主,S10,2025,0.98
+CO_LGES,LG新能源,LG Energy Solution,LG新能源|LGES,电池,C_KOR,2020,Y,KRX:373220,电芯,三元电池|磷酸铁锂电池,自 LG 化学电池事业部分拆，特斯拉、通用主要供应商,S14,2025,0.95
+CO_SDI,三星SDI,Samsung SDI,三星SDI|SDI,电池,C_KOR,1970,Y,KRX:006400,电芯,三元电池|固态电池,高镍三元为主，宝马长期供应商,S14,2025,0.95
+CO_SKON,SK On,SK On,SK On|SKOn,电池,C_KOR,2021,Y,KRX:096770,电芯,三元电池|磷酸铁锂电池,自 SK innovation 分拆，福特、现代供应商,S14,2025,0.90
+CO_PANA,松下能源,Panasonic Energy,松下|Panasonic|三洋,电池,C_JPN,1918,Y,TYO:6752,电芯,三元电池|圆柱电池,特斯拉 18650/2170 电芯主力供应商,S14,2025,0.95
+CO_EVE,亿纬锂能,EVE Energy,亿纬|EVE,电池,C_CHN,2001,Y,SZ:300014,电芯,三元电池|磷酸铁锂电池|圆柱电池,动力与储能并重，宝马圆柱电芯供应商,S10,2025,0.90
+CO_GOTION,国轩高科,Gotion High-tech,国轩|Gotion,电池,C_CHN,2006,Y,SZ:002074,电芯,磷酸铁锂电池,大众集团入股，磷酸铁锂路线为主,S10,2025,0.90
+CO_TSLA,特斯拉,Tesla,Tesla|特斯拉汽车,整车,C_USA,2003,Y,NASDAQ:TSLA,整车,新能源整车|储能,同时自产电芯并采购宁德时代、LG新能源、松下电芯,S10,2025,0.98
+CO_VW,大众集团,Volkswagen Group,大众|VW|Volkswagen,整车,C_DEU,1937,Y,ETR:VOW3,整车,新能源整车,全球销量最大车企之一，入股国轩高科并自建电池厂,S19,2025,0.95
+CO_BMW,宝马集团,BMW Group,宝马|BMW,整车,C_DEU,1916,Y,ETR:BMW,整车,新能源整车,宁德时代、三星SDI、亿纬锂能为其电芯供应商,S19,2025,0.95
+CO_FORD,福特,Ford Motor,福特|Ford,整车,C_USA,1903,Y,NYSE:F,整车,新能源整车,与 SK On、LG新能源合资建厂，并授权使用宁德时代 LFP 技术,S10,2025,0.95
+CO_HYUN,现代汽车,Hyundai Motor,现代|Hyundai,整车,C_KOR,1967,Y,KRX:005380,整车,新能源整车,SK On、LG新能源为其电芯供应商,S14,2025,0.95
+CO_BTR,贝特瑞,BTR New Material Group,贝特瑞|BTR|835185,材料,C_CHN,2000,Y,BJ:835185,材料,人造石墨负极|天然石墨负极|硅基负极,A2 补石墨断链：全球负极材料出货前列，天然球形石墨主要下游,S29,2025,0.90
+CO_PUTAILAI,璞泰来,Shanghai Putailai New Energy,璞泰来|Putailai|603659,材料,C_CHN,2012,Y,SH:603659,材料,负极材料|涂覆隔膜|锂电设备,A2 补石墨断链：负极材料一体化与石墨化加工,S29,2025,0.90
+CO_SHANSHAN,杉杉股份,"Shanshan Co., Ltd.",杉杉股份|杉杉|600884,材料,C_CHN,1992,Y,SH:600884,材料,人造石墨负极|偏光片,A2 补石墨断链：国内最早规模化负极材料企业之一,S29,2025,0.90
+CO_JIAYUAN,嘉元科技,Guangdong Jiayuan Technology,嘉元科技|嘉元|688388,材料,C_CHN,2001,Y,SH:688388,材料,锂电铜箔|电子电路铜箔,A2 补铜断链：锂电铜箔龙头，铜在电池端的主要形态,S30,2025,0.90
+CO_NUODE,诺德股份,"Nuode Investment Co., Ltd.",诺德股份|诺德|600110,材料,C_CHN,1990,Y,SH:600110,材料,锂电铜箔|电线电缆,A2 补铜断链：锂电铜箔主要供应商,S30,2025,0.90
+CO_GLENCORE,嘉能可,Glencore plc,嘉能可|Glencore|GLEN,矿业,C_CHE,1974,Y,LSE:GLEN,采矿,钴|铜|镍|锌,B2 占位实体 NEW:嘉能可 → CO_GLENCORE（E0053）；全球第二大钴生产商，刚果（金）资产。关系边由 B 组 new_triples 提供，A 包不重复造边,S02|S23,2025,0.90
+CO_CHENGXIN,盛新锂能,Chengxin Lithium Group,盛新锂能|盛新|Chengxin|002240,冶炼,C_CHN,2001,Y,SZ:002240,冶炼,锂精矿|碳酸锂|氢氧化锂,B2 占位实体 NEW:盛新锂能 → CO_CHENGXIN（E0015）；津巴布韦锂矿与加工投资。关系边由 B 组 new_triples 提供,S12|S01,2025,0.85
+CO_IXM,IXM,IXM S.A.,IXM|埃珂森|LDC Metals,矿业,C_CHE,2018,N,NA,贸易,钴|铜|镍 金属贸易,B2 占位实体 NEW:IXM → CO_IXM（E0052）；洛阳钼业全资金属贸易平台。关系边由 B 组 new_triples 提供,S02|S23,2025,0.85
+CO_CODELCO,Codelco,Corporación Nacional del Cobre de Chile,Codelco|智利国家铜业公司|智利铜业|CODELCO,矿业,C_CHL,1976,N,NA,采矿,铜|锂盐,B2 占位实体 NEW:Codelco → CO_CODELCO（E0059/E0060/E0063）；智利国有铜业公司，主导国家锂战略。关系边由 B 组 new_triples 提供,S24|S07,2025,0.90
+CO_SALAR_FUTURO,Salar Futuro,Salar Futuro / Nova Andino Litio,Salar Futuro|Nova Andino Litio|NovaAndino,矿业,C_CHL,2024,N,NA,采矿,碳酸锂|锂盐,B2 占位实体 NEW:Salar Futuro → CO_SALAR_FUTURO（E0060/E0061）；Codelco–SQM 合资锂平台，2031–2060 由 Codelco 持股 50%+1 股。关系边由 B 组 new_triples 提供,S24,2025,0.85
+CO_LPI,Lithium Power International,Lithium Power International Ltd,LPI|Lithium Power|LPI.AX,矿业,C_AUS,2011,N,NA,采矿,锂盐|卤水锂,B2 占位实体 NEW:Lithium Power International → CO_LPI（E0063）；2023 年被 Codelco 收购后私有化。关系边由 B 组 new_triples 提供,S24,2025,0.85
+CO_PROSPECT_LZ,Prospect Lithium Zimbabwe,Prospect Lithium Zimbabwe (Pvt) Ltd,Prospect Lithium Zimbabwe|PLZ|华友津巴布韦锂矿,矿业,C_ZWE,2022,N,NA,采矿,锂精矿|硫酸锂,B2 占位实体 NEW:Prospect Lithium Zimbabwe → CO_PROSPECT_LZ（E0013）；华友钴业在津巴布韦的锂矿与硫酸锂加工项目。关系边由 B 组 new_triples 提供,S12,2025,0.85
+CO_BAOGANG,包头钢铁（集团）有限责任公司,"Baotou Steel (Group) Co., Ltd.",包钢|包钢集团|Baotou Steel,矿业,C_CHN,1954,N,NA,采矿,稀土精矿|钢铁|铌,v3 新增：北方稀土控股股东，持股 38.03%（2026 半年报）；实控人为内蒙古自治区人民政府,S35,2026,0.90

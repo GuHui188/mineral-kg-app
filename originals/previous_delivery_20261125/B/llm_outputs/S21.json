@@ -1,0 +1,12 @@
+[
+  {"subject": "美国《通胀削减法案》签署", "predicate": "发布于", "object": "美国", "evidence": "The Inflation Reduction Act of 2022 (IRA), signed on August 16, 2022"},
+  {"subject": "美国《通胀削减法案》签署", "predicate": "作用于", "object": "中国", "evidence": "a government of a covered nation — North Korea, Iran, Russia and China"},
+  {"subject": "新能源整车", "predicate": "受管制于", "object": "美国《通胀削减法案》签署", "evidence": "an eligible clean vehicle may not contain any battery components manufactured or assembled by a FEOC"},
+  {"subject": "三元电池（电芯）", "predicate": "受管制于", "object": "美国《通胀削减法案》签署", "evidence": "no battery components were sourced from an FEOC beginning in 2024"},
+  {"subject": "磷酸铁锂电池（电芯）", "predicate": "受管制于", "object": "美国《通胀削减法案》签署", "evidence": "no battery components were sourced from an FEOC beginning in 2024"},
+  {"subject": "锂", "predicate": "受管制于", "object": "美国《通胀削减法案》签署", "evidence": "no critical minerals were sourced from an FEOC beginning in 2025"},
+  {"subject": "钴", "predicate": "受管制于", "object": "美国《通胀削减法案》签署", "evidence": "no critical minerals were sourced from an FEOC beginning in 2025"},
+  {"subject": "镍", "predicate": "受管制于", "object": "美国《通胀削减法案》签署", "evidence": "no critical minerals were sourced from an FEOC beginning in 2025"},
+  {"subject": "石墨", "predicate": "受管制于", "object": "美国《通胀削减法案》签署", "evidence": "no critical minerals were sourced from an FEOC beginning in 2025"},
+  {"subject": "美国《通胀削减法案》签署", "predicate": "作用于", "object": "俄罗斯", "evidence": "a covered nation is defined as North Korea, Iran, Russia and China"}
+]

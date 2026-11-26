@@ -1,0 +1,944 @@
+{
+  "intent": "upstream",
+  "template": "Q07",
+  "parameters": {
+    "company": "宁德时代"
+  },
+  "backend": "neo4j",
+  "dataset": "mineral-20261125-v1",
+  "as_of": "2026-11-25",
+  "answer": "供应与股权上游关联：返回6条记录。企业注册地、股东所属国和供应关联不能直接当作实际采购来源国。",
+  "rows": [
+    {
+      "id": "CO_YUNENG",
+      "name": "湖南裕能",
+      "label": "Company",
+      "level": 1,
+      "path_node_ids": [
+        "CO_CATL",
+        "CO_YUNENG"
+      ],
+      "path_edge_ids": [
+        "R0168"
+      ],
+      "registered_country_id": "C_CHN"
+    },
+    {
+      "id": "CO_DYN",
+      "name": "德方纳米",
+      "label": "Company",
+      "level": 1,
+      "path_node_ids": [
+        "CO_CATL",
+        "CO_DYN"
+      ],
+      "path_edge_ids": [
+        "R0169"
+      ],
+      "registered_country_id": "C_CHN"
+    },
+    {
+      "id": "CO_RONBAY",
+      "name": "容百科技",
+      "label": "Company",
+      "level": 1,
+      "path_node_ids": [
+        "CO_CATL",
+        "CO_RONBAY"
+      ],
+      "path_edge_ids": [
+        "R0170"
+      ],
+      "registered_country_id": "C_CHN"
+    },
+    {
+      "id": "CO_GEM",
+      "name": "格林美",
+      "label": "Company",
+      "level": 1,
+      "path_node_ids": [
+        "CO_CATL",
+        "CO_GEM"
+      ],
+      "path_edge_ids": [
+        "R0173"
+      ],
+      "registered_country_id": "C_CHN"
+    },
+    {
+      "id": "M_MN",
+      "name": "锰",
+      "label": "Mineral",
+      "level": 2,
+      "path_node_ids": [
+        "CO_CATL",
+        "CO_RONBAY",
+        "M_MN"
+      ],
+      "path_edge_ids": [
+        "R0170",
+        "R0223"
+      ],
+      "registered_country_id": null
+    },
+    {
+      "id": "M_CO",
+      "name": "钴",
+      "label": "Mineral",
+      "level": 2,
+      "path_node_ids": [
+        "CO_CATL",
+        "CO_GEM",
+        "M_CO"
+      ],
+      "path_edge_ids": [
+        "R0173",
+        "R0218"
+      ],
+      "registered_country_id": null
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "name_zh": "容百科技",
+        "company_type": "材料",
+        "note": "高镍三元正极龙头，宁德时代主要供应商之一",
+        "ticker": "SH:688005",
+        "company_id": "CO_RONBAY",
+        "confidence": 0.9,
+        "kg_id": "mineral-20261125-v1:CO_RONBAY",
+        "label": "Company",
+        "main_products": "三元正极|前驱体",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S18"
+        ],
+        "listed": "Y",
+        "stage": "正极材料",
+        "founded_year": 2014.0,
+        "name": "容百科技",
+        "alias": "容百|Ronbay",
+        "source_id": "S18",
+        "id": "CO_RONBAY",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_CHN",
+        "name_en": "Ronbay Technology"
+      },
+      {
+        "name_zh": "湖南裕能",
+        "company_type": "材料",
+        "note": "磷酸铁锂正极出货量第一，宁德时代、比亚迪为主要客户",
+        "ticker": "SZ:301358",
+        "company_id": "CO_YUNENG",
+        "confidence": 0.9,
+        "kg_id": "mineral-20261125-v1:CO_YUNENG",
+        "label": "Company",
+        "main_products": "磷酸铁锂正极",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S18"
+        ],
+        "stage": "正极材料",
+        "listed": "Y",
+        "founded_year": 2016.0,
+        "name": "湖南裕能",
+        "alias": "裕能|Yuneng",
+        "source_id": "S18",
+        "id": "CO_YUNENG",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_CHN",
+        "name_en": "Hunan Yuneng"
+      },
+      {
+        "name_zh": "德方纳米",
+        "note": "液相法磷酸铁锂，宁德时代重要供应商",
+        "company_type": "材料",
+        "ticker": "SZ:300769",
+        "company_id": "CO_DYN",
+        "confidence": 0.9,
+        "kg_id": "mineral-20261125-v1:CO_DYN",
+        "label": "Company",
+        "main_products": "磷酸铁锂正极|磷酸锰铁锂",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S18"
+        ],
+        "listed": "Y",
+        "stage": "正极材料",
+        "founded_year": 2007.0,
+        "name": "德方纳米",
+        "alias": "德方|Dynanonic",
+        "source_id": "S18",
+        "id": "CO_DYN",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_CHN",
+        "name_en": "Dynanonic"
+      },
+      {
+        "name_zh": "格林美",
+        "company_type": "回收",
+        "note": "动力电池回收与前驱体一体化",
+        "ticker": "SZ:002340",
+        "company_id": "CO_GEM",
+        "confidence": 0.9,
+        "kg_id": "mineral-20261125-v1:CO_GEM",
+        "label": "Company",
+        "main_products": "前驱体|钴镍粉体|回收料",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S18"
+        ],
+        "stage": "回收",
+        "listed": "Y",
+        "founded_year": 2001.0,
+        "name": "格林美",
+        "alias": "格林美|GEM",
+        "source_id": "S18",
+        "id": "CO_GEM",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_CHN",
+        "name_en": "GEM"
+      },
+      {
+        "name_zh": "宁德时代",
+        "note": "全球动力电池装机量第一，2011 年成立于福建宁德",
+        "company_type": "电池",
+        "ticker": "SZ:300750",
+        "company_id": "CO_CATL",
+        "confidence": 0.98,
+        "kg_id": "mineral-20261125-v1:CO_CATL",
+        "label": "Company",
+        "main_products": "三元电池|磷酸铁锂电池|储能电池",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S10"
+        ],
+        "listed": "Y",
+        "stage": "电芯",
+        "founded_year": 2011.0,
+        "name": "宁德时代",
+        "alias": "宁王|CATL|300750",
+        "source_id": "S10",
+        "id": "CO_CATL",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_CHN",
+        "name_en": "CATL"
+      },
+      {
+        "name_zh": "钴",
+        "symbol": "Co",
+        "note": "刚果（金）占产量约 74%",
+        "confidence": 0.95,
+        "hhi": 5718.0,
+        "kg_id": "mineral-20261125-v1:M_CO",
+        "hhi_scope": "已收录国家产量份额的平方和，非完整全球HHI",
+        "label": "Mineral",
+        "valid_year": 2025.0,
+        "mineral_id": "M_CO",
+        "source_ids": [
+          "S02"
+        ],
+        "unit": "吨（Co 金属量）",
+        "battery_role": "三元正极中稳定晶体结构",
+        "world_production_2025": 310000.0,
+        "hhi_coverage_pct": 96.38,
+        "top1_share": 74.19,
+        "name": "钴",
+        "top1_country": "刚果（金）",
+        "hhi_recomputed": 5717.79,
+        "source_id": "S02",
+        "id": "M_CO",
+        "dataset": "mineral-20261125-v1",
+        "world_reserve": 12000000.0,
+        "name_en": "Cobalt"
+      },
+      {
+        "name_zh": "锰",
+        "symbol": "Mn",
+        "note": "南非、加蓬两国合计约 63%",
+        "confidence": 0.95,
+        "hhi": 2133.0,
+        "kg_id": "mineral-20261125-v1:M_MN",
+        "hhi_scope": "已收录国家产量份额的平方和，非完整全球HHI",
+        "label": "Mineral",
+        "valid_year": 2025.0,
+        "mineral_id": "M_MN",
+        "source_ids": [
+          "S05"
+        ],
+        "unit": "吨（Mn 金属量）",
+        "battery_role": "磷酸锰铁锂、三元正极配比",
+        "world_production_2025": 20000000.0,
+        "hhi_coverage_pct": 71.0,
+        "top1_share": 38.0,
+        "name": "锰",
+        "top1_country": "南非",
+        "hhi_recomputed": 2133.0,
+        "source_id": "S05",
+        "id": "M_MN",
+        "dataset": "mineral-20261125-v1",
+        "world_reserve": 1800000000.0,
+        "name_en": "Manganese"
+      },
+      {
+        "note": "年报口径，供应关系为公开披露的客户结构",
+        "accessed_date": "2026-11-12",
+        "url_status": "官网检索",
+        "source_type": "企业披露",
+        "kg_id": "mineral-20261125-v1:S10",
+        "label": "Source",
+        "title": "宁德时代/比亚迪/特斯拉/亿纬/国轩 年度报告",
+        "url": "http://www.cninfo.com.cn/",
+        "source_ids": [
+          "S10"
+        ],
+        "name": "宁德时代/比亚迪/特斯拉/亿纬/国轩 年度报告",
+        "publisher": "巨潮资讯网、公司 IR",
+        "used_for": "02/06 企业与供应关系",
+        "authority_level": "B",
+        "source_id": "S10",
+        "id": "S10",
+        "dataset": "mineral-20261125-v1",
+        "publish_date": "2026-03"
+      },
+      {
+        "note": "客户结构来自年报“主要客户”披露",
+        "accessed_date": "2026-11-12",
+        "url_status": "官网检索",
+        "source_type": "企业披露",
+        "kg_id": "mineral-20261125-v1:S18",
+        "label": "Source",
+        "title": "华友钴业/洛阳钼业/容百/当升/裕能/德方/格林美 年报",
+        "url": "http://www.cninfo.com.cn/",
+        "source_ids": [
+          "S18"
+        ],
+        "name": "华友钴业/洛阳钼业/容百/当升/裕能/德方/格林美 年报",
+        "publisher": "巨潮资讯网",
+        "used_for": "02/06 材料与供应关系",
+        "authority_level": "B",
+        "source_id": "S18",
+        "id": "S18",
+        "dataset": "mineral-20261125-v1",
+        "publish_date": "2026-03"
+      },
+      {
+        "note": "公司自述：2015 年起与邦普（宁德时代）建立战略合作、签三元前驱体长期供货协议；「5 大核心客户」含三星、宁德时代、厦钨新能源、容百、LG 化学",
+        "accessed_date": "2026-11-23",
+        "url_status": "直达（互动易问答页）；记录表 PDF 见 10jqka 公告镜像",
+        "source_type": "企业披露",
+        "kg_id": "mineral-20261125-v1:S32",
+        "label": "Source",
+        "title": "格林美（002340）投资者关系活动记录表（2021-08-30）及深交所互动易问答",
+        "url": "https://ir.p5w.net/question/0001A4F5B826239A4663A0D2FDDD0A64C7D2.shtml",
+        "source_ids": [
+          "S32"
+        ],
+        "name": "格林美（002340）投资者关系活动记录表（2021-08-30）及深交所互动易问答",
+        "publisher": "格林美股份有限公司 / 深交所互动易",
+        "used_for": "06 格林美-供应->宁德时代（R0173）",
+        "authority_level": "B",
+        "source_id": "S32",
+        "id": "S32",
+        "dataset": "mineral-20261125-v1",
+        "publish_date": "2021-08-30；问答更新 2026-11"
+      }
+    ],
+    "edges": [
+      {
+        "value_status": "估计",
+        "subject_id": "CO_RONBAY",
+        "note": "高镍 8 系为主",
+        "evidence_type": "年报披露",
+        "kg_edge_id": "mineral-20261125-v1:R0170",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "confidence": 0.85,
+        "triple_id": "R0170",
+        "data_year": 2025.0,
+        "object_id": "CO_CATL",
+        "original_data_year": 2025.0,
+        "predicate": "供应",
+        "source_ids": [
+          "S18"
+        ],
+        "unit": "—",
+        "object_name": "宁德时代",
+        "subject_name": "容百科技",
+        "record_ids": [
+          "R0170"
+        ],
+        "source_id": "S18",
+        "review_flag": false,
+        "id": "R0170",
+        "dataset": "mineral-20261125-v1",
+        "source": "CO_RONBAY",
+        "target": "CO_CATL",
+        "type": "SUPPLIES"
+      },
+      {
+        "source_ids": [
+          "S18"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_CO_RONBAY_S18",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_CO_RONBAY_S18"
+        ],
+        "id": "CITE_CO_RONBAY_S18",
+        "review_flag": false,
+        "source_id": "S18",
+        "dataset": "mineral-20261125-v1",
+        "source": "CO_RONBAY",
+        "target": "S18",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S18"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_CO_YUNENG_S18",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_CO_YUNENG_S18"
+        ],
+        "id": "CITE_CO_YUNENG_S18",
+        "review_flag": false,
+        "source_id": "S18",
+        "dataset": "mineral-20261125-v1",
+        "source": "CO_YUNENG",
+        "target": "S18",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S10"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_CO_YUNENG_S10",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_CO_YUNENG_S10"
+        ],
+        "id": "CITE_CO_YUNENG_S10",
+        "review_flag": false,
+        "source_id": "S10",
+        "dataset": "mineral-20261125-v1",
+        "source": "CO_YUNENG",
+        "target": "S10",
+        "type": "CITES"
+      },
+      {
+        "value_status": "估计",
+        "subject_id": "CO_YUNENG",
+        "note": "第一大客户，2023 年起深度绑定",
+        "evidence_type": "年报披露",
+        "kg_edge_id": "mineral-20261125-v1:R0168",
+        "collection_year": 2026.0,
+        "confidence": 0.9,
+        "origin": "A.fact",
+        "triple_id": "R0168",
+        "data_year": 2025.0,
+        "object_id": "CO_CATL",
+        "original_data_year": 2025.0,
+        "predicate": "供应",
+        "source_ids": [
+          "S10"
+        ],
+        "unit": "—",
+        "object_name": "宁德时代",
+        "subject_name": "湖南裕能",
+        "record_ids": [
+          "R0168"
+        ],
+        "source_id": "S10",
+        "review_flag": false,
+        "id": "R0168",
+        "dataset": "mineral-20261125-v1",
+        "source": "CO_YUNENG",
+        "target": "CO_CATL",
+        "type": "SUPPLIES"
+      },
+      {
+        "value_status": "估计",
+        "subject_id": "CO_DYN",
+        "note": "液相法产品",
+        "evidence_type": "年报披露",
+        "kg_edge_id": "mineral-20261125-v1:R0169",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "confidence": 0.85,
+        "triple_id": "R0169",
+        "data_year": 2025.0,
+        "object_id": "CO_CATL",
+        "original_data_year": 2025.0,
+        "predicate": "供应",
+        "source_ids": [
+          "S18"
+        ],
+        "unit": "—",
+        "object_name": "宁德时代",
+        "subject_name": "德方纳米",
+        "record_ids": [
+          "R0169"
+        ],
+        "source_id": "S18",
+        "review_flag": false,
+        "id": "R0169",
+        "dataset": "mineral-20261125-v1",
+        "source": "CO_DYN",
+        "target": "CO_CATL",
+        "type": "SUPPLIES"
+      },
+      {
+        "source_ids": [
+          "S18"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_CO_DYN_S18",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_CO_DYN_S18"
+        ],
+        "id": "CITE_CO_DYN_S18",
+        "review_flag": false,
+        "source_id": "S18",
+        "dataset": "mineral-20261125-v1",
+        "source": "CO_DYN",
+        "target": "S18",
+        "type": "CITES"
+      },
+      {
+        "value_status": "估计",
+        "subject_id": "CO_GEM",
+        "note": "前驱体+回收闭环；v2 复核：公司自述「格林美-邦普-宁德时代」为战略合作供应链，2015 年起签三元前驱体长期供货协议（S32 互动易/IR 记录表）；法人层面客户主体为广东邦普（宁德时代持股 64.565%），本边为国家/集团层简化，穿透需经邦普",
+        "evidence_type": "企业披露",
+        "kg_edge_id": "mineral-20261125-v1:R0173",
+        "collection_year": 2026.0,
+        "confidence": 0.8,
+        "origin": "A.fact",
+        "triple_id": "R0173",
+        "data_year": 2025.0,
+        "object_id": "CO_CATL",
+        "original_data_year": 2025.0,
+        "predicate": "供应",
+        "source_ids": [
+          "S18",
+          "S32"
+        ],
+        "unit": "—",
+        "object_name": "宁德时代",
+        "subject_name": "格林美",
+        "record_ids": [
+          "R0173"
+        ],
+        "source_id": "S18|S32",
+        "review_flag": false,
+        "id": "R0173",
+        "dataset": "mineral-20261125-v1",
+        "source": "CO_GEM",
+        "target": "CO_CATL",
+        "type": "SUPPLIES"
+      },
+      {
+        "source_ids": [
+          "S32"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_CO_GEM_S32",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_CO_GEM_S32"
+        ],
+        "id": "CITE_CO_GEM_S32",
+        "review_flag": false,
+        "source_id": "S32",
+        "dataset": "mineral-20261125-v1",
+        "source": "CO_GEM",
+        "target": "S32",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S18"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_CO_GEM_S18",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_CO_GEM_S18"
+        ],
+        "id": "CITE_CO_GEM_S18",
+        "review_flag": false,
+        "source_id": "S18",
+        "dataset": "mineral-20261125-v1",
+        "source": "CO_GEM",
+        "target": "S18",
+        "type": "CITES"
+      },
+      {
+        "value_status": "未公布",
+        "subject_id": "CO_CATL",
+        "note": "战略持股，比例随定增变动，未核实",
+        "evidence_type": "推算",
+        "kg_edge_id": "mineral-20261125-v1:R0192",
+        "collection_year": 2026.0,
+        "confidence": 0.6,
+        "origin": "A.fact",
+        "triple_id": "R0192",
+        "data_year": 2025.0,
+        "object_id": "CO_YUNENG",
+        "original_data_year": 2025.0,
+        "predicate": "控股",
+        "source_ids": [
+          "S18"
+        ],
+        "unit": "—",
+        "object_name": "湖南裕能",
+        "subject_name": "宁德时代",
+        "record_ids": [
+          "R0192"
+        ],
+        "source_id": "S18",
+        "review_flag": true,
+        "id": "R0192",
+        "dataset": "mineral-20261125-v1",
+        "source": "CO_CATL",
+        "target": "CO_YUNENG",
+        "type": "HOLDS"
+      },
+      {
+        "source_ids": [
+          "S18"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_CO_CATL_S18",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_CO_CATL_S18"
+        ],
+        "id": "CITE_CO_CATL_S18",
+        "review_flag": false,
+        "source_id": "S18",
+        "dataset": "mineral-20261125-v1",
+        "source": "CO_CATL",
+        "target": "S18",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S10"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_CO_CATL_S10",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_CO_CATL_S10"
+        ],
+        "id": "CITE_CO_CATL_S10",
+        "review_flag": false,
+        "source_id": "S10",
+        "dataset": "mineral-20261125-v1",
+        "source": "CO_CATL",
+        "target": "S10",
+        "type": "CITES"
+      },
+      {
+        "value_status": "估计",
+        "subject_id": "M_CO",
+        "note": "A2：钴回收与三元前驱体闭环，二次钴原料",
+        "evidence_type": "年报披露",
+        "kg_edge_id": "mineral-20261125-v1:R0218",
+        "collection_year": 2026.0,
+        "confidence": 0.85,
+        "origin": "A.fact",
+        "triple_id": "R0218",
+        "data_year": 2025.0,
+        "object_id": "CO_GEM",
+        "original_data_year": 2025.0,
+        "predicate": "供应",
+        "source_ids": [
+          "S18"
+        ],
+        "unit": "—",
+        "object_name": "格林美",
+        "subject_name": "钴",
+        "record_ids": [
+          "R0218"
+        ],
+        "source_id": "S18",
+        "review_flag": false,
+        "id": "R0218",
+        "dataset": "mineral-20261125-v1",
+        "source": "M_CO",
+        "target": "CO_GEM",
+        "type": "SUPPLIES"
+      },
+      {
+        "source_ids": [
+          "S18"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_M_CO_S18",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_M_CO_S18"
+        ],
+        "id": "CITE_M_CO_S18",
+        "review_flag": false,
+        "source_id": "S18",
+        "dataset": "mineral-20261125-v1",
+        "source": "M_CO",
+        "target": "S18",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S10"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_M_CO_S10",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_M_CO_S10"
+        ],
+        "id": "CITE_M_CO_S10",
+        "review_flag": false,
+        "source_id": "S10",
+        "dataset": "mineral-20261125-v1",
+        "source": "M_CO",
+        "target": "S10",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S18"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_M_MN_S18",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_M_MN_S18"
+        ],
+        "id": "CITE_M_MN_S18",
+        "review_flag": false,
+        "source_id": "S18",
+        "dataset": "mineral-20261125-v1",
+        "source": "M_MN",
+        "target": "S18",
+        "type": "CITES"
+      },
+      {
+        "value_status": "估计",
+        "subject_id": "M_MN",
+        "note": "磷酸锰铁锂路线的锰源，供应商分散",
+        "evidence_type": "媒体报道",
+        "kg_edge_id": "mineral-20261125-v1:R0167",
+        "collection_year": 2026.0,
+        "confidence": 0.6,
+        "origin": "A.fact",
+        "triple_id": "R0167",
+        "data_year": 2025.0,
+        "object_id": "CO_DYN",
+        "original_data_year": 2025.0,
+        "predicate": "供应",
+        "source_ids": [
+          "S18"
+        ],
+        "unit": "—",
+        "object_name": "德方纳米",
+        "subject_name": "锰",
+        "record_ids": [
+          "R0167"
+        ],
+        "source_id": "S18",
+        "review_flag": true,
+        "id": "R0167",
+        "dataset": "mineral-20261125-v1",
+        "source": "M_MN",
+        "target": "CO_DYN",
+        "type": "SUPPLIES"
+      },
+      {
+        "value_status": "估计",
+        "subject_id": "M_MN",
+        "note": "A2：NCM 三元正极的锰源",
+        "evidence_type": "年报披露",
+        "kg_edge_id": "mineral-20261125-v1:R0223",
+        "collection_year": 2026.0,
+        "confidence": 0.8,
+        "origin": "A.fact",
+        "triple_id": "R0223",
+        "data_year": 2025.0,
+        "object_id": "CO_RONBAY",
+        "original_data_year": 2025.0,
+        "predicate": "供应",
+        "source_ids": [
+          "S18"
+        ],
+        "unit": "—",
+        "object_name": "容百科技",
+        "subject_name": "锰",
+        "record_ids": [
+          "R0223"
+        ],
+        "source_id": "S18",
+        "review_flag": false,
+        "id": "R0223",
+        "dataset": "mineral-20261125-v1",
+        "source": "M_MN",
+        "target": "CO_RONBAY",
+        "type": "SUPPLIES"
+      },
+      {
+        "value_status": "估计",
+        "subject_id": "M_MN",
+        "note": "A2：三元前驱体硫酸锰原料与回收锰",
+        "evidence_type": "年报披露",
+        "kg_edge_id": "mineral-20261125-v1:R0222",
+        "collection_year": 2026.0,
+        "confidence": 0.8,
+        "origin": "A.fact",
+        "triple_id": "R0222",
+        "data_year": 2025.0,
+        "object_id": "CO_GEM",
+        "original_data_year": 2025.0,
+        "predicate": "供应",
+        "source_ids": [
+          "S18"
+        ],
+        "unit": "—",
+        "object_name": "格林美",
+        "subject_name": "锰",
+        "record_ids": [
+          "R0222"
+        ],
+        "source_id": "S18",
+        "review_flag": false,
+        "id": "R0222",
+        "dataset": "mineral-20261125-v1",
+        "source": "M_MN",
+        "target": "CO_GEM",
+        "type": "SUPPLIES"
+      }
+    ]
+  },
+  "highlight_paths": [
+    {
+      "node_ids": [
+        "CO_CATL",
+        "CO_YUNENG"
+      ],
+      "edge_ids": [
+        "R0168"
+      ]
+    },
+    {
+      "node_ids": [
+        "CO_CATL",
+        "CO_DYN"
+      ],
+      "edge_ids": [
+        "R0169"
+      ]
+    },
+    {
+      "node_ids": [
+        "CO_CATL",
+        "CO_RONBAY"
+      ],
+      "edge_ids": [
+        "R0170"
+      ]
+    },
+    {
+      "node_ids": [
+        "CO_CATL",
+        "CO_GEM"
+      ],
+      "edge_ids": [
+        "R0173"
+      ]
+    },
+    {
+      "node_ids": [
+        "CO_CATL",
+        "CO_RONBAY",
+        "M_MN"
+      ],
+      "edge_ids": [
+        "R0170",
+        "R0223"
+      ]
+    },
+    {
+      "node_ids": [
+        "CO_CATL",
+        "CO_GEM",
+        "M_CO"
+      ],
+      "edge_ids": [
+        "R0173",
+        "R0218"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "note": "年报口径，供应关系为公开披露的客户结构",
+      "accessed_date": "2026-11-12",
+      "url_status": "官网检索",
+      "source_type": "企业披露",
+      "kg_id": "mineral-20261125-v1:S10",
+      "label": "Source",
+      "title": "宁德时代/比亚迪/特斯拉/亿纬/国轩 年度报告",
+      "url": "http://www.cninfo.com.cn/",
+      "source_ids": [
+        "S10"
+      ],
+      "name": "宁德时代/比亚迪/特斯拉/亿纬/国轩 年度报告",
+      "publisher": "巨潮资讯网、公司 IR",
+      "used_for": "02/06 企业与供应关系",
+      "authority_level": "B",
+      "source_id": "S10",
+      "id": "S10",
+      "dataset": "mineral-20261125-v1",
+      "publish_date": "2026-03"
+    },
+    {
+      "note": "客户结构来自年报“主要客户”披露",
+      "accessed_date": "2026-11-12",
+      "url_status": "官网检索",
+      "source_type": "企业披露",
+      "kg_id": "mineral-20261125-v1:S18",
+      "label": "Source",
+      "title": "华友钴业/洛阳钼业/容百/当升/裕能/德方/格林美 年报",
+      "url": "http://www.cninfo.com.cn/",
+      "source_ids": [
+        "S18"
+      ],
+      "name": "华友钴业/洛阳钼业/容百/当升/裕能/德方/格林美 年报",
+      "publisher": "巨潮资讯网",
+      "used_for": "02/06 材料与供应关系",
+      "authority_level": "B",
+      "source_id": "S18",
+      "id": "S18",
+      "dataset": "mineral-20261125-v1",
+      "publish_date": "2026-03"
+    },
+    {
+      "note": "公司自述：2015 年起与邦普（宁德时代）建立战略合作、签三元前驱体长期供货协议；「5 大核心客户」含三星、宁德时代、厦钨新能源、容百、LG 化学",
+      "accessed_date": "2026-11-23",
+      "url_status": "直达（互动易问答页）；记录表 PDF 见 10jqka 公告镜像",
+      "source_type": "企业披露",
+      "kg_id": "mineral-20261125-v1:S32",
+      "label": "Source",
+      "title": "格林美（002340）投资者关系活动记录表（2021-08-30）及深交所互动易问答",
+      "url": "https://ir.p5w.net/question/0001A4F5B826239A4663A0D2FDDD0A64C7D2.shtml",
+      "source_ids": [
+        "S32"
+      ],
+      "name": "格林美（002340）投资者关系活动记录表（2021-08-30）及深交所互动易问答",
+      "publisher": "格林美股份有限公司 / 深交所互动易",
+      "used_for": "06 格林美-供应->宁德时代（R0173）",
+      "authority_level": "B",
+      "source_id": "S32",
+      "id": "S32",
+      "dataset": "mineral-20261125-v1",
+      "publish_date": "2021-08-30；问答更新 2026-11"
+    }
+  ],
+  "limitations": "企业注册地、股东所属国和供应关联不能直接当作实际采购来源国。"
+}

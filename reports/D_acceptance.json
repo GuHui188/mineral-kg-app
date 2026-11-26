@@ -1,0 +1,22 @@
+{
+  "time": "2026-11-25T18:54:13.172858+08:00",
+  "status": "passed",
+  "automatic_tests": {
+    "ABC": 22,
+    "D": 25,
+    "total": 47,
+    "failures": 0
+  },
+  "live_neo4j_http_checks": 17,
+  "browser_checks": 5,
+  "real_deepseek_graphrag": "passed",
+  "real_llm_intent_and_http": "passed",
+  "ABC_and_core_unchanged": true,
+  "protected_files": 70,
+  "shared_modified": [
+    "README.md"
+  ],
+  "writes_to_Neo4j": false,
+  "graph_sha256": "6436886e28daa2ac345658a939696fb6e0ab13252cd3bf0913e47d2a089d27fb",
+  "scope": "程序/接口/路径与来源配对验收；不替代全部外部事实审核或所有问答的语义正确性评估。"
+}

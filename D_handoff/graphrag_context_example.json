@@ -1,0 +1,105 @@
+{
+  "question": "宁德时代的钴上游供应有哪些来源",
+  "facts": [
+    {
+      "subject_id": "CO_YUNENG",
+      "predicate": "SUPPLIES",
+      "object_id": "CO_CATL",
+      "record_ids": [
+        "R0168"
+      ],
+      "source_ids": [
+        "S10"
+      ],
+      "note": "第一大客户，2023 年起深度绑定"
+    },
+    {
+      "subject_id": "CO_DYN",
+      "predicate": "SUPPLIES",
+      "object_id": "CO_CATL",
+      "record_ids": [
+        "R0169"
+      ],
+      "source_ids": [
+        "S18"
+      ],
+      "note": "液相法产品"
+    },
+    {
+      "subject_id": "CO_RONBAY",
+      "predicate": "SUPPLIES",
+      "object_id": "CO_CATL",
+      "record_ids": [
+        "R0170"
+      ],
+      "source_ids": [
+        "S18"
+      ],
+      "note": "高镍 8 系为主"
+    },
+    {
+      "subject_id": "CO_GEM",
+      "predicate": "SUPPLIES",
+      "object_id": "CO_CATL",
+      "record_ids": [
+        "R0173"
+      ],
+      "source_ids": [
+        "S18",
+        "S32"
+      ],
+      "note": "前驱体+回收闭环；v2 复核：公司自述「格林美-邦普-宁德时代」为战略合作供应链，2015 年起签三元前驱体长期供货协议（S32 互动易/IR 记录表）；法人层面客户主体为广东邦普（宁德时代持股 64.565%），本边为国家/集团层简化，穿透需经邦普"
+    },
+    {
+      "subject_id": "CO_CATL",
+      "predicate": "SUPPLIES",
+      "object_id": "CO_TSLA",
+      "record_ids": [
+        "R0175"
+      ],
+      "source_ids": [
+        "S10"
+      ],
+      "note": "上海与德国工厂供货"
+    },
+    {
+      "subject_id": "CO_CATL",
+      "predicate": "SUPPLIES",
+      "object_id": "CO_BMW",
+      "record_ids": [
+        "R0176"
+      ],
+      "source_ids": [
+        "S10"
+      ],
+      "note": "—"
+    },
+    {
+      "subject_id": "CO_CATL",
+      "predicate": "SUPPLIES",
+      "object_id": "CO_VW",
+      "record_ids": [
+        "R0177"
+      ],
+      "source_ids": [
+        "S18"
+      ],
+      "note": "—"
+    },
+    {
+      "subject_id": "CO_CATL",
+      "predicate": "SUPPLIES",
+      "object_id": "CO_FORD",
+      "record_ids": [
+        "R0178"
+      ],
+      "source_ids": [
+        "S18"
+      ],
+      "note": "美国密歇根工厂授权生产"
+    }
+  ],
+  "truncated": false,
+  "llm_called": false,
+  "instructions": "仅使用给定事实，保留记录号和来源；缺少信息应说明；不得从矿种关联推断实际国家采购关系。"
+}

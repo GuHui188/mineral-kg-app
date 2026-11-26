@@ -1,0 +1,24 @@
+{
+  "version": "frontend-v2",
+  "time": "2026-11-25T20:57:52.157152+08:00",
+  "tests_passed": 58,
+  "browser_status": "passed",
+  "business_data_unchanged": true,
+  "writes_to_Neo4j": false,
+  "workspace_count": 8,
+  "catalog_counts": {
+    "Mineral": 7,
+    "Product": 21,
+    "Company": 48,
+    "Country": 22,
+    "PolicyEvent": 15,
+    "Source": 36
+  },
+  "source_count_scope": "A原登记35，整合补S36共36",
+  "limitations": [
+    "来源与历史审核不等同全部事实已核实",
+    "引用检查不替代语义审核",
+    "旧dump未恢复逐条比对",
+    "当前没有已验证外网链接"
+  ]
+}

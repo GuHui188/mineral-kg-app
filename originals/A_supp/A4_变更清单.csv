@@ -1,0 +1,22 @@
+﻿文件,主键/行,变更类型,变更前,变更后,依据
+06_fact_relation,R0006,字段修改,note: USGS 锰章节未单列中国产量（中国实际有产量，此处标“未公布”口径不当）,note: USGS 锰章节按锰含量列示主要生产国，中国未单列（规则 R-07 判定应记「未列」）；v3 复核未取得原表逐行核对，故暂留 NA +「未公布」，核实后改「未列」或补实测值——待核实项，不填估计数,抽检处置
+06_fact_relation,R0173,字段修改,source_id: S18,source_id: S18|S32,抽检处置
+06_fact_relation,R0173,字段修改,confidence: 0.8,confidence: 0.80,抽检处置
+06_fact_relation,R0173,字段修改,note: 前驱体+回收闭环,note: 前驱体+回收闭环；v2 复核：公司自述「格林美-邦普-宁德时代」为战略合作供应链，2015 年起签三元前驱体长期供货协议（S32 互动易/IR 记录表）；法人层面客户主体为广东邦普（宁德时代持股 64.565%），本边为国家/集团层简化，穿透需经邦普,抽检处置
+06_fact_relation,R0191,字段修改,subject_id: C_CHN,subject_id: CO_BAOGANG,抽检处置
+06_fact_relation,R0191,字段修改,subject_name: 中国,subject_name: 包头钢铁（集团）有限责任公司,抽检处置
+06_fact_relation,R0191,字段修改,share_pct: NA,share_pct: 38.03,抽检处置
+06_fact_relation,R0191,字段修改,ratio_pct: NA,ratio_pct: 38.03,抽检处置
+06_fact_relation,R0191,字段修改,since_year: NA,since_year: 2021,抽检处置
+06_fact_relation,R0191,字段修改,data_year: 2025,data_year: 2026,抽检处置
+06_fact_relation,R0191,字段修改,evidence_type: 推算,evidence_type: 企业披露,抽检处置
+06_fact_relation,R0191,字段修改,source_id: S04,source_id: S35,抽检处置
+06_fact_relation,R0191,字段修改,confidence: 0.65,confidence: 0.90,抽检处置
+06_fact_relation,R0191,字段修改,value_status: 未公布,value_status: 实测,抽检处置
+06_fact_relation,R0191,字段修改,note: 经包钢（集团）间接控股，具体比例待核,note: v3 修正：原为「中国-控股->北方稀土」直连（跳过中间节点），按规则 R-03 逐跳建边改为包钢（集团）持股 38.03%；链头实控人为内蒙古自治区人民政府，因 Schema 无「省级国资委」实体类型，控制链止于包钢集团,抽检处置
+06_fact_relation,R0191,字段修改,hold_ratio_pct: NA,hold_ratio_pct: 38.03,抽检处置
+02_dim_company,CO_BAOGANG,新增行,—,包头钢铁（集团）有限责任公司（采矿，持股 38.03%）,S35 北方稀土半年报
+07_来源登记表,S32,新增行,—,格林美（002340）投资者关系活动记录表（2021-08-30）及（B 级）06 格林美-供应->宁德时代（R0173）,补证据
+07_来源登记表,S33,新增行,—,锂电负极材料与钠离子电池行业数据汇编（GGII / 华经产业研究院口（C 级）06 可替代 R0212/R0213 与建议新增「天,补证据
+07_来源登记表,S34,新增行,—,东方证券《华友钴业：上半年业绩亮眼，正极产业链垂直布局优势显现》研报（C 级）06 可替代 硫酸钴↔硫酸镍（R0214）,补证据
+07_来源登记表,S35,新增行,—,北方稀土（600111）2026 年半年度报告：前十名股东持股情况（B 级）02 CO_BAOGANG；06 包钢集团-控股->,补证据

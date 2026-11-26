@@ -1,0 +1,12 @@
+[
+  {"subject": "欧盟《新电池法规》生效", "predicate": "发布于", "object": "欧盟(新)", "evidence": "Regulation (EU) 2023/1542, the EU Battery Regulation（欧盟立法，非成员国）"},
+  {"subject": "新能源整车", "predicate": "受管制于", "object": "欧盟《新电池法规》生效", "evidence": "every EV battery... must carry a registered digital battery passport"},
+  {"subject": "三元电池（电芯）", "predicate": "受管制于", "object": "欧盟《新电池法规》生效", "evidence": "batteries of every category placed on the EU market: portable, LMT, EV, industrial and SLI"},
+  {"subject": "磷酸铁锂电池（电芯）", "predicate": "受管制于", "object": "欧盟《新电池法规》生效", "evidence": "batteries of every category placed on the EU market"},
+  {"subject": "钴", "predicate": "受管制于", "object": "欧盟《新电池法规》生效", "evidence": "due-diligence policies for the origin and impact of cobalt, natural graphite, lithium and nickel"},
+  {"subject": "锂", "predicate": "受管制于", "object": "欧盟《新电池法规》生效", "evidence": "due-diligence policies for the origin and impact of cobalt, natural graphite, lithium and nickel"},
+  {"subject": "镍", "predicate": "受管制于", "object": "欧盟《新电池法规》生效", "evidence": "due-diligence policies for the origin and impact of cobalt, natural graphite, lithium and nickel"},
+  {"subject": "石墨", "predicate": "受管制于", "object": "欧盟《新电池法规》生效", "evidence": "due-diligence policies for the origin and impact of cobalt, natural graphite, lithium and nickel"},
+  {"subject": "欧盟《新电池法规》生效", "predicate": "作用于", "object": "德国", "evidence": "It applies directly in all Member States（德国为成员国之一）"},
+  {"subject": "欧盟《新电池法规》生效", "predicate": "作用于", "object": "中国", "evidence": "对中国出口欧盟电池产品构成合规要求（据上下文推断）"}
+]

@@ -1,0 +1,27 @@
+test_alias_and_d_api (test_regression.Regression.test_alias_and_d_api) ... ok
+test_alternative_source_positive (test_regression.Regression.test_alternative_source_positive) ... ok
+test_b_human_audit_not_overwritten (test_regression.Regression.test_b_human_audit_not_overwritten) ... ok
+test_bfs_filters_before_visit (test_regression.Regression.test_bfs_filters_before_visit) ... ok
+test_brandes_known_directed_path (test_regression.Regression.test_brandes_known_directed_path) ... ok
+test_conditional_ev_not_universal_cobalt (test_regression.Regression.test_conditional_ev_not_universal_cobalt) ... ok
+test_fact_provenance (test_regression.Regression.test_fact_provenance) ... ok
+test_future_not_current (test_regression.Regression.test_future_not_current) ... ok
+test_gold_metrics_honest (test_regression.Regression.test_gold_metrics_honest) ... ok
+test_hops_rejected (test_regression.Regression.test_hops_rejected) ... ok
+test_idempotent_b_merge (test_regression.Regression.test_idempotent_b_merge) ... ok
+test_no_source_edges_in_algorithm (test_regression.Regression.test_no_source_edges_in_algorithm) ... ok
+test_original_archive_integrity (test_regression.Regression.test_original_archive_integrity) ... ok
+test_policy_fields (test_regression.Regression.test_policy_fields) ... ok
+test_rebuild_deterministic (test_regression.Regression.test_rebuild_deterministic) ... ok
+test_structure_valid (test_regression.Regression.test_structure_valid) ... ok
+test_substitution_direction_and_avoidance (test_regression.Regression.test_substitution_direction_and_avoidance) ... ok
+test_suspect_supplier_excluded (test_regression.Regression.test_suspect_supplier_excluded) ... ok
+test_synthetic_not_mined_graphite (test_regression.Regression.test_synthetic_not_mined_graphite) ... ok
+test_unknown_question_no_llm_fabrication (test_regression.Regression.test_unknown_question_no_llm_fabrication) ... ok
+test_unlisted_not_zero (test_regression.Regression.test_unlisted_not_zero) ... ok
+test_v3_control_preserved (test_regression.Regression.test_v3_control_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.057s
+
+OK

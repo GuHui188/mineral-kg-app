@@ -1,0 +1,15 @@
+{
+  "audited_count": 65,
+  "correct": 46,
+  "partial": 8,
+  "wrong": 11,
+  "strict_accuracy": 0.7076923076923077,
+  "lenient_accuracy": 0.7692307692307693,
+  "gold_itemized_available": false,
+  "reported_gold_count": 58.0,
+  "verified_recall": null,
+  "verified_f1": null,
+  "reported_count_based_recall": 0.7931034482758621,
+  "reported_count_based_f1": 0.7479674796747967,
+  "scope": "严格准确率及加权准确率可以从原核对表重算；R/F1仅为58条人工总数口径的算术复算，没有逐条金标准，不能声称完整复现。65条符合课程建议50—100条；不伪造至100条。"
+}

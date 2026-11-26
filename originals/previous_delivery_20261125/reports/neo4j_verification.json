@@ -1,0 +1,6 @@
+{
+  "status": "blocked",
+  "actual_import_verified": false,
+  "error": "Neo4j连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
+  "note": "快照重建和Python推演通过，不等同Neo4j入库及Cypher执行已通过。"
+}

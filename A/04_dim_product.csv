@@ -1,0 +1,22 @@
+﻿product_id,name_zh,name_en,product_category,chemistry,key_minerals,contains_cobalt,note,source_id,valid_year,confidence,conditional_minerals,dependency_scope_complete
+P_LI2CO3,碳酸锂,Lithium carbonate,材料,Li2CO3,锂,N,盐湖与锂辉石两条工艺都可产出；电池级纯度 ≥99.5%,S01,2025,0.95,NA,True
+P_LIOH,氢氧化锂,Lithium hydroxide,材料,LiOH,锂,N,高镍三元更偏好氢氧化锂,S01,2025,0.90,NA,True
+P_NISO4,硫酸镍,Nickel sulfate,材料,NiSO4,镍,N,前驱体主原料，印尼 MHP 路线为主,S03,2025,0.90,NA,True
+P_COSO4,硫酸钴,Cobalt sulfate,材料,CoSO4,钴,Y,三元前驱体配钴原料,S02,2025,0.90,NA,True
+P_PCAM,三元前驱体,NCM precursor,材料,NCM 前驱体,镍|钴|锰,Y,镍钴锰氢氧化物，正极的前一道工序,S18,2025,0.90,NA,True
+P_NCM,三元正极材料,NCM/NCA cathode,材料,NCM/NCA,镍|钴|锂,Y,高镍化是降钴主路径（Ni≥8 系）,S18,2025,0.90,NA,True
+P_LFP_CATH,磷酸铁锂正极材料,LFP cathode,材料,LiFePO4,锂,N,不含镍钴，成本与安全占优,S18,2025,0.90,NA,True
+P_GRA_ANODE,人造石墨负极,Synthetic graphite anode,材料,石墨,NA,N,主流负极路线，占负极出货九成以上；本次整合：天然/人造石墨口径拆分，未确认天然石墨必要用量，不生成确定REQUIRES；参见S36。,S06|S36,2025,0.85,NA,False
+P_SIC_ANODE,硅碳负极,Silicon-carbon anode,材料,Si/C,NA,N,高能量密度路线，掺硅比例仍低；本次整合：天然/人造石墨口径拆分，未确认天然石墨必要用量，不生成确定REQUIRES；参见S36。,S06|S36,2025,0.75,NA,False
+P_NCM_CELL,三元电池（电芯）,NCM cell,电芯,NCM,镍|钴|锂|铜,Y,能量密度高，钴依赖是主要风险,S10,2025,0.90,NA,True
+P_LFP_CELL,磷酸铁锂电池（电芯）,LFP cell,电芯,LFP,锂|铜,N,2025 年中国装机占比已超七成,S10,2025,0.90,NA,True
+P_NA_CELL,钠离子电池（电芯）,Sodium-ion cell,电芯,钠电,铜,N,不含锂，能量密度低于锂电，主打储能与A00级车,S10,2025,0.75,NA,True
+P_EV,新能源整车,Battery electric vehicle,整车,—,锂|铜,CONDITIONAL,本表按磷酸铁锂主流配置填 N；高端车型仍用三元；本包锂离子路线：锂/铜为共同项；镍、钴、天然石墨依电池与负极配方而定；不能解读为全部新能源车型。,S10,2025,0.85,镍|钴|石墨,False
+P_ESS,储能电池系统,Battery energy storage system,电池包,LFP,锂|铜,N,电网侧与工商储，磷酸铁锂为主,S10,2025,0.85,NA,True
+P_SPH_GRAPHITE,球化石墨,Spheroidized graphite,材料,C（球形化天然石墨）,石墨,N,B2 占位 NEW:球化石墨（E0005/E0006）；S11 公告明列「球化石墨、膨胀石墨」。别名：球形石墨，与 06 表 R0157 note 保持一致,S11,2025,0.90,NA,True
+P_EXP_GRAPHITE,膨胀石墨,Expanded graphite,材料,C（层间插层膨胀）,石墨,N,B2 占位 NEW:膨胀石墨（E0007）；S11 公告明列,S11,2025,0.90,NA,True
+P_LI2SO4,硫酸锂,Lithium sulphate,材料,Li2SO4,锂,N,B2 占位 NEW:硫酸锂（E0014）；华友津巴布韦建设的非洲首座硫酸锂加工厂产品。E0014 原三元组「供应 → 硫酸锂」端点应落 Product 而非 Company,S12,2025,0.85,NA,True
+P_LI_CONC,锂精矿,Lithium (spodumene) concentrate,材料,锂辉石精矿 Li2O·Al2O3·4SiO2,锂,N,B2 占位 NEW:锂精矿（E0017）与 NEW:津巴布韦锂精矿（E0015 客体）合并落此；产地差异记在边上，不另立实体，避免 B 4.2 重复实体。别名：津巴布韦锂精矿|锂辉石精矿,S01|S12,2025,0.90,NA,True
+P_SMCO_MAGNET,钐钴永磁材料,SmCo permanent magnet,材料,SmCo5 / Sm2Co17,稀土|钴,Y,B2 占位 NEW:钐钴永磁材料（E0021/E0022）；S13 公告「含钐的合金……钐钴永磁材料」，同时需稀土与钴,S13,2025,0.90,NA,True
+P_NDFEB_MAGNET,钕铁硼永磁材料,NdFeB permanent magnet,材料,Nd2Fe14B（含铽/镝）,稀土,N,B2 占位 NEW:钕铁硼永磁材料（E0023/E0024）；S13 公告「含铽的钕铁硼永磁材料」,S13,2025,0.90,NA,True
+P_Y2O3,氧化钇,Yttrium oxide,材料,Y2O3,稀土,N,B2 占位 NEW:氧化钇（E0025）；S13 公告 1C908.b 氧化钇及其混合物,S13,2025,0.90,NA,True

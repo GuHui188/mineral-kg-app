@@ -1,0 +1,28 @@
+{
+  "version": "frontend-v3",
+  "time": "2026-11-25T23:24:20.821588+08:00",
+  "tests_passed": 69,
+  "browser_status": "passed",
+  "ABC_and_core_files_unchanged": true,
+  "preserved_files_checked": 266,
+  "writes_to_Neo4j": false,
+  "workspace_count": 8,
+  "stored_edges": 618,
+  "stored_business_edges": 318,
+  "display_business_edges": 320,
+  "display_only_original_material_associations": 2,
+  "legacy_current_unreviewed_edges": 188,
+  "substitution_candidates": {
+    "M_CO": 3,
+    "M_GRA": 1,
+    "M_LI": 4
+  },
+  "limits": [
+    "宽口径候选不等同于已确认可实施的替代方案",
+    "两条原始材料关联仅用于展示，范围待确认，不写入数据库",
+    "未来与待核实关系保留状态，不提升为当前确定事实",
+    "旧C统计与宽口径展示分开保留",
+    "本轮没有重新执行真实DeepSeek调用",
+    "当前未验证公网访问链接"
+  ]
+}

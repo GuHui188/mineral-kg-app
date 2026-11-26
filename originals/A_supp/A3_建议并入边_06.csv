@@ -1,0 +1,2 @@
+﻿triple_id,subject_id,subject_name,predicate,object_id,object_name,quantity,unit,share_pct,ratio_pct,since_year,data_year,evidence_type,source_id,confidence,value_status,note,mineral_id,hold_ratio_pct
+R0232（建议）,P_GRA_NAT,天然石墨负极,可替代,P_GRA_ANODE,人造石墨负极,NA,—,NA,NA,NA,2025,机构口径,S33,0.75,估计,对称属性，反向由 owl:SymmetricProperty 推出；2025 年人造石墨占负极 92.7%、天然石墨 <8%,M_GRA,NA

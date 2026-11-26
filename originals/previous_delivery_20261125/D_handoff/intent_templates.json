@@ -1,0 +1,77 @@
+{
+  "overview": {
+    "name": "图谱概览",
+    "template": "Q01",
+    "keywords": [
+      "概览",
+      "规模",
+      "多少节点"
+    ]
+  },
+  "production": {
+    "name": "产量与分布",
+    "template": "Q02",
+    "keywords": [
+      "产量",
+      "产矿",
+      "生产国"
+    ]
+  },
+  "concentration": {
+    "name": "覆盖范围与集中度",
+    "template": "Q03",
+    "keywords": [
+      "集中",
+      "HHI",
+      "hhi"
+    ]
+  },
+  "potential_impact": {
+    "name": "矿种潜在关联推演",
+    "template": "Q05",
+    "keywords": [
+      "断供",
+      "影响",
+      "冲击"
+    ]
+  },
+  "substitution": {
+    "name": "有条件的技术替代",
+    "template": "Q08",
+    "keywords": [
+      "替代",
+      "绕开",
+      "避开"
+    ]
+  },
+  "policy": {
+    "name": "涉目标国政策",
+    "template": "Q06",
+    "keywords": [
+      "政策",
+      "管制",
+      "关税",
+      "禁令"
+    ]
+  },
+  "upstream": {
+    "name": "供应与股权上游关联",
+    "template": "Q07+SUPPLIES逆向",
+    "keywords": [
+      "上游",
+      "控股",
+      "股权",
+      "参股"
+    ]
+  },
+  "provenance": {
+    "name": "事实来源",
+    "template": "Q11",
+    "keywords": [
+      "来源",
+      "溯源",
+      "依据",
+      "证据"
+    ]
+  }
+}

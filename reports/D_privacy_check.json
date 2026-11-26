@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "private_configuration_excluded": true,
+  "secret_values_not_found_in_distributable_files": true,
+  "includes_browser_screenshots": false
+}

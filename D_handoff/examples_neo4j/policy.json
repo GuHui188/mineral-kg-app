@@ -1,0 +1,1110 @@
+{
+  "intent": "policy",
+  "template": "Q06",
+  "parameters": {
+    "country": "中国"
+  },
+  "backend": "neo4j",
+  "dataset": "mineral-20261125-v1",
+  "as_of": "2026-11-25",
+  "answer": "涉目标国政策：返回13条记录。这是原数据登记的政策与目标国关联，不表示所有政策在查询日仍有效；缺少逐条政策失效更新记录。",
+  "rows": [
+    {
+      "event_id": "PE_20200101_ID_NI",
+      "name": "印尼全面禁止镍原矿出口",
+      "effective_date": "2020-01-01",
+      "original_status": "已生效",
+      "issuing_countries": [
+        "C_IDN"
+      ],
+      "source_ids": [
+        "S17"
+      ]
+    },
+    {
+      "event_id": "PE_20210323_SUEZ",
+      "name": "“长赐号”搁浅致苏伊士运河断航",
+      "effective_date": "2021-03-29",
+      "original_status": "已结束",
+      "issuing_countries": [],
+      "source_ids": [
+        "S26"
+      ]
+    },
+    {
+      "event_id": "PE_20220816_US_IRA",
+      "name": "美国《通胀削减法案》签署",
+      "effective_date": "2023-01-01",
+      "original_status": "已生效",
+      "issuing_countries": [
+        "C_USA"
+      ],
+      "source_ids": [
+        "S21"
+      ]
+    },
+    {
+      "event_id": "PE_20221220_ZW_LI",
+      "name": "津巴布韦禁止未加工锂矿出口",
+      "effective_date": "2022-12-20",
+      "original_status": "已生效",
+      "issuing_countries": [
+        "C_ZWE"
+      ],
+      "source_ids": [
+        "S12"
+      ]
+    },
+    {
+      "event_id": "PE_20230420_CL_LI",
+      "name": "智利发布《国家锂战略》",
+      "effective_date": "2023-04-20",
+      "original_status": "已生效",
+      "issuing_countries": [
+        "C_CHL"
+      ],
+      "source_ids": [
+        "S24"
+      ]
+    },
+    {
+      "event_id": "PE_20230817_EU_BATREG",
+      "name": "欧盟《新电池法规》生效",
+      "effective_date": "2023-08-17",
+      "original_status": "分阶段生效",
+      "issuing_countries": [
+        "C_EU"
+      ],
+      "source_ids": [
+        "S20"
+      ]
+    },
+    {
+      "event_id": "PE_20240523_EU_CRMA",
+      "name": "欧盟《关键原材料法案》生效",
+      "effective_date": "2024-05-23",
+      "original_status": "已生效",
+      "issuing_countries": [
+        "C_EU"
+      ],
+      "source_ids": [
+        "S20"
+      ]
+    },
+    {
+      "event_id": "PE_20240927_US_301",
+      "name": "美国 301 复审对华电池与电动车加税生效",
+      "effective_date": "2024-09-27",
+      "original_status": "已生效",
+      "issuing_countries": [
+        "C_USA"
+      ],
+      "source_ids": [
+        "S21"
+      ]
+    },
+    {
+      "event_id": "PE_20241001_US_PORT",
+      "name": "美国东海岸与墨西哥湾港口工人罢工",
+      "effective_date": "2024-10-03",
+      "original_status": "已结束",
+      "issuing_countries": [],
+      "source_ids": [
+        "S27"
+      ]
+    },
+    {
+      "event_id": "PE_20250222_CD_CO",
+      "name": "刚果（金）暂停钴出口",
+      "effective_date": "2025-02-22",
+      "original_status": "已转为配额",
+      "issuing_countries": [
+        "C_COD"
+      ],
+      "source_ids": [
+        "S23"
+      ]
+    },
+    {
+      "event_id": "PE_20250402_US_TARIFF",
+      "name": "美国宣布“对等关税”",
+      "effective_date": "2025-04-05",
+      "original_status": "部分调整",
+      "issuing_countries": [
+        "C_USA"
+      ],
+      "source_ids": [
+        "S21"
+      ]
+    },
+    {
+      "event_id": "PE_20250710_US_MP",
+      "name": "美国国防部入股 MP Materials",
+      "effective_date": "2025-07-10",
+      "original_status": "已生效",
+      "issuing_countries": [
+        "C_USA"
+      ],
+      "source_ids": [
+        "S28"
+      ]
+    },
+    {
+      "event_id": "PE_20251015_CD_COQUOTA",
+      "name": "刚果（金）以出口配额取代钴出口禁令",
+      "effective_date": "2025-10-16",
+      "original_status": "已生效",
+      "issuing_countries": [
+        "C_COD"
+      ],
+      "source_ids": [
+        "S23"
+      ]
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "name_zh": "印尼全面禁止镍原矿出口",
+        "note": "直接催生印尼镍铁与 MHP 产能，全球镍供给格局重塑",
+        "impact_direction": "收紧",
+        "confidence": 0.95,
+        "kg_id": "mineral-20261125-v1:PE_20200101_ID_NI",
+        "label": "PolicyEvent",
+        "valid_year": 2025.0,
+        "announce_date": "2019-08-30",
+        "target_country": "C_CHN",
+        "source_ids": [
+          "S17"
+        ],
+        "event_type": "出口管制",
+        "event_id": "PE_20200101_ID_NI",
+        "issuing_country": "C_IDN",
+        "trigger_word": "禁止出口",
+        "effective_date": "2020-01-01",
+        "name": "印尼全面禁止镍原矿出口",
+        "arguments": "主体=印尼政府;对象=镍原矿;措施=禁止原矿出口并强制境内冶炼",
+        "source_id": "S17",
+        "id": "PE_20200101_ID_NI",
+        "dataset": "mineral-20261125-v1",
+        "target_mineral": "M_NI",
+        "status": "已生效"
+      },
+      {
+        "name_zh": "“长赐号”搁浅致苏伊士运河断航",
+        "note": "欧亚航线绕行好望角，集装箱与散货运费短期飙升｜v2 A4：issuing_country C_CHN → NA（断航为偶发事件，无发布主体；置 NA 后不生成「发布于」边）",
+        "impact_direction": "收紧",
+        "confidence": 0.95,
+        "kg_id": "mineral-20261125-v1:PE_20210323_SUEZ",
+        "label": "PolicyEvent",
+        "valid_year": 2025.0,
+        "announce_date": "2021-03-23",
+        "target_country": "C_CHN",
+        "source_ids": [
+          "S26"
+        ],
+        "event_id": "PE_20210323_SUEZ",
+        "event_type": "断航",
+        "trigger_word": "搁浅|断航",
+        "effective_date": "2021-03-29",
+        "name": "“长赐号”搁浅致苏伊士运河断航",
+        "arguments": "主体=长赐号货轮;地点=苏伊士运河;时长=6天",
+        "source_id": "S26",
+        "id": "PE_20210323_SUEZ",
+        "dataset": "mineral-20261125-v1",
+        "target_mineral": "M_CO",
+        "status": "已结束"
+      },
+      {
+        "name_zh": "美国《通胀削减法案》签署",
+        "note": "FEOC 规则使中国电池与矿物进入美国市场受限",
+        "impact_direction": "收紧",
+        "confidence": 0.95,
+        "kg_id": "mineral-20261125-v1:PE_20220816_US_IRA",
+        "label": "PolicyEvent",
+        "valid_year": 2025.0,
+        "announce_date": "2022-08-16",
+        "target_country": "C_CHN",
+        "source_ids": [
+          "S21"
+        ],
+        "event_id": "PE_20220816_US_IRA",
+        "event_type": "补贴",
+        "issuing_country": "C_USA",
+        "trigger_word": "签署|补贴",
+        "effective_date": "2023-01-01",
+        "name": "美国《通胀削减法案》签署",
+        "arguments": "主体=美国政府;对象=电动车消费者与电池厂;措施=7500美元/车税收抵免+关键矿物本地化比例",
+        "source_id": "S21",
+        "id": "PE_20220816_US_IRA",
+        "dataset": "mineral-20261125-v1",
+        "target_mineral": "M_LI",
+        "status": "已生效"
+      },
+      {
+        "name_zh": "津巴布韦禁止未加工锂矿出口",
+        "note": "中资企业被迫在当地建选矿与转化产能",
+        "impact_direction": "收紧",
+        "confidence": 0.9,
+        "kg_id": "mineral-20261125-v1:PE_20221220_ZW_LI",
+        "label": "PolicyEvent",
+        "valid_year": 2025.0,
+        "announce_date": "2022-12-20",
+        "target_country": "C_CHN",
+        "source_ids": [
+          "S12"
+        ],
+        "event_type": "出口管制",
+        "event_id": "PE_20221220_ZW_LI",
+        "issuing_country": "C_ZWE",
+        "trigger_word": "禁止出口",
+        "effective_date": "2022-12-20",
+        "name": "津巴布韦禁止未加工锂矿出口",
+        "arguments": "主体=津巴布韦政府;对象=未加工锂矿石与精矿;措施=出口禁令",
+        "source_id": "S12",
+        "id": "PE_20221220_ZW_LI",
+        "dataset": "mineral-20261125-v1",
+        "target_mineral": "M_LI",
+        "status": "已生效"
+      },
+      {
+        "name_zh": "智利发布《国家锂战略》",
+        "note": "新增锂项目须政府持股，开发周期拉长",
+        "impact_direction": "收紧",
+        "confidence": 0.9,
+        "kg_id": "mineral-20261125-v1:PE_20230420_CL_LI",
+        "label": "PolicyEvent",
+        "valid_year": 2025.0,
+        "announce_date": "2023-04-20",
+        "target_country": "C_CHN",
+        "source_ids": [
+          "S24"
+        ],
+        "event_type": "产业政策",
+        "event_id": "PE_20230420_CL_LI",
+        "issuing_country": "C_CHL",
+        "trigger_word": "发布|战略",
+        "effective_date": "2023-04-20",
+        "name": "智利发布《国家锂战略》",
+        "arguments": "主体=智利政府;对象=盐湖锂资源;措施=国家控股+公私合营（CEOL）",
+        "source_id": "S24",
+        "id": "PE_20230420_CL_LI",
+        "dataset": "mineral-20261125-v1",
+        "target_mineral": "M_LI",
+        "status": "已生效"
+      },
+      {
+        "name_zh": "欧盟《新电池法规》生效",
+        "note": "2025 年起逐步实施碳足迹与回收料要求｜v2 A4：issuing_country C_DEU → C_EU（发布主体为欧盟（超国家组织），非德国；3.1 方案一）",
+        "impact_direction": "收紧",
+        "confidence": 0.95,
+        "kg_id": "mineral-20261125-v1:PE_20230817_EU_BATREG",
+        "label": "PolicyEvent",
+        "valid_year": 2025.0,
+        "announce_date": "2023-08-17",
+        "target_country": "C_CHN",
+        "source_ids": [
+          "S20"
+        ],
+        "event_type": "标准",
+        "event_id": "PE_20230817_EU_BATREG",
+        "issuing_country": "C_EU",
+        "trigger_word": "生效|法规",
+        "effective_date": "2023-08-17",
+        "name": "欧盟《新电池法规》生效",
+        "arguments": "主体=欧盟;对象=电池;措施=碳足迹申报、再生料比例、电池护照",
+        "source_id": "S20",
+        "id": "PE_20230817_EU_BATREG",
+        "dataset": "mineral-20261125-v1",
+        "target_mineral": "M_CO",
+        "status": "分阶段生效"
+      },
+      {
+        "name_zh": "欧盟《关键原材料法案》生效",
+        "note": "设定“单一第三国依赖不超过 65%”的硬指标｜v2 A4：issuing_country C_DEU → C_EU（发布主体为欧盟（超国家组织），非德国；3.1 方案一）",
+        "impact_direction": "收紧",
+        "confidence": 0.95,
+        "kg_id": "mineral-20261125-v1:PE_20240523_EU_CRMA",
+        "label": "PolicyEvent",
+        "valid_year": 2025.0,
+        "announce_date": "2024-05-23",
+        "target_country": "C_CHN",
+        "source_ids": [
+          "S20"
+        ],
+        "event_type": "产业政策",
+        "event_id": "PE_20240523_EU_CRMA",
+        "issuing_country": "C_EU",
+        "trigger_word": "生效|法案",
+        "effective_date": "2024-05-23",
+        "name": "欧盟《关键原材料法案》生效",
+        "arguments": "主体=欧盟;对象=34种关键原材料;措施=2030年本土开采10%/加工40%/回收25%+单一来源不超65%",
+        "source_id": "S20",
+        "id": "PE_20240523_EU_CRMA",
+        "dataset": "mineral-20261125-v1",
+        "target_mineral": "M_RE",
+        "status": "已生效"
+      },
+      {
+        "name_zh": "美国 301 复审对华电池与电动车加税生效",
+        "note": "储能电池与部分材料获得过渡期",
+        "impact_direction": "收紧",
+        "confidence": 0.95,
+        "kg_id": "mineral-20261125-v1:PE_20240927_US_301",
+        "label": "PolicyEvent",
+        "valid_year": 2025.0,
+        "announce_date": "2024-05-14",
+        "target_country": "C_CHN",
+        "source_ids": [
+          "S21"
+        ],
+        "event_id": "PE_20240927_US_301",
+        "event_type": "关税",
+        "issuing_country": "C_USA",
+        "trigger_word": "加征关税",
+        "effective_date": "2024-09-27",
+        "name": "美国 301 复审对华电池与电动车加税生效",
+        "arguments": "主体=美国贸易代表办公室;对象=中国产锂电池、电动车;措施=电动车100%、电池25%",
+        "source_id": "S21",
+        "id": "PE_20240927_US_301",
+        "dataset": "mineral-20261125-v1",
+        "target_mineral": "M_LI",
+        "status": "已生效"
+      },
+      {
+        "name_zh": "美国东海岸与墨西哥湾港口工人罢工",
+        "note": "电池与整车进口短期滞港，随后达成临时协议｜v2 A4：issuing_country C_USA → NA（罢工为劳资事件，无发布主体；置 NA 后不生成「发布于」边）",
+        "impact_direction": "收紧",
+        "confidence": 0.9,
+        "kg_id": "mineral-20261125-v1:PE_20241001_US_PORT",
+        "label": "PolicyEvent",
+        "valid_year": 2025.0,
+        "announce_date": "2024-10-01",
+        "target_country": "C_CHN",
+        "source_ids": [
+          "S27"
+        ],
+        "event_id": "PE_20241001_US_PORT",
+        "event_type": "罢工",
+        "trigger_word": "罢工",
+        "effective_date": "2024-10-03",
+        "name": "美国东海岸与墨西哥湾港口工人罢工",
+        "arguments": "主体=国际码头工人协会(ILA);对象=36个港口;时长=3天",
+        "source_id": "S27",
+        "id": "PE_20241001_US_PORT",
+        "dataset": "mineral-20261125-v1",
+        "target_mineral": "M_LI",
+        "status": "已结束"
+      },
+      {
+        "name_zh": "刚果（金）暂停钴出口",
+        "note": "钴价快速反弹，中国冶炼厂原料紧张",
+        "impact_direction": "收紧",
+        "confidence": 0.95,
+        "kg_id": "mineral-20261125-v1:PE_20250222_CD_CO",
+        "label": "PolicyEvent",
+        "valid_year": 2025.0,
+        "announce_date": "2025-02-22",
+        "target_country": "C_CHN",
+        "source_ids": [
+          "S23"
+        ],
+        "event_type": "出口管制",
+        "event_id": "PE_20250222_CD_CO",
+        "issuing_country": "C_COD",
+        "trigger_word": "暂停出口",
+        "effective_date": "2025-02-22",
+        "name": "刚果（金）暂停钴出口",
+        "arguments": "主体=刚果（金）矿业部;对象=钴精矿与中间品;措施=暂停出口4个月",
+        "source_id": "S23",
+        "id": "PE_20250222_CD_CO",
+        "dataset": "mineral-20261125-v1",
+        "target_mineral": "M_CO",
+        "status": "已转为配额"
+      },
+      {
+        "name_zh": "美国宣布“对等关税”",
+        "note": "供应链成本上升，转口贸易与本地化加速",
+        "impact_direction": "收紧",
+        "confidence": 0.9,
+        "kg_id": "mineral-20261125-v1:PE_20250402_US_TARIFF",
+        "label": "PolicyEvent",
+        "valid_year": 2025.0,
+        "announce_date": "2025-04-02",
+        "target_country": "C_CHN",
+        "source_ids": [
+          "S21"
+        ],
+        "event_type": "关税",
+        "event_id": "PE_20250402_US_TARIFF",
+        "issuing_country": "C_USA",
+        "trigger_word": "加征关税",
+        "effective_date": "2025-04-05",
+        "name": "美国宣布“对等关税”",
+        "arguments": "主体=美国政府;对象=全球贸易伙伴;措施=基准10%+对等税率",
+        "source_id": "S21",
+        "id": "PE_20250402_US_TARIFF",
+        "dataset": "mineral-20261125-v1",
+        "target_mineral": "M_LI",
+        "status": "部分调整"
+      },
+      {
+        "name_zh": "美国国防部入股 MP Materials",
+        "note": "五角大楼成为最大股东，镨钕价格获托底",
+        "impact_direction": "收紧",
+        "confidence": 0.9,
+        "kg_id": "mineral-20261125-v1:PE_20250710_US_MP",
+        "label": "PolicyEvent",
+        "valid_year": 2025.0,
+        "announce_date": "2025-07-10",
+        "target_country": "C_CHN",
+        "source_ids": [
+          "S28"
+        ],
+        "event_type": "产业政策",
+        "event_id": "PE_20250710_US_MP",
+        "issuing_country": "C_USA",
+        "trigger_word": "入股|协议",
+        "effective_date": "2025-07-10",
+        "name": "美国国防部入股 MP Materials",
+        "arguments": "主体=美国国防部;对象=MP Materials;措施=优先股+10年价格下限",
+        "source_id": "S28",
+        "id": "PE_20250710_US_MP",
+        "dataset": "mineral-20261125-v1",
+        "target_mineral": "M_RE",
+        "status": "已生效"
+      },
+      {
+        "name_zh": "刚果（金）以出口配额取代钴出口禁令",
+        "note": "配额制长期化，钴供给弹性下降",
+        "impact_direction": "收紧",
+        "confidence": 0.95,
+        "kg_id": "mineral-20261125-v1:PE_20251015_CD_COQUOTA",
+        "label": "PolicyEvent",
+        "valid_year": 2025.0,
+        "announce_date": "2025-10-15",
+        "target_country": "C_CHN",
+        "source_ids": [
+          "S23"
+        ],
+        "event_type": "出口管制",
+        "event_id": "PE_20251015_CD_COQUOTA",
+        "issuing_country": "C_COD",
+        "trigger_word": "配额",
+        "effective_date": "2025-10-16",
+        "name": "刚果（金）以出口配额取代钴出口禁令",
+        "arguments": "主体=刚果（金）矿业部;对象=钴;措施=2025年余下18,125吨配额，2026-2027年每年96,600吨",
+        "source_id": "S23",
+        "id": "PE_20251015_CD_COQUOTA",
+        "dataset": "mineral-20261125-v1",
+        "target_mineral": "M_CO",
+        "status": "已生效"
+      },
+      {
+        "note": "仅禁止未加工锂矿",
+        "accessed_date": "2026-11-12",
+        "url_status": "官网检索",
+        "source_type": "法规原文",
+        "kg_id": "mineral-20261125-v1:S12",
+        "label": "Source",
+        "title": "锂矿原矿出口禁令（Base Minerals Export Control）",
+        "url": "https://www.mines.gov.zw/",
+        "source_ids": [
+          "S12"
+        ],
+        "name": "锂矿原矿出口禁令（Base Minerals Export Control）",
+        "publisher": "津巴布韦矿业与矿业发展部",
+        "used_for": "05/06 津巴布韦锂出口",
+        "authority_level": "A",
+        "source_id": "S12",
+        "id": "S12",
+        "dataset": "mineral-20261125-v1",
+        "publish_date": "2022-12"
+      },
+      {
+        "note": "—",
+        "accessed_date": "2026-11-12",
+        "url_status": "官网检索",
+        "source_type": "政府/企业",
+        "kg_id": "mineral-20261125-v1:S17",
+        "label": "Source",
+        "title": "印尼能矿部矿业统计、青山控股公开资料",
+        "url": "https://www.esdm.go.id/",
+        "source_ids": [
+          "S17"
+        ],
+        "name": "印尼能矿部矿业统计、青山控股公开资料",
+        "publisher": "印尼 ESDM、青山控股",
+        "used_for": "02/05/06 印尼镍政策与产能",
+        "authority_level": "A",
+        "source_id": "S17",
+        "id": "S17",
+        "dataset": "mineral-20261125-v1",
+        "publish_date": "2026-01"
+      },
+      {
+        "note": "CRMA 设定 65% 单一来源上限",
+        "accessed_date": "2026-11-12",
+        "url_status": "官网检索",
+        "source_type": "法规原文",
+        "kg_id": "mineral-20261125-v1:S20",
+        "label": "Source",
+        "title": "(EU) 2023/1542 新电池法规；(EU) 2024/1252 关键原材料法案",
+        "url": "https://eur-lex.europa.eu/",
+        "source_ids": [
+          "S20"
+        ],
+        "name": "(EU) 2023/1542 新电池法规；(EU) 2024/1252 关键原材料法案",
+        "publisher": "欧盟 EUR-Lex",
+        "used_for": "05/06 欧盟法规",
+        "authority_level": "A",
+        "source_id": "S20",
+        "id": "S20",
+        "dataset": "mineral-20261125-v1",
+        "publish_date": "2023-08-17 / 2024-05-23"
+      },
+      {
+        "note": "FEOC 细则由财政部后续发布",
+        "accessed_date": "2026-11-12",
+        "url_status": "直达链接",
+        "source_type": "法规原文",
+        "kg_id": "mineral-20261125-v1:S21",
+        "label": "Source",
+        "title": "H.R.5376 通胀削减法案；USTR 301 复审报告",
+        "url": "https://www.congress.gov/bill/117th-congress/house-bill/5376",
+        "source_ids": [
+          "S21"
+        ],
+        "name": "H.R.5376 通胀削减法案；USTR 301 复审报告",
+        "publisher": "美国国会、USTR",
+        "used_for": "05/06 美国补贴与关税",
+        "authority_level": "A",
+        "source_id": "S21",
+        "id": "S21",
+        "dataset": "mineral-20261125-v1",
+        "publish_date": "2022-08-16 / 2024-05-14"
+      },
+      {
+        "note": "配额 2025 年余 18,125 吨",
+        "accessed_date": "2026-11-12",
+        "url_status": "官网检索",
+        "source_type": "法规原文",
+        "kg_id": "mineral-20261125-v1:S23",
+        "label": "Source",
+        "title": "钴出口暂停令与出口配额公告",
+        "url": "https://www.mines.gouv.cd/",
+        "source_ids": [
+          "S23"
+        ],
+        "name": "钴出口暂停令与出口配额公告",
+        "publisher": "刚果（金）矿业部",
+        "used_for": "05/06 钴出口管制",
+        "authority_level": "A",
+        "source_id": "S23",
+        "id": "S23",
+        "dataset": "mineral-20261125-v1",
+        "publish_date": "2025-02-22 / 2025-10-15"
+      },
+      {
+        "note": "CEOL 公私合营模式",
+        "accessed_date": "2026-11-12",
+        "url_status": "官网检索",
+        "source_type": "政府文件",
+        "kg_id": "mineral-20261125-v1:S24",
+        "label": "Source",
+        "title": "智利《国家锂战略》",
+        "url": "https://www.gob.cl/",
+        "source_ids": [
+          "S24"
+        ],
+        "name": "智利《国家锂战略》",
+        "publisher": "智利政府",
+        "used_for": "05/06 智利锂政策",
+        "authority_level": "A",
+        "source_id": "S24",
+        "id": "S24",
+        "dataset": "mineral-20261125-v1",
+        "publish_date": "2023-04-20"
+      },
+      {
+        "note": "3 月 23 日搁浅，29 日脱浅",
+        "accessed_date": "2026-11-12",
+        "url_status": "官网检索",
+        "source_type": "新闻报道",
+        "kg_id": "mineral-20261125-v1:S26",
+        "label": "Source",
+        "title": "“长赐号”搁浅与苏伊士运河复航",
+        "url": "https://www.suezcanal.gov.eg/",
+        "source_ids": [
+          "S26"
+        ],
+        "name": "“长赐号”搁浅与苏伊士运河复航",
+        "publisher": "苏伊士运河管理局声明及公开报道",
+        "used_for": "05/06 断航事件",
+        "authority_level": "C",
+        "source_id": "S26",
+        "id": "S26",
+        "dataset": "mineral-20261125-v1",
+        "publish_date": "2021-03-29"
+      },
+      {
+        "note": "罢工 3 天后暂停",
+        "accessed_date": "2026-11-12",
+        "url_status": "官网检索",
+        "source_type": "机构声明",
+        "kg_id": "mineral-20261125-v1:S27",
+        "label": "Source",
+        "title": "ILA-USMX 罢工与临时协议",
+        "url": "https://ilaunion.org/",
+        "source_ids": [
+          "S27"
+        ],
+        "name": "ILA-USMX 罢工与临时协议",
+        "publisher": "国际码头工人协会 ILA",
+        "used_for": "05/06 罢工事件",
+        "authority_level": "C",
+        "source_id": "S27",
+        "id": "S27",
+        "dataset": "mineral-20261125-v1",
+        "publish_date": "2024-10-03"
+      },
+      {
+        "note": "优先股+10 年价格下限",
+        "accessed_date": "2026-11-12",
+        "url_status": "官网检索",
+        "source_type": "政府公告",
+        "kg_id": "mineral-20261125-v1:S28",
+        "label": "Source",
+        "title": "国防部与 MP Materials 合作协议",
+        "url": "https://www.defense.gov/",
+        "source_ids": [
+          "S28"
+        ],
+        "name": "国防部与 MP Materials 合作协议",
+        "publisher": "美国国防部",
+        "used_for": "05 稀土产业政策",
+        "authority_level": "A",
+        "source_id": "S28",
+        "id": "S28",
+        "dataset": "mineral-20261125-v1",
+        "publish_date": "2025-07-10"
+      }
+    ],
+    "edges": [
+      {
+        "source_ids": [
+          "S17"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_PE_20200101_ID_NI_S17",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_PE_20200101_ID_NI_S17"
+        ],
+        "id": "CITE_PE_20200101_ID_NI_S17",
+        "review_flag": false,
+        "source_id": "S17",
+        "dataset": "mineral-20261125-v1",
+        "source": "PE_20200101_ID_NI",
+        "target": "S17",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S26"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_PE_20210323_SUEZ_S26",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_PE_20210323_SUEZ_S26"
+        ],
+        "id": "CITE_PE_20210323_SUEZ_S26",
+        "review_flag": false,
+        "source_id": "S26",
+        "dataset": "mineral-20261125-v1",
+        "source": "PE_20210323_SUEZ",
+        "target": "S26",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S21"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_PE_20220816_US_IRA_S21",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_PE_20220816_US_IRA_S21"
+        ],
+        "id": "CITE_PE_20220816_US_IRA_S21",
+        "review_flag": false,
+        "source_id": "S21",
+        "dataset": "mineral-20261125-v1",
+        "source": "PE_20220816_US_IRA",
+        "target": "S21",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S12"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_PE_20221220_ZW_LI_S12",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_PE_20221220_ZW_LI_S12"
+        ],
+        "id": "CITE_PE_20221220_ZW_LI_S12",
+        "review_flag": false,
+        "source_id": "S12",
+        "dataset": "mineral-20261125-v1",
+        "source": "PE_20221220_ZW_LI",
+        "target": "S12",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S24"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_PE_20230420_CL_LI_S24",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_PE_20230420_CL_LI_S24"
+        ],
+        "id": "CITE_PE_20230420_CL_LI_S24",
+        "review_flag": false,
+        "source_id": "S24",
+        "dataset": "mineral-20261125-v1",
+        "source": "PE_20230420_CL_LI",
+        "target": "S24",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S20"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_PE_20230817_EU_BATREG_S20",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_PE_20230817_EU_BATREG_S20"
+        ],
+        "id": "CITE_PE_20230817_EU_BATREG_S20",
+        "review_flag": false,
+        "source_id": "S20",
+        "dataset": "mineral-20261125-v1",
+        "source": "PE_20230817_EU_BATREG",
+        "target": "S20",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S20"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_PE_20240523_EU_CRMA_S20",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_PE_20240523_EU_CRMA_S20"
+        ],
+        "id": "CITE_PE_20240523_EU_CRMA_S20",
+        "review_flag": false,
+        "source_id": "S20",
+        "dataset": "mineral-20261125-v1",
+        "source": "PE_20240523_EU_CRMA",
+        "target": "S20",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S21"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_PE_20240927_US_301_S21",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_PE_20240927_US_301_S21"
+        ],
+        "id": "CITE_PE_20240927_US_301_S21",
+        "review_flag": false,
+        "source_id": "S21",
+        "dataset": "mineral-20261125-v1",
+        "source": "PE_20240927_US_301",
+        "target": "S21",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S27"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_PE_20241001_US_PORT_S27",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_PE_20241001_US_PORT_S27"
+        ],
+        "id": "CITE_PE_20241001_US_PORT_S27",
+        "review_flag": false,
+        "source_id": "S27",
+        "dataset": "mineral-20261125-v1",
+        "source": "PE_20241001_US_PORT",
+        "target": "S27",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S23"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_PE_20250222_CD_CO_S23",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_PE_20250222_CD_CO_S23"
+        ],
+        "id": "CITE_PE_20250222_CD_CO_S23",
+        "review_flag": false,
+        "source_id": "S23",
+        "dataset": "mineral-20261125-v1",
+        "source": "PE_20250222_CD_CO",
+        "target": "S23",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S21"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_PE_20250402_US_TARIFF_S21",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_PE_20250402_US_TARIFF_S21"
+        ],
+        "id": "CITE_PE_20250402_US_TARIFF_S21",
+        "review_flag": false,
+        "source_id": "S21",
+        "dataset": "mineral-20261125-v1",
+        "source": "PE_20250402_US_TARIFF",
+        "target": "S21",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S28"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_PE_20250710_US_MP_S28",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_PE_20250710_US_MP_S28"
+        ],
+        "id": "CITE_PE_20250710_US_MP_S28",
+        "review_flag": false,
+        "source_id": "S28",
+        "dataset": "mineral-20261125-v1",
+        "source": "PE_20250710_US_MP",
+        "target": "S28",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S23"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_PE_20251015_CD_COQUOTA_S23",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_PE_20251015_CD_COQUOTA_S23"
+        ],
+        "id": "CITE_PE_20251015_CD_COQUOTA_S23",
+        "review_flag": false,
+        "source_id": "S23",
+        "dataset": "mineral-20261125-v1",
+        "source": "PE_20251015_CD_COQUOTA",
+        "target": "S23",
+        "type": "CITES"
+      }
+    ]
+  },
+  "highlight_paths": [],
+  "sources": [
+    {
+      "note": "仅禁止未加工锂矿",
+      "accessed_date": "2026-11-12",
+      "url_status": "官网检索",
+      "source_type": "法规原文",
+      "kg_id": "mineral-20261125-v1:S12",
+      "label": "Source",
+      "title": "锂矿原矿出口禁令（Base Minerals Export Control）",
+      "url": "https://www.mines.gov.zw/",
+      "source_ids": [
+        "S12"
+      ],
+      "name": "锂矿原矿出口禁令（Base Minerals Export Control）",
+      "publisher": "津巴布韦矿业与矿业发展部",
+      "used_for": "05/06 津巴布韦锂出口",
+      "authority_level": "A",
+      "source_id": "S12",
+      "id": "S12",
+      "dataset": "mineral-20261125-v1",
+      "publish_date": "2022-12"
+    },
+    {
+      "note": "—",
+      "accessed_date": "2026-11-12",
+      "url_status": "官网检索",
+      "source_type": "政府/企业",
+      "kg_id": "mineral-20261125-v1:S17",
+      "label": "Source",
+      "title": "印尼能矿部矿业统计、青山控股公开资料",
+      "url": "https://www.esdm.go.id/",
+      "source_ids": [
+        "S17"
+      ],
+      "name": "印尼能矿部矿业统计、青山控股公开资料",
+      "publisher": "印尼 ESDM、青山控股",
+      "used_for": "02/05/06 印尼镍政策与产能",
+      "authority_level": "A",
+      "source_id": "S17",
+      "id": "S17",
+      "dataset": "mineral-20261125-v1",
+      "publish_date": "2026-01"
+    },
+    {
+      "note": "CRMA 设定 65% 单一来源上限",
+      "accessed_date": "2026-11-12",
+      "url_status": "官网检索",
+      "source_type": "法规原文",
+      "kg_id": "mineral-20261125-v1:S20",
+      "label": "Source",
+      "title": "(EU) 2023/1542 新电池法规；(EU) 2024/1252 关键原材料法案",
+      "url": "https://eur-lex.europa.eu/",
+      "source_ids": [
+        "S20"
+      ],
+      "name": "(EU) 2023/1542 新电池法规；(EU) 2024/1252 关键原材料法案",
+      "publisher": "欧盟 EUR-Lex",
+      "used_for": "05/06 欧盟法规",
+      "authority_level": "A",
+      "source_id": "S20",
+      "id": "S20",
+      "dataset": "mineral-20261125-v1",
+      "publish_date": "2023-08-17 / 2024-05-23"
+    },
+    {
+      "note": "FEOC 细则由财政部后续发布",
+      "accessed_date": "2026-11-12",
+      "url_status": "直达链接",
+      "source_type": "法规原文",
+      "kg_id": "mineral-20261125-v1:S21",
+      "label": "Source",
+      "title": "H.R.5376 通胀削减法案；USTR 301 复审报告",
+      "url": "https://www.congress.gov/bill/117th-congress/house-bill/5376",
+      "source_ids": [
+        "S21"
+      ],
+      "name": "H.R.5376 通胀削减法案；USTR 301 复审报告",
+      "publisher": "美国国会、USTR",
+      "used_for": "05/06 美国补贴与关税",
+      "authority_level": "A",
+      "source_id": "S21",
+      "id": "S21",
+      "dataset": "mineral-20261125-v1",
+      "publish_date": "2022-08-16 / 2024-05-14"
+    },
+    {
+      "note": "配额 2025 年余 18,125 吨",
+      "accessed_date": "2026-11-12",
+      "url_status": "官网检索",
+      "source_type": "法规原文",
+      "kg_id": "mineral-20261125-v1:S23",
+      "label": "Source",
+      "title": "钴出口暂停令与出口配额公告",
+      "url": "https://www.mines.gouv.cd/",
+      "source_ids": [
+        "S23"
+      ],
+      "name": "钴出口暂停令与出口配额公告",
+      "publisher": "刚果（金）矿业部",
+      "used_for": "05/06 钴出口管制",
+      "authority_level": "A",
+      "source_id": "S23",
+      "id": "S23",
+      "dataset": "mineral-20261125-v1",
+      "publish_date": "2025-02-22 / 2025-10-15"
+    },
+    {
+      "note": "CEOL 公私合营模式",
+      "accessed_date": "2026-11-12",
+      "url_status": "官网检索",
+      "source_type": "政府文件",
+      "kg_id": "mineral-20261125-v1:S24",
+      "label": "Source",
+      "title": "智利《国家锂战略》",
+      "url": "https://www.gob.cl/",
+      "source_ids": [
+        "S24"
+      ],
+      "name": "智利《国家锂战略》",
+      "publisher": "智利政府",
+      "used_for": "05/06 智利锂政策",
+      "authority_level": "A",
+      "source_id": "S24",
+      "id": "S24",
+      "dataset": "mineral-20261125-v1",
+      "publish_date": "2023-04-20"
+    },
+    {
+      "note": "3 月 23 日搁浅，29 日脱浅",
+      "accessed_date": "2026-11-12",
+      "url_status": "官网检索",
+      "source_type": "新闻报道",
+      "kg_id": "mineral-20261125-v1:S26",
+      "label": "Source",
+      "title": "“长赐号”搁浅与苏伊士运河复航",
+      "url": "https://www.suezcanal.gov.eg/",
+      "source_ids": [
+        "S26"
+      ],
+      "name": "“长赐号”搁浅与苏伊士运河复航",
+      "publisher": "苏伊士运河管理局声明及公开报道",
+      "used_for": "05/06 断航事件",
+      "authority_level": "C",
+      "source_id": "S26",
+      "id": "S26",
+      "dataset": "mineral-20261125-v1",
+      "publish_date": "2021-03-29"
+    },
+    {
+      "note": "罢工 3 天后暂停",
+      "accessed_date": "2026-11-12",
+      "url_status": "官网检索",
+      "source_type": "机构声明",
+      "kg_id": "mineral-20261125-v1:S27",
+      "label": "Source",
+      "title": "ILA-USMX 罢工与临时协议",
+      "url": "https://ilaunion.org/",
+      "source_ids": [
+        "S27"
+      ],
+      "name": "ILA-USMX 罢工与临时协议",
+      "publisher": "国际码头工人协会 ILA",
+      "used_for": "05/06 罢工事件",
+      "authority_level": "C",
+      "source_id": "S27",
+      "id": "S27",
+      "dataset": "mineral-20261125-v1",
+      "publish_date": "2024-10-03"
+    },
+    {
+      "note": "优先股+10 年价格下限",
+      "accessed_date": "2026-11-12",
+      "url_status": "官网检索",
+      "source_type": "政府公告",
+      "kg_id": "mineral-20261125-v1:S28",
+      "label": "Source",
+      "title": "国防部与 MP Materials 合作协议",
+      "url": "https://www.defense.gov/",
+      "source_ids": [
+        "S28"
+      ],
+      "name": "国防部与 MP Materials 合作协议",
+      "publisher": "美国国防部",
+      "used_for": "05 稀土产业政策",
+      "authority_level": "A",
+      "source_id": "S28",
+      "id": "S28",
+      "dataset": "mineral-20261125-v1",
+      "publish_date": "2025-07-10"
+    }
+  ],
+  "limitations": "这是原数据登记的政策与目标国关联，不表示所有政策在查询日仍有效；缺少逐条政策失效更新记录。"
+}

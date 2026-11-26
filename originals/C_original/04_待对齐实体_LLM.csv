@@ -1,0 +1,22 @@
+﻿triple_id,subject_id,subject_name,predicate,object_id,object_name,evidence,source_id,value_status
+E0005,NEW:球化石墨,球化石墨,受管制于,PE_20231201_CN_GRA,中国对石墨物项实施出口管制,天然鳞片石墨及其制品（包含球化石墨、膨胀石墨等）,S11,待核对
+E0006,NEW:球化石墨,球化石墨,需要,M_GRA,石墨,天然鳞片石墨及其制品（包含球化石墨、膨胀石墨等）,S11,待核对
+E0007,NEW:膨胀石墨,膨胀石墨,需要,M_GRA,石墨,天然鳞片石墨及其制品（包含球化石墨、膨胀石墨等）,S11,待核对
+E0013,CO_HUAYOU,华友钴业,控股,NEW:Prospect Lithium Zimbabwe,Prospect Lithium Zimbabwe,"Prospect Lithium Zimbabwe, owned by China's Zhejiang Huayou Cobalt",S12,待核对
+E0014,CO_HUAYOU,华友钴业,供应,NEW:硫酸锂,硫酸锂,a refinery by Zhejiang Huayou Cobalt — Africa's first lithium sulphate processing facility,S12,待核对
+E0015,NEW:盛新锂能,盛新锂能,供应,NEW:津巴布韦锂精矿,津巴布韦锂精矿,a $300 million investment from Chengxin Lithium（盛新锂能在津巴布韦投资锂矿加工）,S12,待核对
+E0017,NEW:锂精矿,锂精矿,受管制于,PE_20221220_ZW_LI,津巴布韦禁止未加工锂矿出口,"on 10 June 2025, the government announced that exports of lithium concentrates would also be prohibited from January 2027",S12,待核对
+E0021,NEW:钐钴永磁材料,钐钴永磁材料,需要,M_CO,钴,含钐的合金：a.钐钴合金……4.钐钴永磁材料,S13,待核对
+E0022,NEW:钐钴永磁材料,钐钴永磁材料,需要,M_RE,稀土,钐相关物项：金属钐、含钐的合金及相关制品……钐钴永磁材料,S13,待核对
+E0023,NEW:钕铁硼永磁材料,钕铁硼永磁材料,需要,M_RE,稀土,含铽的钕铁硼永磁材料；含镝的钕铁硼永磁材料,S13,待核对
+E0024,NEW:钕铁硼永磁材料,钕铁硼永磁材料,受管制于,PE_20250404_CN_RE,中国对 7 类中重稀土实施出口管制,三、铽相关物项……含铽的钕铁硼永磁材料,S13,待核对
+E0025,NEW:氧化钇,氧化钇,受管制于,PE_20250404_CN_RE,中国对 7 类中重稀土实施出口管制,（二）1C908.b 氧化钇及其混合物,S13,待核对
+E0026,PE_20230817_EU_BATREG,欧盟《新电池法规》生效,发布于,NEW:欧盟,欧盟,"Regulation (EU) 2023/1542, the EU Battery Regulation（欧盟立法，非成员国）",S20,待核对
+E0051,CO_CMOC,洛阳钼业,出产,M_CO,钴,"Chinese mining giant CMOC, the world's largest cobalt producer with two mines in the DRC",S23,待核对
+E0052,CO_CMOC,洛阳钼业,控股,NEW:IXM,IXM,its trading arm IXM declared force majeure on cobalt delivery contracts,S23,待核对
+E0053,NEW:嘉能可,嘉能可,出产,M_CO,钴,"Glencore, the second-largest cobalt producer, stockpiled its DRC cobalt",S23,待核对
+E0059,C_CHL,智利,控股,NEW:Codelco,Codelco,state copper company Codelco（智利国有铜业公司）,S24,待核对
+E0060,NEW:Codelco,Codelco,控股,NEW:Salar Futuro,Salar Futuro,from 2031 to 2060 Codelco holds 50 percent plus one share,S24,待核对
+E0061,CO_SQM,SQM,控股,NEW:Salar Futuro,Salar Futuro,The Codelco–SQM joint venture (Salar Futuro / Nova Andino Litio),S24,待核对
+E0063,NEW:Codelco,Codelco,控股,NEW:Lithium Power International,Lithium Power International,"In October 2023, Codelco acquired Lithium Power International",S24,待核对
+E0064,CO_SQM,SQM,供应,M_LI,锂,the Salar de Atacama operations supplying about 20% of world lithium production,S24,待核对

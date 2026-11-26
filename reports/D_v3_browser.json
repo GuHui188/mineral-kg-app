@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": [
+    "defaults_include_review_and_future",
+    "scenario_candidate_tab",
+    "lithium_four_candidates",
+    "all_workspaces"
+  ],
+  "page_errors": []
+}

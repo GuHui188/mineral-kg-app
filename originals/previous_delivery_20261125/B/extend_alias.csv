@@ -1,0 +1,17 @@
+﻿entity_id,alias,basis,status
+C_IDN,印尼,通用中文简称,确认
+C_COD,刚果金,通用中文简称（括号简写）,确认
+C_COD,刚果(金),通用中文写法变体,确认
+C_COD,刚果民主共和国,正式国名,确认
+C_COD,DRC,国际通用缩写（Democratic Republic of the Congo）,确认
+C_USA,美利坚,正式国名简称,确认
+C_USA,USA,国际通用缩写,确认
+C_RUS,俄国,通用中文简称,确认
+C_AUS,澳洲,通用中文别称,确认
+C_KOR,南韩,通用中文别称,确认
+M_RE,稀土元素,通用全称,确认
+M_RE,REE,国际通用缩写（Rare Earth Elements）,确认
+M_GRA,天然石墨,USGS口径全称（与03表name_en对应）,确认
+C_PHL,菲国,中文媒体偶用,待核实
+C_ZWE,津国,偶见简称,待核实
+P_LI_CONC,津巴布韦锂精矿,A v3产品P_LI_CONC备注及B v6.1 E0015已明确合并；只对齐名称，不改变E0015错误/不导入结论,确认

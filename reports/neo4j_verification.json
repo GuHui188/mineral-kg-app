@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "tested_at_utc": "2026-11-25T05:44:46.707317+00:00",
+  "dataset": "mineral-20261125-v1",
+  "database": "neo4j",
+  "actual_import": {
+    "nodes": 149,
+    "edges": 618
+  },
+  "second_import": {
+    "nodes": 149,
+    "edges": 618
+  },
+  "idempotence": true,
+  "cypher_templates_executed": 12,
+  "semantic_checks_passed": 12,
+  "d_intents_executed": 8,
+  "simulation_parity": [
+    {
+      "country": "刚果金",
+      "mineral": "钴",
+      "passed": true
+    },
+    {
+      "country": "中国",
+      "mineral": "石墨",
+      "passed": true
+    },
+    {
+      "country": "澳大利亚",
+      "mineral": "锂",
+      "passed": true
+    }
+  ],
+  "sha256": "6436886e28daa2ac345658a939696fb6e0ab13252cd3bf0913e47d2a089d27fb"
+}

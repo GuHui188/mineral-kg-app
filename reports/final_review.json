@@ -1,0 +1,23 @@
+{
+  "finalized_at_utc": "2026-11-25T07:33:26.682726+00:00",
+  "input_uploaded_zip_sha256": "37ce5b481ae132e6c6e38d0598e01792f4c66fe1ea2f6dca40c972a3b67de626",
+  "original_delivery_files_unchanged": 74,
+  "business_data_changed_in_finalization": false,
+  "A_csv_unchanged_since_upload": true,
+  "B_raw_audit_unchanged": true,
+  "offline_regression_tests": 22,
+  "offline_tests_passed": true,
+  "saved_windows_neo4j_receipt_passed": true,
+  "windows_tested_at_utc": "2026-11-25T05:44:46.707317+00:00",
+  "saved_cypher_template_results": 12,
+  "saved_query_semantic_checks": 12,
+  "saved_database_D_examples": 8,
+  "saved_database_scenarios": 3,
+  "database_retested_in_cloud": false,
+  "graph_sha256": "6436886e28daa2ac345658a939696fb6e0ab13252cd3bf0913e47d2a089d27fb",
+  "word_pages_visually_checked": 6,
+  "A_quality_report_pages_visually_checked": 1,
+  "unresolved_materials": "reports/missing_materials.csv",
+  "new_binary_dump_generated": false,
+  "complete_D_web_application_delivered": false
+}

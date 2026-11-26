@@ -1,0 +1,513 @@
+{
+  "intent": "substitution",
+  "template": "Q08",
+  "parameters": {
+    "mineral": "钴"
+  },
+  "backend": "snapshot",
+  "dataset": "mineral-20261125-v1",
+  "as_of": "2026-11-25",
+  "answer": "有条件的技术替代：返回2条记录。均为需适配的技术路线候选；当前供给量及切换成本未知。",
+  "rows": [
+    {
+      "alternative_id": "P_LFP_CELL",
+      "alternative": "磷酸铁锂电池（电芯）",
+      "replaces_id": "P_NCM_CELL",
+      "replaces": "三元电池（电芯）",
+      "edge_id": "R0210",
+      "condition": "LFP电芯可在接受相应性能取舍、重新适配的场景替代三元电芯；在本包矿种范围可绕开镍钴。",
+      "source_ids": [
+        "S10"
+      ],
+      "review_flag": false,
+      "scope": "技术路线候选；需要工艺/性能适配；未证明现有产能可以立即切换。"
+    },
+    {
+      "alternative_id": "P_LFP_CATH",
+      "alternative": "磷酸铁锂正极材料",
+      "replaces_id": "P_NCM",
+      "replaces": "三元正极材料",
+      "edge_id": "R0211",
+      "condition": "磷酸铁锂正极路线可在重新设计配方与工艺的条件下替代三元正极路线，属于无镍钴技术路线。",
+      "source_ids": [
+        "S18"
+      ],
+      "review_flag": false,
+      "scope": "技术路线候选；需要工艺/性能适配；未证明现有产能可以立即切换。"
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "mineral_id": "M_CO",
+        "name_zh": "钴",
+        "name_en": "Cobalt",
+        "symbol": "Co",
+        "unit": "吨（Co 金属量）",
+        "world_production_2025": 310000.0,
+        "world_reserve": 12000000.0,
+        "top1_country": "刚果（金）",
+        "top1_share": 74.19,
+        "hhi": 5718.0,
+        "battery_role": "三元正极中稳定晶体结构",
+        "note": "刚果（金）占产量约 74%",
+        "source_id": "S02",
+        "valid_year": 2025.0,
+        "confidence": 0.95,
+        "hhi_scope": "已收录国家产量份额的平方和，非完整全球HHI",
+        "hhi_coverage_pct": 96.38,
+        "hhi_recomputed": 5717.79,
+        "id": "M_CO",
+        "label": "Mineral",
+        "dataset": "mineral-20261125-v1",
+        "name": "钴",
+        "source_ids": [
+          "S02"
+        ]
+      },
+      {
+        "product_id": "P_NCM",
+        "name_zh": "三元正极材料",
+        "name_en": "NCM/NCA cathode",
+        "product_category": "材料",
+        "chemistry": "NCM/NCA",
+        "key_minerals": "镍|钴|锂",
+        "contains_cobalt": "Y",
+        "note": "高镍化是降钴主路径（Ni≥8 系）",
+        "source_id": "S18",
+        "valid_year": 2025.0,
+        "confidence": 0.9,
+        "conditional_minerals": null,
+        "dependency_scope_complete": true,
+        "id": "P_NCM",
+        "label": "Product",
+        "dataset": "mineral-20261125-v1",
+        "name": "三元正极材料",
+        "source_ids": [
+          "S18"
+        ]
+      },
+      {
+        "product_id": "P_LFP_CATH",
+        "name_zh": "磷酸铁锂正极材料",
+        "name_en": "LFP cathode",
+        "product_category": "材料",
+        "chemistry": "LiFePO4",
+        "key_minerals": "锂",
+        "contains_cobalt": "N",
+        "note": "不含镍钴，成本与安全占优",
+        "source_id": "S18",
+        "valid_year": 2025.0,
+        "confidence": 0.9,
+        "conditional_minerals": null,
+        "dependency_scope_complete": true,
+        "id": "P_LFP_CATH",
+        "label": "Product",
+        "dataset": "mineral-20261125-v1",
+        "name": "磷酸铁锂正极材料",
+        "source_ids": [
+          "S18"
+        ]
+      },
+      {
+        "product_id": "P_NCM_CELL",
+        "name_zh": "三元电池（电芯）",
+        "name_en": "NCM cell",
+        "product_category": "电芯",
+        "chemistry": "NCM",
+        "key_minerals": "镍|钴|锂|铜",
+        "contains_cobalt": "Y",
+        "note": "能量密度高，钴依赖是主要风险",
+        "source_id": "S10",
+        "valid_year": 2025.0,
+        "confidence": 0.9,
+        "conditional_minerals": null,
+        "dependency_scope_complete": true,
+        "id": "P_NCM_CELL",
+        "label": "Product",
+        "dataset": "mineral-20261125-v1",
+        "name": "三元电池（电芯）",
+        "source_ids": [
+          "S10"
+        ]
+      },
+      {
+        "product_id": "P_LFP_CELL",
+        "name_zh": "磷酸铁锂电池（电芯）",
+        "name_en": "LFP cell",
+        "product_category": "电芯",
+        "chemistry": "LFP",
+        "key_minerals": "锂|铜",
+        "contains_cobalt": "N",
+        "note": "2025 年中国装机占比已超七成",
+        "source_id": "S10",
+        "valid_year": 2025.0,
+        "confidence": 0.9,
+        "conditional_minerals": null,
+        "dependency_scope_complete": true,
+        "id": "P_LFP_CELL",
+        "label": "Product",
+        "dataset": "mineral-20261125-v1",
+        "name": "磷酸铁锂电池（电芯）",
+        "source_ids": [
+          "S10"
+        ]
+      },
+      {
+        "source_id": "S10",
+        "source_type": "企业披露",
+        "title": "宁德时代/比亚迪/特斯拉/亿纬/国轩 年度报告",
+        "publisher": "巨潮资讯网、公司 IR",
+        "publish_date": "2026-03",
+        "url": "http://www.cninfo.com.cn/",
+        "url_status": "官网检索",
+        "accessed_date": "2026-11-12",
+        "authority_level": "B",
+        "used_for": "02/06 企业与供应关系",
+        "note": "年报口径，供应关系为公开披露的客户结构",
+        "id": "S10",
+        "label": "Source",
+        "dataset": "mineral-20261125-v1",
+        "name": "宁德时代/比亚迪/特斯拉/亿纬/国轩 年度报告",
+        "source_ids": [
+          "S10"
+        ]
+      },
+      {
+        "source_id": "S18",
+        "source_type": "企业披露",
+        "title": "华友钴业/洛阳钼业/容百/当升/裕能/德方/格林美 年报",
+        "publisher": "巨潮资讯网",
+        "publish_date": "2026-03",
+        "url": "http://www.cninfo.com.cn/",
+        "url_status": "官网检索",
+        "accessed_date": "2026-11-12",
+        "authority_level": "B",
+        "used_for": "02/06 材料与供应关系",
+        "note": "客户结构来自年报“主要客户”披露",
+        "id": "S18",
+        "label": "Source",
+        "dataset": "mineral-20261125-v1",
+        "name": "华友钴业/洛阳钼业/容百/当升/裕能/德方/格林美 年报",
+        "source_ids": [
+          "S18"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "triple_id": "R0209",
+        "subject_id": "P_NCM_CELL",
+        "subject_name": "三元电池（电芯）",
+        "predicate": "可替代",
+        "object_id": "P_LFP_CELL",
+        "object_name": "磷酸铁锂电池（电芯）",
+        "quantity": null,
+        "unit": "—",
+        "share_pct": null,
+        "ratio_pct": null,
+        "since_year": null,
+        "data_year": 2025.0,
+        "evidence_type": "年报披露",
+        "source_id": "S10",
+        "confidence": 0.85,
+        "value_status": "估计",
+        "note": "三元电芯可在追求能量密度的车型设计中替代LFP电芯；须重新适配，不属于绕开镍钴的方案。",
+        "mineral_id": null,
+        "hold_ratio_pct": null,
+        "review_flag": false,
+        "original_data_year": 2025.0,
+        "collection_year": 2026.0,
+        "stat_year": null,
+        "substitution_condition": "三元电芯可在追求能量密度的车型设计中替代LFP电芯；须重新适配，不属于绕开镍钴的方案。",
+        "id": "R0209",
+        "source": "P_NCM_CELL",
+        "target": "P_LFP_CELL",
+        "type": "SUBSTITUTES",
+        "record_ids": [
+          "R0209"
+        ],
+        "origin": "A.fact",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S10"
+        ]
+      },
+      {
+        "triple_id": "R0210",
+        "subject_id": "P_LFP_CELL",
+        "subject_name": "磷酸铁锂电池（电芯）",
+        "predicate": "可替代",
+        "object_id": "P_NCM_CELL",
+        "object_name": "三元电池（电芯）",
+        "quantity": null,
+        "unit": "—",
+        "share_pct": null,
+        "ratio_pct": null,
+        "since_year": null,
+        "data_year": 2025.0,
+        "evidence_type": "年报披露",
+        "source_id": "S10",
+        "confidence": 0.85,
+        "value_status": "估计",
+        "note": "LFP电芯可在接受相应性能取舍、重新适配的场景替代三元电芯；在本包矿种范围可绕开镍钴。",
+        "mineral_id": null,
+        "hold_ratio_pct": null,
+        "review_flag": false,
+        "original_data_year": 2025.0,
+        "collection_year": 2026.0,
+        "stat_year": null,
+        "substitution_condition": "LFP电芯可在接受相应性能取舍、重新适配的场景替代三元电芯；在本包矿种范围可绕开镍钴。",
+        "id": "R0210",
+        "source": "P_LFP_CELL",
+        "target": "P_NCM_CELL",
+        "type": "SUBSTITUTES",
+        "record_ids": [
+          "R0210"
+        ],
+        "origin": "A.fact",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S10"
+        ]
+      },
+      {
+        "triple_id": "R0211",
+        "subject_id": "P_LFP_CATH",
+        "subject_name": "磷酸铁锂正极材料",
+        "predicate": "可替代",
+        "object_id": "P_NCM",
+        "object_name": "三元正极材料",
+        "quantity": null,
+        "unit": "—",
+        "share_pct": null,
+        "ratio_pct": null,
+        "since_year": null,
+        "data_year": 2025.0,
+        "evidence_type": "年报披露",
+        "source_id": "S18",
+        "confidence": 0.85,
+        "value_status": "估计",
+        "note": "磷酸铁锂正极路线可在重新设计配方与工艺的条件下替代三元正极路线，属于无镍钴技术路线。",
+        "mineral_id": null,
+        "hold_ratio_pct": null,
+        "review_flag": false,
+        "original_data_year": 2025.0,
+        "collection_year": 2026.0,
+        "stat_year": null,
+        "substitution_condition": "磷酸铁锂正极路线可在重新设计配方与工艺的条件下替代三元正极路线，属于无镍钴技术路线。",
+        "id": "R0211",
+        "source": "P_LFP_CATH",
+        "target": "P_NCM",
+        "type": "SUBSTITUTES",
+        "record_ids": [
+          "R0211"
+        ],
+        "origin": "A.fact",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S18"
+        ]
+      },
+      {
+        "source_id": "S18",
+        "confidence": 0.9,
+        "review_flag": false,
+        "note": "由产品表确定依赖生成；本项目七矿种范围。",
+        "id": "DREQ_P_NCM_M_CO",
+        "source": "P_NCM",
+        "target": "M_CO",
+        "type": "REQUIRES",
+        "record_ids": [
+          "DREQ_P_NCM_M_CO"
+        ],
+        "origin": "A.product.derived",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S18"
+        ]
+      },
+      {
+        "source_id": "S10",
+        "confidence": 0.9,
+        "review_flag": false,
+        "note": "由产品表确定依赖生成；本项目七矿种范围。",
+        "id": "DREQ_P_NCM_CELL_M_CO",
+        "source": "P_NCM_CELL",
+        "target": "M_CO",
+        "type": "REQUIRES",
+        "record_ids": [
+          "DREQ_P_NCM_CELL_M_CO"
+        ],
+        "origin": "A.product.derived",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S10"
+        ]
+      },
+      {
+        "source_id": "S10",
+        "review_flag": false,
+        "id": "CITE_M_CO_S10",
+        "source": "M_CO",
+        "target": "S10",
+        "type": "CITES",
+        "record_ids": [
+          "CITE_M_CO_S10"
+        ],
+        "origin": "derived.navigation",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S10"
+        ]
+      },
+      {
+        "source_id": "S18",
+        "review_flag": false,
+        "id": "CITE_M_CO_S18",
+        "source": "M_CO",
+        "target": "S18",
+        "type": "CITES",
+        "record_ids": [
+          "CITE_M_CO_S18"
+        ],
+        "origin": "derived.navigation",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S18"
+        ]
+      },
+      {
+        "source_id": "S18",
+        "review_flag": false,
+        "id": "CITE_P_LFP_CATH_S18",
+        "source": "P_LFP_CATH",
+        "target": "S18",
+        "type": "CITES",
+        "record_ids": [
+          "CITE_P_LFP_CATH_S18"
+        ],
+        "origin": "derived.navigation",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S18"
+        ]
+      },
+      {
+        "source_id": "S10",
+        "review_flag": false,
+        "id": "CITE_P_LFP_CELL_S10",
+        "source": "P_LFP_CELL",
+        "target": "S10",
+        "type": "CITES",
+        "record_ids": [
+          "CITE_P_LFP_CELL_S10"
+        ],
+        "origin": "derived.navigation",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S10"
+        ]
+      },
+      {
+        "source_id": "S18",
+        "review_flag": false,
+        "id": "CITE_P_NCM_S18",
+        "source": "P_NCM",
+        "target": "S18",
+        "type": "CITES",
+        "record_ids": [
+          "CITE_P_NCM_S18"
+        ],
+        "origin": "derived.navigation",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S18"
+        ]
+      },
+      {
+        "source_id": "S10",
+        "review_flag": false,
+        "id": "CITE_P_NCM_CELL_S10",
+        "source": "P_NCM_CELL",
+        "target": "S10",
+        "type": "CITES",
+        "record_ids": [
+          "CITE_P_NCM_CELL_S10"
+        ],
+        "origin": "derived.navigation",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S10"
+        ]
+      }
+    ]
+  },
+  "highlight_paths": [
+    {
+      "node_ids": [
+        "P_LFP_CELL",
+        "P_NCM_CELL",
+        "M_CO"
+      ],
+      "edge_ids": [
+        "R0210",
+        "DREQ_P_NCM_CELL_M_CO"
+      ]
+    },
+    {
+      "node_ids": [
+        "P_LFP_CATH",
+        "P_NCM",
+        "M_CO"
+      ],
+      "edge_ids": [
+        "R0211",
+        "DREQ_P_NCM_M_CO"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "S10",
+      "source_type": "企业披露",
+      "title": "宁德时代/比亚迪/特斯拉/亿纬/国轩 年度报告",
+      "publisher": "巨潮资讯网、公司 IR",
+      "publish_date": "2026-03",
+      "url": "http://www.cninfo.com.cn/",
+      "url_status": "官网检索",
+      "accessed_date": "2026-11-12",
+      "authority_level": "B",
+      "used_for": "02/06 企业与供应关系",
+      "note": "年报口径，供应关系为公开披露的客户结构",
+      "id": "S10",
+      "label": "Source",
+      "dataset": "mineral-20261125-v1",
+      "name": "宁德时代/比亚迪/特斯拉/亿纬/国轩 年度报告",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "source_id": "S18",
+      "source_type": "企业披露",
+      "title": "华友钴业/洛阳钼业/容百/当升/裕能/德方/格林美 年报",
+      "publisher": "巨潮资讯网",
+      "publish_date": "2026-03",
+      "url": "http://www.cninfo.com.cn/",
+      "url_status": "官网检索",
+      "accessed_date": "2026-11-12",
+      "authority_level": "B",
+      "used_for": "02/06 材料与供应关系",
+      "note": "客户结构来自年报“主要客户”披露",
+      "id": "S18",
+      "label": "Source",
+      "dataset": "mineral-20261125-v1",
+      "name": "华友钴业/洛阳钼业/容百/当升/裕能/德方/格林美 年报",
+      "source_ids": [
+        "S18"
+      ]
+    }
+  ],
+  "limitations": "均为需适配的技术路线候选；当前供给量及切换成本未知。"
+}

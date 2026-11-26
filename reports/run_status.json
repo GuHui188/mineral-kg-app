@@ -1,0 +1,13 @@
+{
+  "offline_rebuild": "passed",
+  "data_validation": "passed",
+  "B_saved_json_replay": "passed",
+  "B_alias_alignment": "passed",
+  "B_metrics": "passed",
+  "regression_tests": "passed",
+  "d_eight_templates": "passed",
+  "neo4j_actual_import": "passed",
+  "neo4j_cypher_execution": "passed",
+  "external_llm": "not_called",
+  "unverifiable_materials": "see reports/missing_materials.csv"
+}

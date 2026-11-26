@@ -1,0 +1,66 @@
+﻿triple_id,subject_id,subject_name,predicate,object_id,object_name,evidence,source_id,value_status,人工判定,support_of,import_flag,review_flag
+E0001,M_GRA,石墨,受管制于,PE_20231201_CN_GRA,中国对石墨物项实施出口管制,对部分物项实施出口管制……（二）天然鳞片石墨及其制品,S11,待核对,正确,R0193,否,False
+E0002,PE_20231201_CN_GRA,中国对石墨物项实施出口管制,发布于,C_CHN,中国,商务部 海关总署公告2023年第39号……经国务院批准,S11,待核对,正确,05表自动生成(issuing_country),否,False
+E0003,P_GRA_ANODE,人造石墨负极,需要,M_GRA,石墨,高纯度、高强度、高密度的人造石墨材料及其制品,S11,待核对,错误,,否,False
+E0004,P_GRA_ANODE,人造石墨负极,受管制于,PE_20231201_CN_GRA,中国对石墨物项实施出口管制,（一）高纯度（纯度>99.9%）……的人造石墨材料及其制品,S11,待核对,部分正确,,是,True
+E0005,P_SPH_GRAPHITE,球化石墨,受管制于,PE_20231201_CN_GRA,中国对石墨物项实施出口管制,天然鳞片石墨及其制品（包含球化石墨、膨胀石墨等）,S11,待核对,正确,,是,False
+E0006,P_SPH_GRAPHITE,球化石墨,需要,M_GRA,石墨,天然鳞片石墨及其制品（包含球化石墨、膨胀石墨等）,S11,待核对,部分正确,,是,True
+E0007,P_EXP_GRAPHITE,膨胀石墨,需要,M_GRA,石墨,天然鳞片石墨及其制品（包含球化石墨、膨胀石墨等）,S11,待核对,部分正确,,是,True
+E0008,PE_20231201_CN_GRA,中国对石墨物项实施出口管制,作用于,C_CHN,中国,出口经营者应按照相关规定办理出口许可手续，通过省级商务主管部门向商务部提出申请,S11,待核对,错误,,否,False
+E0009,M_LI,锂,受管制于,PE_20221220_ZW_LI,津巴布韦禁止未加工锂矿出口,"banned exports of raw, unprocessed lithium ore under Statutory Instrument 213 of 2022",S12,待核对,正确,R0200,否,False
+E0010,PE_20221220_ZW_LI,津巴布韦禁止未加工锂矿出口,发布于,C_ZWE,津巴布韦,the Base Minerals Export Control (Unbeneficiated Lithium Bearing Ores) Order（津巴布韦矿业与矿业发展部）,S12,待核对,正确,05表自动生成(issuing_country),否,False
+E0011,C_ZWE,津巴布韦,出产,M_LI,锂,Zimbabwe is Africa's leading lithium producer,S12,待核对,正确,R0043,否,False
+E0012,C_ZWE,津巴布韦,出口至,C_CHN,中国,accounting for approximately 15% of China's total lithium import volumes in 2025,S12,待核对,正确,R0148,否,False
+E0013,CO_HUAYOU,华友钴业,控股,CO_PROSPECT_LZ,Prospect Lithium Zimbabwe,"Prospect Lithium Zimbabwe, owned by China's Zhejiang Huayou Cobalt",S12,待核对,正确,,是,False
+E0014,CO_HUAYOU,华友钴业,供应,P_LI2SO4,硫酸锂,a refinery by Zhejiang Huayou Cobalt — Africa's first lithium sulphate processing facility,S12,待核对,部分正确,,是,True
+E0015,CO_CHENGXIN,盛新锂能,供应,P_LI_CONC,津巴布韦锂精矿,a $300 million investment from Chengxin Lithium（盛新锂能在津巴布韦投资锂矿加工）,S12,待核对,错误,,否,False
+E0016,C_ZWE,津巴布韦,出口至,C_ZAF,南非,initially to curb smuggling into South Africa and Mozambique,S12,待核对,错误,,否,False
+E0017,P_LI_CONC,锂精矿,受管制于,PE_20221220_ZW_LI,津巴布韦禁止未加工锂矿出口,"on 10 June 2025, the government announced that exports of lithium concentrates would also be prohibited from January 2027",S12,待核对,部分正确,,是,True
+E0018,M_RE,稀土,受管制于,PE_20250404_CN_RE,中国对 7 类中重稀土实施出口管制,决定对下列物项实施出口管制：一、钐相关物项……七、钇相关物项,S13,待核对,正确,R0194,否,False
+E0019,PE_20250404_CN_RE,中国对 7 类中重稀土实施出口管制,发布于,C_CHN,中国,商务部 海关总署公告2025年第18号……经国务院批准,S13,待核对,正确,05表自动生成(issuing_country),否,False
+E0020,PE_20250404_CN_RE,中国对 7 类中重稀土实施出口管制,作用于,C_CHN,中国,本公告自发布之日起正式实施（中国境内出口经营者须申请许可）,S13,待核对,错误,,否,False
+E0021,P_SMCO_MAGNET,钐钴永磁材料,需要,M_CO,钴,含钐的合金：a.钐钴合金……4.钐钴永磁材料,S13,待核对,错误,,否,False
+E0022,P_SMCO_MAGNET,钐钴永磁材料,需要,M_RE,稀土,钐相关物项：金属钐、含钐的合金及相关制品……钐钴永磁材料,S13,待核对,错误,,否,False
+E0023,P_NDFEB_MAGNET,钕铁硼永磁材料,需要,M_RE,稀土,含铽的钕铁硼永磁材料；含镝的钕铁硼永磁材料,S13,待核对,错误,,否,False
+E0024,P_NDFEB_MAGNET,钕铁硼永磁材料,受管制于,PE_20250404_CN_RE,中国对 7 类中重稀土实施出口管制,三、铽相关物项……含铽的钕铁硼永磁材料,S13,待核对,部分正确,,是,True
+E0025,P_Y2O3,氧化钇,受管制于,PE_20250404_CN_RE,中国对 7 类中重稀土实施出口管制,（二）1C908.b 氧化钇及其混合物,S13,待核对,正确,,是,False
+E0026,PE_20230817_EU_BATREG,欧盟《新电池法规》生效,发布于,C_EU,欧盟,"Regulation (EU) 2023/1542, the EU Battery Regulation（欧盟立法，非成员国）",S20,待核对,正确,05表自动生成(issuing_country),否,False
+E0027,P_EV,新能源整车,受管制于,PE_20230817_EU_BATREG,欧盟《新电池法规》生效,every EV battery... must carry a registered digital battery passport,S20,待核对,正确,,是,False
+E0028,P_NCM_CELL,三元电池（电芯）,受管制于,PE_20230817_EU_BATREG,欧盟《新电池法规》生效,"batteries of every category placed on the EU market: portable, LMT, EV, industrial and SLI",S20,待核对,正确,R0207,否,False
+E0029,P_LFP_CELL,磷酸铁锂电池（电芯）,受管制于,PE_20230817_EU_BATREG,欧盟《新电池法规》生效,batteries of every category placed on the EU market,S20,待核对,正确,,是,False
+E0030,M_CO,钴,受管制于,PE_20230817_EU_BATREG,欧盟《新电池法规》生效,"due-diligence policies for the origin and impact of cobalt, natural graphite, lithium and nickel",S20,待核对,正确,R0198,否,False
+E0031,M_LI,锂,受管制于,PE_20230817_EU_BATREG,欧盟《新电池法规》生效,"due-diligence policies for the origin and impact of cobalt, natural graphite, lithium and nickel",S20,待核对,正确,,是,False
+E0032,M_NI,镍,受管制于,PE_20230817_EU_BATREG,欧盟《新电池法规》生效,"due-diligence policies for the origin and impact of cobalt, natural graphite, lithium and nickel",S20,待核对,正确,,是,False
+E0033,M_GRA,石墨,受管制于,PE_20230817_EU_BATREG,欧盟《新电池法规》生效,"due-diligence policies for the origin and impact of cobalt, natural graphite, lithium and nickel",S20,待核对,正确,,是,False
+E0034,PE_20230817_EU_BATREG,欧盟《新电池法规》生效,作用于,C_DEU,德国,It applies directly in all Member States（德国为成员国之一）,S20,待核对,正确,,是,False
+E0035,PE_20230817_EU_BATREG,欧盟《新电池法规》生效,作用于,C_CHN,中国,对中国出口欧盟电池产品构成合规要求（据上下文推断）,S20,待核对,错误,05表自动生成(target_country),否,False
+E0036,PE_20220816_US_IRA,美国《通胀削减法案》签署,发布于,C_USA,美国,"The Inflation Reduction Act of 2022 (IRA), signed on August 16, 2022",S21,待核对,正确,05表自动生成(issuing_country),否,False
+E0037,PE_20220816_US_IRA,美国《通胀削减法案》签署,作用于,C_CHN,中国,"a government of a covered nation — North Korea, Iran, Russia and China",S21,待核对,正确,05表自动生成(target_country),否,False
+E0038,P_EV,新能源整车,受管制于,PE_20220816_US_IRA,美国《通胀削减法案》签署,an eligible clean vehicle may not contain any battery components manufactured or assembled by a FEOC,S21,待核对,正确,,是,False
+E0039,P_NCM_CELL,三元电池（电芯）,受管制于,PE_20220816_US_IRA,美国《通胀削减法案》签署,no battery components were sourced from an FEOC beginning in 2024,S21,待核对,正确,,是,False
+E0040,P_LFP_CELL,磷酸铁锂电池（电芯）,受管制于,PE_20220816_US_IRA,美国《通胀削减法案》签署,no battery components were sourced from an FEOC beginning in 2024,S21,待核对,正确,R0206,否,False
+E0041,M_LI,锂,受管制于,PE_20220816_US_IRA,美国《通胀削减法案》签署,no critical minerals were sourced from an FEOC beginning in 2025,S21,待核对,正确,R0202,否,False
+E0042,M_CO,钴,受管制于,PE_20220816_US_IRA,美国《通胀削减法案》签署,no critical minerals were sourced from an FEOC beginning in 2025,S21,待核对,正确,,是,False
+E0043,M_NI,镍,受管制于,PE_20220816_US_IRA,美国《通胀削减法案》签署,no critical minerals were sourced from an FEOC beginning in 2025,S21,待核对,正确,,是,False
+E0044,M_GRA,石墨,受管制于,PE_20220816_US_IRA,美国《通胀削减法案》签署,no critical minerals were sourced from an FEOC beginning in 2025,S21,待核对,正确,,是,False
+E0045,PE_20220816_US_IRA,美国《通胀削减法案》签署,作用于,C_RUS,俄罗斯,"a covered nation is defined as North Korea, Iran, Russia and China",S21,待核对,正确,,是,False
+E0046,M_CO,钴,受管制于,PE_20250222_CD_CO,刚果（金）暂停钴出口,suspending the export of cobalt from the Democratic Republic of Congo,S23,待核对,正确,R0196,否,False
+E0047,PE_20250222_CD_CO,刚果（金）暂停钴出口,发布于,C_COD,刚果（金）,"ARECOMS imposed Decision No. 001/ARECOMS/2025 of February 22, 2025",S23,待核对,正确,05表自动生成(issuing_country),否,False
+E0048,M_CO,钴,受管制于,PE_20251015_CD_COQUOTA,刚果（金）以出口配额取代钴出口禁令,"a new policy establishing an export quota, to be implemented from 16 October 2025",S23,待核对,正确,R0197,否,False
+E0049,PE_20251015_CD_COQUOTA,刚果（金）以出口配额取代钴出口禁令,发布于,C_COD,刚果（金）,"On 21 September 2025, ARECOMS extended the ban further to 15 October 2025, along with a new policy establishing an export quota",S23,待核对,正确,05表自动生成(issuing_country),否,False
+E0050,C_COD,刚果（金）,出产,M_CO,钴,The Democratic Republic of Congo accounts for about three quarters of global cobalt supply,S23,待核对,正确,R0023,否,False
+E0051,CO_CMOC,洛阳钼业,出产,M_CO,钴,"Chinese mining giant CMOC, the world's largest cobalt producer with two mines in the DRC",S23,待核对,正确,,是,False
+E0052,CO_CMOC,洛阳钼业,控股,CO_IXM,IXM,its trading arm IXM declared force majeure on cobalt delivery contracts,S23,待核对,正确,,是,False
+E0053,CO_GLENCORE,嘉能可,出产,M_CO,钴,"Glencore, the second-largest cobalt producer, stockpiled its DRC cobalt",S23,待核对,正确,,是,False
+E0054,PE_20251015_CD_COQUOTA,刚果（金）以出口配额取代钴出口禁令,作用于,C_CHN,中国,"China's CMOC Group, the world's largest cobalt producer with two mines in the DRC, has been among the most affected",S23,待核对,部分正确,05表自动生成(target_country),否,True
+E0055,C_COD,刚果（金）,出口至,C_CHN,中国,"cobalt hydroxide, the main product exported from the DRC（主要流向中国冶炼，据上下文）",S23,待核对,部分正确,R0145,否,True
+E0056,M_LI,锂,受管制于,PE_20230420_CL_LI,智利发布《国家锂战略》,mandating state majority control in strategically significant lithium projects,S24,待核对,正确,R0201,否,False
+E0057,PE_20230420_CL_LI,智利发布《国家锂战略》,发布于,C_CHL,智利,"In April 2023, Chile announced its National Lithium Strategy",S24,待核对,正确,05表自动生成(issuing_country),否,False
+E0058,C_CHL,智利,出产,M_LI,锂,Chile is the world's second-largest lithium producer after Australia,S24,待核对,正确,R0015,否,False
+E0059,C_CHL,智利,控股,CO_CODELCO,Codelco,state copper company Codelco（智利国有铜业公司）,S24,待核对,正确,,是,False
+E0060,CO_CODELCO,Codelco,控股,CO_SALAR_FUTURO,Salar Futuro,from 2031 to 2060 Codelco holds 50 percent plus one share,S24,待核对,正确,,是,False
+E0061,CO_SQM,SQM,控股,CO_SALAR_FUTURO,Salar Futuro,The Codelco–SQM joint venture (Salar Futuro / Nova Andino Litio),S24,待核对,错误,,否,False
+E0062,CO_TIANQI,天齐锂业,控股,CO_SQM,SQM,SQM is partly owned by China's Tianqi Lithium,S24,待核对,错误,,否,False
+E0063,CO_CODELCO,Codelco,控股,CO_LPI,Lithium Power International,"In October 2023, Codelco acquired Lithium Power International",S24,待核对,正确,,是,False
+E0064,CO_SQM,SQM,供应,M_LI,锂,the Salar de Atacama operations supplying about 20% of world lithium production,S24,待核对,正确,,是,False
+E0065,C_AUS,澳大利亚,出产,M_LI,锂,Chile is the world's second-largest lithium producer after Australia,S24,待核对,正确,R0008,否,False

@@ -1,0 +1,520 @@
+[
+  {
+    "package": "关键矿产供应链数据包--李天语_v3.zip",
+    "file": "00_数据字典_data_dictionary.csv",
+    "sha256": "0e2c407e6497c05a8ced4566de5c3c495c2bef945548a0145368de5e342e9f70",
+    "size": 7645,
+    "archive_file": "originals/A_full_v3/00_数据字典_data_dictionary.csv"
+  },
+  {
+    "package": "关键矿产供应链数据包--李天语_v3.zip",
+    "file": "01_dim_country.csv",
+    "sha256": "2e080afe1e276143f3f5ef87d1f411acf71dd9cc2b67cc53de800776a252459e",
+    "size": 3722,
+    "archive_file": "originals/A_full_v3/01_dim_country.csv"
+  },
+  {
+    "package": "关键矿产供应链数据包--李天语_v3.zip",
+    "file": "02_dim_company.csv",
+    "sha256": "55e884aa5211abd405981896393962abc5aa99fc1c59b1e0ac1257ffb34839bb",
+    "size": 10358,
+    "archive_file": "originals/A_full_v3/02_dim_company.csv"
+  },
+  {
+    "package": "关键矿产供应链数据包--李天语_v3.zip",
+    "file": "03_dim_mineral.csv",
+    "sha256": "65379ff2191fd8514f78280c185295146c677a05a285a2143556ae172c8c4b0e",
+    "size": 1353,
+    "archive_file": "originals/A_full_v3/03_dim_mineral.csv"
+  },
+  {
+    "package": "关键矿产供应链数据包--李天语_v3.zip",
+    "file": "04_dim_product.csv",
+    "sha256": "71d34905c3671cf3b13ac8457cc3650247fd09bb442f1ab1d0404580724ce08a",
+    "size": 3567,
+    "archive_file": "originals/A_full_v3/04_dim_product.csv"
+  },
+  {
+    "package": "关键矿产供应链数据包--李天语_v3.zip",
+    "file": "05_dim_policy_event.csv",
+    "sha256": "3e6e38aa946bbec14c12df2c8cdc13a781831bd7501951eb0abe71b11f6bd3b6",
+    "size": 5191,
+    "archive_file": "originals/A_full_v3/05_dim_policy_event.csv"
+  },
+  {
+    "package": "关键矿产供应链数据包--李天语_v3.zip",
+    "file": "06_fact_relation.csv",
+    "sha256": "4ad7cfdc82c4d5a7631ae75d6e70adf1c0671b4c404af8702a8112b15c2dc336",
+    "size": 36304,
+    "archive_file": "originals/A_full_v3/06_fact_relation.csv"
+  },
+  {
+    "package": "关键矿产供应链数据包--李天语_v3.zip",
+    "file": "07_来源登记表_source_registry.csv",
+    "sha256": "6e95e576844e0728e51bdd751d2b078fab5cfa433186ac613f31b3db9ee84ee6",
+    "size": 9481,
+    "archive_file": "originals/A_full_v3/07_来源登记表_source_registry.csv"
+  },
+  {
+    "package": "关键矿产供应链数据包--李天语_v3.zip",
+    "file": "08_抽检记录_audit.csv",
+    "sha256": "2d259ea8fc572105693acfbb11389ccad4b870465da812919d47ebe934eaad59",
+    "size": 15469,
+    "archive_file": "originals/A_full_v3/08_抽检记录_audit.csv"
+  },
+  {
+    "package": "关键矿产供应链数据包--李天语_v3.zip",
+    "file": "09_修订说明_v2.md",
+    "sha256": "e7efd560fd32714f53c7d655e28a9ccd94aac4fcc0c7e0f7fc19f25104635e5d",
+    "size": 9601,
+    "archive_file": "originals/A_full_v3/09_修订说明_v2.md"
+  },
+  {
+    "package": "关键矿产供应链数据包--李天语_v3.zip",
+    "file": "09_修订说明_v3.md",
+    "sha256": "d8aff51e3a01f17b7df94d2a97dc06ae206e9f8fbce1227c1079f53af2f910dd",
+    "size": 2967,
+    "archive_file": "originals/A_full_v3/09_修订说明_v3.md"
+  },
+  {
+    "package": "关键矿产供应链数据包--李天语_v3.zip",
+    "file": "10_实体ID对照表_给B组.csv",
+    "sha256": "dd2235e34bd0e3aef04e8c6fc0e11390e1a63663dd9e05d6bc130481235dfc07",
+    "size": 3428,
+    "archive_file": "originals/A_full_v3/10_实体ID对照表_给B组.csv"
+  },
+  {
+    "package": "关键矿产供应链数据包--李天语_v3.zip",
+    "file": "数据质量报告（交付版） 李天语.docx",
+    "sha256": "19cdb4c710b1d55b4e6f760a81799e6804532f1024a942a64560832698cdce84",
+    "size": 28814,
+    "archive_file": "originals/A_full_v3/数据质量报告（交付版） 李天语.docx"
+  },
+  {
+    "package": "A_补充材料.zip",
+    "file": "A1_抽检处置表_audit_disposition.csv",
+    "sha256": "bfd573b40193a62037c272dd1664c7c1157fb91444e7b965e6f18052bfc06f7b",
+    "size": 6734,
+    "archive_file": "originals/A_supp/A1_抽检处置表_audit_disposition.csv"
+  },
+  {
+    "package": "A_补充材料.zip",
+    "file": "A2_R0173_格林美-宁德时代_证据说明.md",
+    "sha256": "daf8aa53133b032f52a253d35fd090255c5c5bdc76b7f3f601cc2141918eb696",
+    "size": 3973,
+    "archive_file": "originals/A_supp/A2_R0173_格林美-宁德时代_证据说明.md"
+  },
+  {
+    "package": "A_补充材料.zip",
+    "file": "A3_建议并入边_06.csv",
+    "sha256": "e1165f3d26365460f3fbe8260f3685ac896cbf08dc1100dd7c94289a447c48bb",
+    "size": 463,
+    "archive_file": "originals/A_supp/A3_建议并入边_06.csv"
+  },
+  {
+    "package": "A_补充材料.zip",
+    "file": "A3_建议并入边_产品.csv",
+    "sha256": "fec19fb23e5649eac74009a13ac587ee00fcf146a852cc6c59d0348bf3c27088",
+    "size": 358,
+    "archive_file": "originals/A_supp/A3_建议并入边_产品.csv"
+  },
+  {
+    "package": "A_补充材料.zip",
+    "file": "A3_替代关系与产品依赖依据.csv",
+    "sha256": "d6a7525beb5e879800d4d98baa9b303f9e107f6187eb632c5ea45bfe3d557dad",
+    "size": 3506,
+    "archive_file": "originals/A_supp/A3_替代关系与产品依赖依据.csv"
+  },
+  {
+    "package": "A_补充材料.zip",
+    "file": "A3_替代关系与产品依赖依据.md",
+    "sha256": "f9ea5633dd6f50e28ff1d79364deb0bf717746d837661f227778696c96b5ec76",
+    "size": 2586,
+    "archive_file": "originals/A_supp/A3_替代关系与产品依赖依据.md"
+  },
+  {
+    "package": "A_补充材料.zip",
+    "file": "A4_变更清单.csv",
+    "sha256": "6ffef8168890689922f8b9d6513432ee7fe5fc9bb3c9558b03c89f6e3283de66",
+    "size": 3337,
+    "archive_file": "originals/A_supp/A4_变更清单.csv"
+  },
+  {
+    "package": "A_补充材料.zip",
+    "file": "A4_数据更新说明.md",
+    "sha256": "30f2054235d0ddc349532f63c1ec69b5d22394cad4cba387bbc445f8f58371a3",
+    "size": 3745,
+    "archive_file": "originals/A_supp/A4_数据更新说明.md"
+  },
+  {
+    "package": "A_补充材料.zip",
+    "file": "README.txt",
+    "sha256": "2d5adc7476eaf2a1f4e9f2df5a07aabb2062f8f72522e9c4a4ffe795240dba16",
+    "size": 3880,
+    "archive_file": "originals/A_supp/README.txt"
+  },
+  {
+    "package": "A_补充材料.zip",
+    "file": "最新表_v3/02_dim_company.csv",
+    "sha256": "55e884aa5211abd405981896393962abc5aa99fc1c59b1e0ac1257ffb34839bb",
+    "size": 10358,
+    "archive_file": "originals/A_supp/最新表_v3/02_dim_company.csv"
+  },
+  {
+    "package": "A_补充材料.zip",
+    "file": "最新表_v3/06_fact_relation.csv",
+    "sha256": "4ad7cfdc82c4d5a7631ae75d6e70adf1c0671b4c404af8702a8112b15c2dc336",
+    "size": 36304,
+    "archive_file": "originals/A_supp/最新表_v3/06_fact_relation.csv"
+  },
+  {
+    "package": "A_补充材料.zip",
+    "file": "最新表_v3/07_来源登记表_source_registry.csv",
+    "sha256": "6e95e576844e0728e51bdd751d2b078fab5cfa433186ac613f31b3db9ee84ee6",
+    "size": 9481,
+    "archive_file": "originals/A_supp/最新表_v3/07_来源登记表_source_registry.csv"
+  },
+  {
+    "package": "给A_替代核对.zip",
+    "file": "给A_替代方向核对清单.md",
+    "sha256": "0113baa897c4e4360d8b2f34c9e5e27cfeb151e2ce0b8ab7a8228c95f05008ab",
+    "size": 2853,
+    "archive_file": "originals/B_to_A/给A_替代方向核对清单.md"
+  },
+  {
+    "package": "给A_替代核对.zip",
+    "file": "给A的消息（直接复制发群）.txt",
+    "sha256": "f0dec21d2e2e8e131d3c710bb6f5fb9f347f7c3dc1a65f96175af17b26f7457f",
+    "size": 1104,
+    "archive_file": "originals/B_to_A/给A的消息（直接复制发群）.txt"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "audit_and_metrics.py",
+    "sha256": "f825fda4c952d681c64adc60f1514cc2231aef6931c18303556b2f0893ecfc7a",
+    "size": 2253,
+    "archive_file": "originals/B_to_D/audit_and_metrics.py"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "audit_sheet.xlsx",
+    "sha256": "cbc0047f490f6929ad53f6b9308a9a55e718384f70e76fad8fa8e44fe7124c8a",
+    "size": 15314,
+    "archive_file": "originals/B_to_D/audit_sheet.xlsx"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "docs/01_需求分析.md",
+    "sha256": "a675f3f57cbf5ba8a395af86f417bfee3d539782eb419e2f3dba6dbf6cb380d4",
+    "size": 5460,
+    "archive_file": "originals/B_to_D/docs/01_需求分析.md"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "docs/02_Schema设计.md",
+    "sha256": "a183c171c8e6f701a28087bcb898192b1052b5328fcfb45550732a474bfa4fd7",
+    "size": 15122,
+    "archive_file": "originals/B_to_D/docs/02_Schema设计.md"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "docs/03_Schema迭代记录.md",
+    "sha256": "75a9406a2d6081cd1ed62345fffd0818b4cfbc43b662db76d112fb934a474255",
+    "size": 12350,
+    "archive_file": "originals/B_to_D/docs/03_Schema迭代记录.md"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "docs/05_知识抽取与评估.md",
+    "sha256": "cdd11a237e275bb8c68e7d7608e89e2f5a7c8918b9fe78e4458769046c8754e4",
+    "size": 7412,
+    "archive_file": "originals/B_to_D/docs/05_知识抽取与评估.md"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "extend_alias.csv",
+    "sha256": "7536ac376d6ef2c16de3739ce9e02dae6ee694c38db368b3492497c547d45a1e",
+    "size": 741,
+    "archive_file": "originals/B_to_D/extend_alias.csv"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "extract_triples.py",
+    "sha256": "f0fd29bac5463267e06ef408ecbc25abf5815131147548aba659fceffafc4adf",
+    "size": 6537,
+    "archive_file": "originals/B_to_D/extract_triples.py"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "llm_outputs/S11.json",
+    "sha256": "65ef8a68939e15a5668cdc7091355d2a78c26b4eaa9a81cfaa97a241bc0caa43",
+    "size": 1540,
+    "archive_file": "originals/B_to_D/llm_outputs/S11.json"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "llm_outputs/S12.json",
+    "sha256": "fae869be8ea5ab007b9b7cb3ed04978a4116a7bb0c5e650b31cd2c99a0322676",
+    "size": 1745,
+    "archive_file": "originals/B_to_D/llm_outputs/S12.json"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "llm_outputs/S13.json",
+    "sha256": "7819aee5efb0b7c3f2396391a06ea2e0c704b822b7bfdfb9638d9fa8eac261b8",
+    "size": 1520,
+    "archive_file": "originals/B_to_D/llm_outputs/S13.json"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "llm_outputs/S20.json",
+    "sha256": "1b841581ff022c53885e1831af75143a9911fb86fad0220edf83a0699ba48bb6",
+    "size": 2034,
+    "archive_file": "originals/B_to_D/llm_outputs/S20.json"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "llm_outputs/S21.json",
+    "sha256": "1f438338a01a1d2ab21ce87f4f92c8cba35826e37ffb83fba307b296130c0272",
+    "size": 1931,
+    "archive_file": "originals/B_to_D/llm_outputs/S21.json"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "llm_outputs/S23.json",
+    "sha256": "a7b0a7d78888f451f70372e9b95d40f289840b4cebb80abed33056a602f9f070",
+    "size": 1967,
+    "archive_file": "originals/B_to_D/llm_outputs/S23.json"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "llm_outputs/S24.json",
+    "sha256": "6404d5434a389c7c74c0c02fedd181cfce4e4445d9c46ffdf0ddf279de5dbc4d",
+    "size": 1603,
+    "archive_file": "originals/B_to_D/llm_outputs/S24.json"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "new_triples.csv",
+    "sha256": "47d1dbaa09d44580fbed554956abaf8edf1127b32c6c3e845b607b1fe44a2f9e",
+    "size": 11318,
+    "archive_file": "originals/B_to_D/new_triples.csv"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "new_triples_v2.csv",
+    "sha256": "cedc52d371781970e923fdb3192270ec9d13292dce0aadadd3388ae54cdad733",
+    "size": 13048,
+    "archive_file": "originals/B_to_D/new_triples_v2.csv"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "policy_texts/S11_石墨出口管制公告.txt",
+    "sha256": "3eff1358c44a8a171e20326d8144c0f5bf6a2265b1220a1b4ea9d572314537f9",
+    "size": 2705,
+    "archive_file": "originals/B_to_D/policy_texts/S11_石墨出口管制公告.txt"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "policy_texts/S12_津巴布韦锂矿禁令.txt",
+    "sha256": "be7591a61e3efac3c44c50c72144e9772fa83a3fbf9d75576f2eb2faf474518c",
+    "size": 2382,
+    "archive_file": "originals/B_to_D/policy_texts/S12_津巴布韦锂矿禁令.txt"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "policy_texts/S13_稀土出口管制公告.txt",
+    "sha256": "383651cce17b2d6614902f5b2e262442374c0e1e4887c95dab2d33465507f9bf",
+    "size": 2332,
+    "archive_file": "originals/B_to_D/policy_texts/S13_稀土出口管制公告.txt"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "policy_texts/S20_欧盟新电池法规.txt",
+    "sha256": "b809ac30fcfe2734207af96e3d839b7cb772382e590d5ae4477c23f588996ade",
+    "size": 2417,
+    "archive_file": "originals/B_to_D/policy_texts/S20_欧盟新电池法规.txt"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "policy_texts/S21_美国通胀削减法案.txt",
+    "sha256": "471cd08db0b81e6c4759528d6bb9c6a8eb0938ca9b5d35fff506fd2d644a2391",
+    "size": 2388,
+    "archive_file": "originals/B_to_D/policy_texts/S21_美国通胀削减法案.txt"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "policy_texts/S23_刚果金钴出口暂停.txt",
+    "sha256": "978830494b1a49ec13e1e7a6d5fdc23f8da442bf7e49bf85357425d045ad72e0",
+    "size": 2465,
+    "archive_file": "originals/B_to_D/policy_texts/S23_刚果金钴出口暂停.txt"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "policy_texts/S24_智利国家锂战略.txt",
+    "sha256": "7a57c056625d96f416940b6e1f96462b3dd9839bb66f0867b81e2a5184332fbe",
+    "size": 2362,
+    "archive_file": "originals/B_to_D/policy_texts/S24_智利国家锂战略.txt"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "抽取过程说明.txt",
+    "sha256": "5d5dd429d39cf15275e28a536c6e7b7e708c599f52d250e4b17563b8263d00a9",
+    "size": 3882,
+    "archive_file": "originals/B_to_D/抽取过程说明.txt"
+  },
+  {
+    "package": "给D_B补充材料.zip",
+    "file": "给D的消息（直接复制发群）.txt",
+    "sha256": "aa5d1bcacf6d9bd89b548902318df2a0408799819fc6e32f0ad412e0d2ff4afd",
+    "size": 1016,
+    "archive_file": "originals/B_to_D/给D的消息（直接复制发群）.txt"
+  },
+  {
+    "package": "给C_v6.1交付.zip",
+    "file": "02_Schema设计.md",
+    "sha256": "a183c171c8e6f701a28087bcb898192b1052b5328fcfb45550732a474bfa4fd7",
+    "size": 15122,
+    "archive_file": "originals/B_to_C/02_Schema设计.md"
+  },
+  {
+    "package": "给C_v6.1交付.zip",
+    "file": "04_实体对齐与融合.md",
+    "sha256": "28a6c6814b59d4f631d3a5ab4e5e79827f737b9b1085bdb771c72a52c92fa90b",
+    "size": 3856,
+    "archive_file": "originals/B_to_C/04_实体对齐与融合.md"
+  },
+  {
+    "package": "给C_v6.1交付.zip",
+    "file": "extend_alias.csv",
+    "sha256": "7536ac376d6ef2c16de3739ce9e02dae6ee694c38db368b3492497c547d45a1e",
+    "size": 741,
+    "archive_file": "originals/B_to_C/extend_alias.csv"
+  },
+  {
+    "package": "给C_v6.1交付.zip",
+    "file": "new_triples_v2.csv",
+    "sha256": "cedc52d371781970e923fdb3192270ec9d13292dce0aadadd3388ae54cdad733",
+    "size": 13048,
+    "archive_file": "originals/B_to_C/new_triples_v2.csv"
+  },
+  {
+    "package": "给C_v6.1交付.zip",
+    "file": "给C的消息（直接复制发群）.txt",
+    "sha256": "0f80643cc81db434a9d4a3c6106e41cde5222c45c638a348e98cf98d7eec3763",
+    "size": 1256,
+    "archive_file": "originals/B_to_C/给C的消息（直接复制发群）.txt"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "03_导入校验报告.md",
+    "sha256": "c800abd7c1794aa67bc44f6b37663711100d6f5665e45232910e502a15fecae4",
+    "size": 2332,
+    "archive_file": "originals/C_original/03_导入校验报告.md"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "04_待对齐实体_LLM.csv",
+    "sha256": "ff6806fcafbd45e8ef8b9f4af8029a5599e015d5a67750c74c2610021be7d7a8",
+    "size": 3502,
+    "archive_file": "originals/C_original/04_待对齐实体_LLM.csv"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "05_数据问题清单.md",
+    "sha256": "3ecef6d849d5bfb0b2fcac922edf72c85e88ebdad954eae3760ffde84ad97d8f",
+    "size": 3187,
+    "archive_file": "originals/C_original/05_数据问题清单.md"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "06_给AB两组的数据修改说明.docx",
+    "sha256": "ab794faf00b3c825efba440cdb316f1f43e8318fec3aedfc743c25d1eb510715",
+    "size": 46785,
+    "archive_file": "originals/C_original/06_给AB两组的数据修改说明.docx"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "06_给AB两组的数据修改说明.md",
+    "sha256": "13b88d693396735dc0fe94acf7e376eff52c257f509d1253395f822aa6ddd519",
+    "size": 15447,
+    "archive_file": "originals/C_original/06_给AB两组的数据修改说明.md"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "07_queries.cypher",
+    "sha256": "59b361dba467ec5c1c8fa531b9ce531c44cbaf8e3c29846da88debff1bbd2c76",
+    "size": 4475,
+    "archive_file": "originals/C_original/07_queries.cypher"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "07_查询库与结果.md",
+    "sha256": "5d12ebdf28b2b2674c4447b765cb526e85c38794e99f345ffea4db808d696d8f",
+    "size": 7535,
+    "archive_file": "originals/C_original/07_查询库与结果.md"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "08_simulate.cypher",
+    "sha256": "63ab8b8aa87ea49383b65e709e2e02bd3b9f9affbb664abec0e5927247e62207",
+    "size": 3586,
+    "archive_file": "originals/C_original/08_simulate.cypher"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "08_simulate.py",
+    "sha256": "4f274471d8f1e37d3f507f7fcce327c08b578b9978f6659341fc3e2da3f5e18c",
+    "size": 11469,
+    "archive_file": "originals/C_original/08_simulate.py"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "08_推演结果.json",
+    "sha256": "d95a2f180c9f9e8166e4210c5455cf4a41bed6f220f31f17aee2f70fc3efe067",
+    "size": 13484,
+    "archive_file": "originals/C_original/08_推演结果.json"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "08_推演结果.md",
+    "sha256": "9d8a6b681cf6227ae84d8b1ad68d2612ab3d46bee6537e8ccefb48e68f61b4cc",
+    "size": 5121,
+    "archive_file": "originals/C_original/08_推演结果.md"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "figure/溯源闭环.png",
+    "sha256": "695de81debff52773687ddeed4fc63fab284fdd6baa9f520583193e826d87ce9",
+    "size": 103267,
+    "archive_file": "originals/C_original/figure/溯源闭环.png"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "figure/钴断供分层子图.png",
+    "sha256": "eb26026d8c02b924b5fd93c33e5bb321613822708d6dddd987f0424189fc9f2d",
+    "size": 90503,
+    "archive_file": "originals/C_original/figure/钴断供分层子图.png"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "neo4j-2026-11-23T00-16-48.dump",
+    "sha256": "6af1a59a49e9b975f841e25b414312d660e14c5af5325150b9d239a50e4032e2",
+    "size": 179709,
+    "archive_file": "originals/C_original/neo4j-2026-11-23T00-16-48.dump"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "README.md",
+    "sha256": "f11dcd6de83cbc0dac968095a99f5f62fb7362155c51e48f882a7c89163578c5",
+    "size": 18364,
+    "archive_file": "originals/C_original/README.md"
+  },
+  {
+    "package": "C_part.zip",
+    "file": "数据问题.zip",
+    "sha256": "21e43909039498b51db9f8477b34c28c78e0586acab3530e3220babe71653236",
+    "size": 3872,
+    "archive_file": "originals/C_original/数据问题.zip"
+  }
+]

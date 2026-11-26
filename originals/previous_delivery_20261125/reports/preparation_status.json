@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-25",
+  "original_archived_files": 74,
+  "original_hashes_verified": true,
+  "neo4j_actual_run": "blocked_not_installed",
+  "llm_rerun": false,
+  "gold_list_available": false,
+  "B_human_audit_count": 65,
+  "user_confirmed_neo4j_not_installed": true,
+  "original_zip_bytes_verified": true
+}

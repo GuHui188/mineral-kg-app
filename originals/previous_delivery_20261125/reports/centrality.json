@@ -1,0 +1,793 @@
+[
+  {
+    "id": "C_CHN",
+    "name": "中国",
+    "pagerank": 0.055850334546693,
+    "betweenness": 0.15203712458176738,
+    "degree": 23
+  },
+  {
+    "id": "M_LI",
+    "name": "锂",
+    "pagerank": 0.04570642427116062,
+    "betweenness": 0.10906582156582155,
+    "degree": 29
+  },
+  {
+    "id": "M_CO",
+    "name": "钴",
+    "pagerank": 0.04495794617274026,
+    "betweenness": 0.09171024996917848,
+    "degree": 23
+  },
+  {
+    "id": "M_NI",
+    "name": "镍",
+    "pagerank": 0.030377296277588197,
+    "betweenness": 0.04057011110582538,
+    "degree": 19
+  },
+  {
+    "id": "PE_20220816_US_IRA",
+    "name": "美国《通胀削减法案》签署",
+    "pagerank": 0.019862642381560207,
+    "betweenness": 0.03740652200473627,
+    "degree": 10
+  },
+  {
+    "id": "M_RE",
+    "name": "稀土",
+    "pagerank": 0.029178605882490626,
+    "betweenness": 0.035352527540027545,
+    "degree": 16
+  },
+  {
+    "id": "CO_GEM",
+    "name": "格林美",
+    "pagerank": 0.013113709204512915,
+    "betweenness": 0.028394465894465894,
+    "degree": 3
+  },
+  {
+    "id": "PE_20230420_CL_LI",
+    "name": "智利发布《国家锂战略》",
+    "pagerank": 0.0068027937627769975,
+    "betweenness": 0.027298521048521044,
+    "degree": 3
+  },
+  {
+    "id": "PE_20230817_EU_BATREG",
+    "name": "欧盟《新电池法规》生效",
+    "pagerank": 0.019862642381560207,
+    "betweenness": 0.027085870612656326,
+    "degree": 10
+  },
+  {
+    "id": "M_GRA",
+    "name": "石墨",
+    "pagerank": 0.01584503848002515,
+    "betweenness": 0.026158628613985754,
+    "degree": 11
+  },
+  {
+    "id": "CO_CATL",
+    "name": "宁德时代",
+    "pagerank": 0.026484524351014047,
+    "betweenness": 0.02614221364221364,
+    "degree": 8
+  },
+  {
+    "id": "M_CU",
+    "name": "铜",
+    "pagerank": 0.021307351736299347,
+    "betweenness": 0.022651450999665285,
+    "degree": 12
+  },
+  {
+    "id": "C_USA",
+    "name": "美国",
+    "pagerank": 0.021479205377675604,
+    "betweenness": 0.019907206291134856,
+    "degree": 9
+  },
+  {
+    "id": "C_CHL",
+    "name": "智利",
+    "pagerank": 0.00616212105464018,
+    "betweenness": 0.019726111020753882,
+    "degree": 7
+  },
+  {
+    "id": "CO_CMOC",
+    "name": "洛阳钼业",
+    "pagerank": 0.013257925127542947,
+    "betweenness": 0.014617541403255687,
+    "degree": 4
+  },
+  {
+    "id": "PE_20250404_CN_RE",
+    "name": "中国对 7 类中重稀土实施出口管制",
+    "pagerank": 0.008794716363633444,
+    "betweenness": 0.013251861019718158,
+    "degree": 4
+  },
+  {
+    "id": "PE_20250222_CD_CO",
+    "name": "刚果（金）暂停钴出口",
+    "pagerank": 0.008730112883578795,
+    "betweenness": 0.00982435446721161,
+    "degree": 3
+  },
+  {
+    "id": "PE_20251015_CD_COQUOTA",
+    "name": "刚果（金）以出口配额取代钴出口禁令",
+    "pagerank": 0.008730112883578795,
+    "betweenness": 0.00982435446721161,
+    "degree": 3
+  },
+  {
+    "id": "PE_20200101_ID_NI",
+    "name": "印尼全面禁止镍原矿出口",
+    "pagerank": 0.0069596053963100965,
+    "betweenness": 0.008770502074073502,
+    "degree": 3
+  },
+  {
+    "id": "PE_20221220_ZW_LI",
+    "name": "津巴布韦禁止未加工锂矿出口",
+    "pagerank": 0.0068027937627769975,
+    "betweenness": 0.008646698602055743,
+    "degree": 3
+  },
+  {
+    "id": "PE_20231201_CN_GRA",
+    "name": "中国对石墨物项实施出口管制",
+    "pagerank": 0.006905794314950602,
+    "betweenness": 0.007369680137537279,
+    "degree": 4
+  },
+  {
+    "id": "PE_20240523_EU_CRMA",
+    "name": "欧盟《关键原材料法案》生效",
+    "pagerank": 0.007404569538812984,
+    "betweenness": 0.007300151719794575,
+    "degree": 3
+  },
+  {
+    "id": "PE_20240927_US_301",
+    "name": "美国 301 复审对华电池与电动车加税生效",
+    "pagerank": 0.0068027937627769975,
+    "betweenness": 0.0071683462308462335,
+    "degree": 3
+  },
+  {
+    "id": "C_RUS",
+    "name": "俄罗斯",
+    "pagerank": 0.008898682380235754,
+    "betweenness": 0.006593252128966415,
+    "degree": 4
+  },
+  {
+    "id": "CO_VW",
+    "name": "大众集团",
+    "pagerank": 0.04208716677357456,
+    "betweenness": 0.005308880308880309,
+    "degree": 3
+  },
+  {
+    "id": "CO_SQM",
+    "name": "SQM",
+    "pagerank": 0.0090533084038207,
+    "betweenness": 0.004745817245817245,
+    "degree": 2
+  },
+  {
+    "id": "CO_HUAYOU",
+    "name": "华友钴业",
+    "pagerank": 0.01241878457442923,
+    "betweenness": 0.004665379665379665,
+    "degree": 3
+  },
+  {
+    "id": "CO_CODELCO",
+    "name": "Codelco",
+    "pagerank": 0.004143900854867103,
+    "betweenness": 0.004665379665379665,
+    "degree": 2
+  },
+  {
+    "id": "CO_TIANQI",
+    "name": "天齐锂业",
+    "pagerank": 0.0068027937627769975,
+    "betweenness": 0.0045045045045045045,
+    "degree": 2
+  },
+  {
+    "id": "PE_20241001_US_PORT",
+    "name": "美国东海岸与墨西哥湾港口工人罢工",
+    "pagerank": 0.0068027937627769975,
+    "betweenness": 0.004142194097551239,
+    "degree": 2
+  },
+  {
+    "id": "C_COD",
+    "name": "刚果（金）",
+    "pagerank": 0.010691529656502526,
+    "betweenness": 0.00250506188006188,
+    "degree": 4
+  },
+  {
+    "id": "M_MN",
+    "name": "锰",
+    "pagerank": 0.01031434428454999,
+    "betweenness": 0.002171814671814672,
+    "degree": 6
+  },
+  {
+    "id": "P_NCM",
+    "name": "三元正极材料",
+    "pagerank": 0.00466108053028012,
+    "betweenness": 0.001689189189189189,
+    "degree": 4
+  },
+  {
+    "id": "P_NCM_CELL",
+    "name": "三元电池（电芯）",
+    "pagerank": 0.003907657654104734,
+    "betweenness": 0.0015283140283140282,
+    "degree": 8
+  },
+  {
+    "id": "C_IDN",
+    "name": "印度尼西亚",
+    "pagerank": 0.006228765998891779,
+    "betweenness": 0.0012571318374889804,
+    "degree": 3
+  },
+  {
+    "id": "CO_RONBAY",
+    "name": "容百科技",
+    "pagerank": 0.00765453002639378,
+    "betweenness": 0.0010456885456885457,
+    "degree": 2
+  },
+  {
+    "id": "PE_20250402_US_TARIFF",
+    "name": "美国宣布“对等关税”",
+    "pagerank": 0.003826992435387844,
+    "betweenness": 0.0008519606733892448,
+    "degree": 3
+  },
+  {
+    "id": "C_ZWE",
+    "name": "津巴布韦",
+    "pagerank": 0.00616212105464018,
+    "betweenness": 0.0006989131989131989,
+    "degree": 2
+  },
+  {
+    "id": "CO_SDI",
+    "name": "三星SDI",
+    "pagerank": 0.00605122735510058,
+    "betweenness": 8.043758043758043e-05,
+    "degree": 2
+  },
+  {
+    "id": "CO_GOTION",
+    "name": "国轩高科",
+    "pagerank": 0.039045025462604854,
+    "betweenness": 0.0,
+    "degree": 2
+  },
+  {
+    "id": "CO_BMW",
+    "name": "宝马集团",
+    "pagerank": 0.01682273203152761,
+    "betweenness": 0.0,
+    "degree": 3
+  },
+  {
+    "id": "CO_CREG",
+    "name": "中国稀土集团",
+    "pagerank": 0.014186395876626559,
+    "betweenness": 0.0,
+    "degree": 2
+  },
+  {
+    "id": "CO_PROSPECT_LZ",
+    "name": "Prospect Lithium Zimbabwe",
+    "pagerank": 0.013826900593725844,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_TSLA",
+    "name": "特斯拉",
+    "pagerank": 0.012605953329572003,
+    "betweenness": 0.0,
+    "degree": 3
+  },
+  {
+    "id": "C_EU",
+    "name": "欧盟",
+    "pagerank": 0.012045624434231622,
+    "betweenness": 0.0,
+    "degree": 2
+  },
+  {
+    "id": "CO_FORD",
+    "name": "福特",
+    "pagerank": 0.011215806504751541,
+    "betweenness": 0.0,
+    "degree": 3
+  },
+  {
+    "id": "CO_NRE",
+    "name": "北方稀土",
+    "pagerank": 0.010184863188453904,
+    "betweenness": 0.0,
+    "degree": 2
+  },
+  {
+    "id": "CO_IXM",
+    "name": "IXM",
+    "pagerank": 0.008905551884666133,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "C_DEU",
+    "name": "德国",
+    "pagerank": 0.008898682380235754,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_BHP",
+    "name": "必和必拓",
+    "pagerank": 0.007798745949423812,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_JIAYUAN",
+    "name": "嘉元科技",
+    "pagerank": 0.007798745949423812,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_NUODE",
+    "name": "诺德股份",
+    "pagerank": 0.007798745949423812,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_LYNAS",
+    "name": "莱纳斯",
+    "pagerank": 0.007404569538812984,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_MP",
+    "name": "MP Materials",
+    "pagerank": 0.007404569538812984,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_SMM",
+    "name": "住友金属矿山",
+    "pagerank": 0.0069596053963100965,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_TSING",
+    "name": "青山控股",
+    "pagerank": 0.0069596053963100965,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_VALE",
+    "name": "淡水河谷",
+    "pagerank": 0.0069596053963100965,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_ALB",
+    "name": "雅保",
+    "pagerank": 0.0068027937627769975,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_GANF",
+    "name": "赣锋锂业",
+    "pagerank": 0.0068027937627769975,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_PILB",
+    "name": "皮尔巴拉矿业",
+    "pagerank": 0.0068027937627769975,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_RIO",
+    "name": "力拓",
+    "pagerank": 0.0068027937627769975,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_LPI",
+    "name": "Lithium Power International",
+    "pagerank": 0.006793249432096993,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_HYUN",
+    "name": "现代汽车",
+    "pagerank": 0.005587845080160426,
+    "betweenness": 0.0,
+    "degree": 2
+  },
+  {
+    "id": "CO_BTR",
+    "name": "贝特瑞",
+    "pagerank": 0.005515647490130142,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_PUTAILAI",
+    "name": "璞泰来",
+    "pagerank": 0.005515647490130142,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_SHANSHAN",
+    "name": "杉杉股份",
+    "pagerank": 0.005515647490130142,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "C_JPN",
+    "name": "日本",
+    "pagerank": 0.004143900854867103,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "C_KOR",
+    "name": "韩国",
+    "pagerank": 0.004143900854867103,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "P_LFP_CELL",
+    "name": "磷酸铁锂电池（电芯）",
+    "pagerank": 0.003745434992029557,
+    "betweenness": 0.0,
+    "degree": 6
+  },
+  {
+    "id": "CO_BAOGANG",
+    "name": "包头钢铁（集团）有限责任公司",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_BASF",
+    "name": "巴斯夫",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 0
+  },
+  {
+    "id": "CO_BYD",
+    "name": "比亚迪",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 0
+  },
+  {
+    "id": "CO_CHENGXIN",
+    "name": "盛新锂能",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 0
+  },
+  {
+    "id": "CO_DYN",
+    "name": "德方纳米",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_EASP",
+    "name": "当升科技",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_EVE",
+    "name": "亿纬锂能",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_GLENCORE",
+    "name": "嘉能可",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_LGES",
+    "name": "LG新能源",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 3
+  },
+  {
+    "id": "CO_PANA",
+    "name": "松下能源",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "CO_SALAR_FUTURO",
+    "name": "Salar Futuro",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 0
+  },
+  {
+    "id": "CO_SKON",
+    "name": "SK On",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 2
+  },
+  {
+    "id": "CO_YUNENG",
+    "name": "湖南裕能",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "C_ARG",
+    "name": "阿根廷",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "C_AUS",
+    "name": "澳大利亚",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 5
+  },
+  {
+    "id": "C_BRA",
+    "name": "巴西",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 4
+  },
+  {
+    "id": "C_CAN",
+    "name": "加拿大",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 3
+  },
+  {
+    "id": "C_CHE",
+    "name": "瑞士",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 0
+  },
+  {
+    "id": "C_GAB",
+    "name": "加蓬",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "C_MDG",
+    "name": "马达加斯加",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 3
+  },
+  {
+    "id": "C_MMR",
+    "name": "缅甸",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "C_PER",
+    "name": "秘鲁",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "C_PHL",
+    "name": "菲律宾",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 2
+  },
+  {
+    "id": "C_ZAF",
+    "name": "南非",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "PE_20210323_SUEZ",
+    "name": "“长赐号”搁浅致苏伊士运河断航",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "PE_20250710_US_MP",
+    "name": "美国国防部入股 MP Materials",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 2
+  },
+  {
+    "id": "P_COSO4",
+    "name": "硫酸钴",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "P_ESS",
+    "name": "储能电池系统",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 2
+  },
+  {
+    "id": "P_EV",
+    "name": "新能源整车",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 5
+  },
+  {
+    "id": "P_EXP_GRAPHITE",
+    "name": "膨胀石墨",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "P_GRA_ANODE",
+    "name": "人造石墨负极",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 0
+  },
+  {
+    "id": "P_LFP_CATH",
+    "name": "磷酸铁锂正极材料",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 2
+  },
+  {
+    "id": "P_LI2CO3",
+    "name": "碳酸锂",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "P_LI2SO4",
+    "name": "硫酸锂",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "P_LIOH",
+    "name": "氢氧化锂",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "P_LI_CONC",
+    "name": "锂精矿",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "P_NA_CELL",
+    "name": "钠离子电池（电芯）",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 0
+  },
+  {
+    "id": "P_NDFEB_MAGNET",
+    "name": "钕铁硼永磁材料",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "P_NISO4",
+    "name": "硫酸镍",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 1
+  },
+  {
+    "id": "P_PCAM",
+    "name": "三元前驱体",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 3
+  },
+  {
+    "id": "P_SIC_ANODE",
+    "name": "硅碳负极",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 0
+  },
+  {
+    "id": "P_SMCO_MAGNET",
+    "name": "钐钴永磁材料",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 2
+  },
+  {
+    "id": "P_SPH_GRAPHITE",
+    "name": "球化石墨",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 2
+  },
+  {
+    "id": "P_Y2O3",
+    "name": "氧化钇",
+    "pagerank": 0.0032709337054596596,
+    "betweenness": 0.0,
+    "degree": 2
+  }
+]

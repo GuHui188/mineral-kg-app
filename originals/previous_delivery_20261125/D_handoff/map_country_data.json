@@ -1,0 +1,156 @@
+[
+  {
+    "id": "C_CHN",
+    "name": "中国",
+    "iso_alpha3": "CHN",
+    "region": "亚洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_AUS",
+    "name": "澳大利亚",
+    "iso_alpha3": "AUS",
+    "region": "大洋洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_CHL",
+    "name": "智利",
+    "iso_alpha3": "CHL",
+    "region": "南美洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_COD",
+    "name": "刚果（金）",
+    "iso_alpha3": "COD",
+    "region": "非洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_IDN",
+    "name": "印度尼西亚",
+    "iso_alpha3": "IDN",
+    "region": "亚洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_ARG",
+    "name": "阿根廷",
+    "iso_alpha3": "ARG",
+    "region": "南美洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_ZWE",
+    "name": "津巴布韦",
+    "iso_alpha3": "ZWE",
+    "region": "非洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_PHL",
+    "name": "菲律宾",
+    "iso_alpha3": "PHL",
+    "region": "亚洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_RUS",
+    "name": "俄罗斯",
+    "iso_alpha3": "RUS",
+    "region": "欧洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_ZAF",
+    "name": "南非",
+    "iso_alpha3": "ZAF",
+    "region": "非洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_BRA",
+    "name": "巴西",
+    "iso_alpha3": "BRA",
+    "region": "南美洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_USA",
+    "name": "美国",
+    "iso_alpha3": "USA",
+    "region": "北美洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_CAN",
+    "name": "加拿大",
+    "iso_alpha3": "CAN",
+    "region": "北美洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_MMR",
+    "name": "缅甸",
+    "iso_alpha3": "MMR",
+    "region": "亚洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_MDG",
+    "name": "马达加斯加",
+    "iso_alpha3": "MDG",
+    "region": "非洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_GAB",
+    "name": "加蓬",
+    "iso_alpha3": "GAB",
+    "region": "非洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_PER",
+    "name": "秘鲁",
+    "iso_alpha3": "PER",
+    "region": "南美洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_JPN",
+    "name": "日本",
+    "iso_alpha3": "JPN",
+    "region": "亚洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_KOR",
+    "name": "韩国",
+    "iso_alpha3": "KOR",
+    "region": "亚洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_DEU",
+    "name": "德国",
+    "iso_alpha3": "DEU",
+    "region": "欧洲",
+    "map_eligible": true
+  },
+  {
+    "id": "C_EU",
+    "name": "欧盟",
+    "iso_alpha3": null,
+    "region": "欧洲",
+    "map_eligible": false
+  },
+  {
+    "id": "C_CHE",
+    "name": "瑞士",
+    "iso_alpha3": "CHE",
+    "region": "欧洲",
+    "map_eligible": true
+  }
+]

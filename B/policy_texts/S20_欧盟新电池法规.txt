@@ -1,0 +1,21 @@
+## S20
+来源：欧盟《新电池法规》Regulation (EU) 2023/1542
+发布时间：2023年7月12日通过，7月28日刊于欧盟官方公报，8月17日生效，2024年2月18日起适用
+原文链接：https://eur-lex.europa.eu/eli/reg/2023/1542/oj
+转引：EUR-Lex 及合规指南综合
+
+Regulation (EU) 2023/1542 (the EU Battery Regulation) establishes a complete regulatory framework for batteries placed on the EU market, replacing Directive 2006/66/EC. As a regulation, it applies directly in all Member States without national transposition. It covers portable, LMT (light means of transport), EV, industrial and SLI batteries across the entire lifecycle: sustainability, safety, labelling, traceability, due diligence, carbon footprint, recycled content, and digital transparency.
+
+Key obligations:
+
+1. Battery passport (Article 77): from 18 February 2027, every EV battery, every LMT battery and every industrial battery above 2 kWh must carry a registered digital battery passport to be sold in the EU. It holds a unique identifier, chemistry and composition, carbon footprint, recycled content, state of health and due-diligence data, accessible via QR code.
+
+2. Carbon footprint (Article 7): mandatory declaration of the battery's carbon footprint, phased in by category, with performance classes and maximum lifecycle carbon limits to follow.
+
+3. Recycled content (Article 8): documentation and phased minimum levels of recycled content — 16% cobalt, 85% lead, 6% lithium and 6% nickel from 18 August 2031; rising to 26% cobalt, 85% lead, 12% lithium and 15% nickel from 18 August 2036.
+
+4. Supply-chain due diligence (Articles 47–52): operators must implement due-diligence policies for the origin and impact of cobalt, natural graphite, lithium and nickel, aligned with international responsible sourcing standards, including risk identification, third-party verification and public reporting. Operators with net turnover below €40 million are exempt. Application was deferred to 18 August 2027 by Regulation (EU) 2025/1561.
+
+5. Collection targets: portable batteries 63% by end-2027 and 73% by end-2030; LMT batteries 51% by end-2028 and 61% by end-2031.
+
+The regulation aims to reduce environmental and social risks linked to lithium, cobalt, and nickel supply chains, supporting the EU Green Deal and circular economy objectives. By 2030, the EU expects batteries to underpin 30 million EVs.

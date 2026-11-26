@@ -1,0 +1,63 @@
+{
+  "intent": "overview",
+  "template": "Q01",
+  "parameters": {},
+  "backend": "snapshot",
+  "dataset": "mineral-20261125-v1",
+  "as_of": "2026-11-25",
+  "answer": "图谱概览：返回1条记录。",
+  "rows": [
+    {
+      "dataset": "mineral-20261125-v1",
+      "sha256": "6436886e28daa2ac345658a939696fb6e0ab13252cd3bf0913e47d2a089d27fb",
+      "as_of": "2026-11-25",
+      "node_count": 149,
+      "business_nodes": 113,
+      "business_edges_stored": 318,
+      "business_edges_current_default": 188,
+      "citation_edges": 300,
+      "nodes_by_type": {
+        "Country": 22,
+        "Company": 48,
+        "Mineral": 7,
+        "Product": 21,
+        "PolicyEvent": 15,
+        "Source": 36
+      },
+      "business_edges_by_type": {
+        "PRODUCES": 142,
+        "EXPORTS_TO": 17,
+        "SUPPLIES": 49,
+        "INVESTS_IN": 2,
+        "HOLDS": 8,
+        "REGULATED_BY": 31,
+        "SUBSTITUTES": 6,
+        "REQUIRES": 33,
+        "ISSUED_BY": 13,
+        "TARGETS": 17
+      },
+      "default_edges_by_type": {
+        "PRODUCES": 44,
+        "EXPORTS_TO": 3,
+        "SUPPLIES": 44,
+        "INVESTS_IN": 2,
+        "HOLDS": 6,
+        "REGULATED_BY": 27,
+        "SUBSTITUTES": 3,
+        "REQUIRES": 29,
+        "ISSUED_BY": 13,
+        "TARGETS": 17
+      },
+      "review_edges": 129,
+      "future_edges": 1,
+      "scope": "现有数据关联分析；并非全球完整图或经确认的国家采购依赖。"
+    }
+  ],
+  "graph": {
+    "nodes": [],
+    "edges": []
+  },
+  "highlight_paths": [],
+  "sources": [],
+  "limitations": ""
+}

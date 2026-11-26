@@ -1,0 +1,17 @@
+﻿占位名(NEW:),建议正式ID,中文名,落表,实体类别,别名与合并说明,涉及的B组triple_id,A组处理结果,需B或C确认的事项
+NEW:球化石墨,P_SPH_GRAPHITE,球化石墨,04_dim_product,Product,别名：球形石墨（与 06 表 R0157 note 一致）,E0005|E0006,已落表：材料类；key_minerals=石墨；源 S11,无
+NEW:膨胀石墨,P_EXP_GRAPHITE,膨胀石墨,04_dim_product,Product,S11 公告明列「膨胀石墨」,E0007,已落表：材料类；key_minerals=石墨；源 S11,无
+NEW:Prospect Lithium Zimbabwe,CO_PROSPECT_LZ,Prospect Lithium Zimbabwe,02_dim_company,Company,别名：PLZ|华友津巴布韦锂矿,E0013,已落表：采矿；C_ZWE；源 S12,E0013 控股边由 B 组 new_triples 提供，A 不重复造边
+NEW:硫酸锂,P_LI2SO4,硫酸锂,04_dim_product,Product,华友津巴布韦硫酸锂加工厂产品,E0014,已落表：材料类；key_minerals=锂；源 S12,E0014「CO→P 供应」端点类型不合规（供应 range 应为 Company）
+NEW:盛新锂能,CO_CHENGXIN,盛新锂能,02_dim_company,Company,别名：盛新|Chengxin|002240,E0015,已落表：冶炼；C_CHN；源 S12|S01,E0015「CO→P 供应」端点类型不合规（客体为津巴布韦锂精矿）
+NEW:津巴布韦锂精矿,P_LI_CONC,锂精矿,04_dim_product,Product,并入「锂精矿」别名：产地差异记在边上，不另立实体（防 B 4.2 重复实体）,E0015,与 NEW:锂精矿 共用 P_LI_CONC,请确认接受合并；若坚持独立实体需回退
+NEW:锂精矿,P_LI_CONC,锂精矿,04_dim_product,Product,别名：锂精矿|津巴布韦锂精矿|锂辉石精矿,E0017,已落表：材料类；key_minerals=锂；源 S01|S12,无
+NEW:钐钴永磁材料,P_SMCO_MAGNET,钐钴永磁材料,04_dim_product,Product,S13 公告「含钐的合金……钐钴永磁材料」,E0021|E0022,已落表：材料类；key_minerals=稀土|钴；contains_cobalt=Y,E0021/E0022 谓词「需要」未定义，需 B 定 Schema、C 加关系类型
+NEW:钕铁硼永磁材料,P_NDFEB_MAGNET,钕铁硼永磁材料,04_dim_product,Product,别名：含铽/镝钕铁硼,E0023|E0024,已落表：材料类；key_minerals=稀土；源 S13,E0023 谓词「需要」未定义
+NEW:氧化钇,P_Y2O3,氧化钇,04_dim_product,Product,S13 公告 1C908.b 氧化钇及其混合物,E0025,已落表：材料类；key_minerals=稀土；源 S13,无
+NEW:欧盟,C_EU,欧盟,01_dim_country,Country（超国家组织）,iso_alpha3=NA；3.1 方案一,E0026,已落表：规制方；源 S20；05 两条欧盟法规 issuing_country=C_EU,E0026「发布于」谓词未定义；且与 05 表自动生成的发布于边可能重复，请 C 去重
+NEW:IXM,CO_IXM,IXM,02_dim_company,Company,别名：埃珂森|LDC Metals,E0052,已落表：贸易；C_CHE；源 S02|S23,无
+NEW:嘉能可,CO_GLENCORE,嘉能可,02_dim_company,Company,别名：Glencore|GLEN,E0053,已落表：采矿；C_CHE；源 S02|S23,E0053「CO→M 出产」端点类型不合规（出产 domain 应为 Country）
+NEW:Codelco,CO_CODELCO,Codelco,02_dim_company,Company,别名：智利国家铜业公司|CODELCO,E0059|E0060|E0063,已落表：采矿；C_CHL；源 S24|S07,无
+NEW:Salar Futuro,CO_SALAR_FUTURO,Salar Futuro,02_dim_company,Company,别名：Nova Andino Litio|NovaAndino,E0060|E0061,已落表：采矿；C_CHL；源 S24,无
+NEW:Lithium Power International,CO_LPI,Lithium Power International,02_dim_company,Company,别名：LPI|Lithium Power,E0063,已落表：采矿；C_AUS；源 S24,无

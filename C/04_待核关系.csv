@@ -1,0 +1,130 @@
+﻿id,source,type,target,review_flag,note,record_ids,source_ids
+R0006,C_CHN,PRODUCES,M_MN,True,USGS 锰章节按锰含量列示主要生产国，中国未单列（规则 R-07 判定应记「未列」）；v3 复核未取得原表逐行核对，故暂留 NA +「未公布」，核实后改「未列」或补实测值——待核实项，不填估计数,R0006,S05
+R0012,C_AUS,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0012,S06
+R0014,C_AUS,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0014,S07
+R0016,C_CHL,PRODUCES,M_CO,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0016,S02
+R0017,C_CHL,PRODUCES,M_NI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0017,S03
+R0018,C_CHL,PRODUCES,M_RE,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0018,S04
+R0019,C_CHL,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0019,S06
+R0020,C_CHL,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0020,S05
+R0022,C_COD,PRODUCES,M_LI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0022,S01
+R0024,C_COD,PRODUCES,M_NI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0024,S03
+R0025,C_COD,PRODUCES,M_RE,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0025,S04
+R0026,C_COD,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0026,S06
+R0027,C_COD,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0027,S05
+R0029,C_IDN,PRODUCES,M_LI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0029,S01
+R0032,C_IDN,PRODUCES,M_RE,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0032,S04
+R0033,C_IDN,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0033,S06
+R0034,C_IDN,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0034,S05
+R0035,C_IDN,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0035,S07
+R0037,C_ARG,PRODUCES,M_CO,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0037,S02
+R0038,C_ARG,PRODUCES,M_NI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0038,S03
+R0039,C_ARG,PRODUCES,M_RE,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0039,S04
+R0040,C_ARG,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0040,S06
+R0041,C_ARG,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0041,S05
+R0042,C_ARG,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0042,S07
+R0044,C_ZWE,PRODUCES,M_CO,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0044,S02
+R0045,C_ZWE,PRODUCES,M_NI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0045,S03
+R0046,C_ZWE,PRODUCES,M_RE,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0046,S04
+R0047,C_ZWE,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0047,S06
+R0048,C_ZWE,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0048,S05
+R0049,C_ZWE,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0049,S07
+R0050,C_PHL,PRODUCES,M_LI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0050,S01
+R0053,C_PHL,PRODUCES,M_RE,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0053,S04
+R0054,C_PHL,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0054,S06
+R0055,C_PHL,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0055,S05
+R0056,C_PHL,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0056,S07
+R0057,C_RUS,PRODUCES,M_LI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0057,S01
+R0061,C_RUS,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0061,S06
+R0062,C_RUS,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0062,S05
+R0063,C_RUS,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0063,S07
+R0064,C_ZAF,PRODUCES,M_LI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0064,S01
+R0065,C_ZAF,PRODUCES,M_CO,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0065,S02
+R0066,C_ZAF,PRODUCES,M_NI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0066,S03
+R0067,C_ZAF,PRODUCES,M_RE,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0067,S04
+R0068,C_ZAF,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0068,S06
+R0070,C_ZAF,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0070,S07
+R0072,C_BRA,PRODUCES,M_CO,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0072,S02
+R0076,C_BRA,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0076,S05
+R0077,C_BRA,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0077,S07
+R0082,C_USA,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0082,S06
+R0083,C_USA,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0083,S05
+R0084,C_USA,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0084,S07
+R0088,C_CAN,PRODUCES,M_RE,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0088,S04
+R0089,C_CAN,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0089,S06
+R0090,C_CAN,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0090,S05
+R0091,C_CAN,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0091,S07
+R0092,C_MMR,PRODUCES,M_LI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0092,S01
+R0093,C_MMR,PRODUCES,M_CO,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0093,S02
+R0094,C_MMR,PRODUCES,M_NI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0094,S03
+R0096,C_MMR,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0096,S06
+R0097,C_MMR,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0097,S05
+R0098,C_MMR,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0098,S07
+R0099,C_MDG,PRODUCES,M_LI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0099,S01
+R0101,C_MDG,PRODUCES,M_NI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0101,S03
+R0104,C_MDG,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0104,S05
+R0105,C_MDG,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0105,S07
+R0106,C_GAB,PRODUCES,M_LI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0106,S01
+R0107,C_GAB,PRODUCES,M_CO,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0107,S02
+R0108,C_GAB,PRODUCES,M_NI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0108,S03
+R0109,C_GAB,PRODUCES,M_RE,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0109,S04
+R0110,C_GAB,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0110,S06
+R0112,C_GAB,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0112,S07
+R0113,C_PER,PRODUCES,M_LI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0113,S01
+R0114,C_PER,PRODUCES,M_CO,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0114,S02
+R0115,C_PER,PRODUCES,M_NI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0115,S03
+R0116,C_PER,PRODUCES,M_RE,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0116,S04
+R0117,C_PER,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0117,S06
+R0118,C_PER,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0118,S05
+R0120,C_JPN,PRODUCES,M_LI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0120,S01
+R0121,C_JPN,PRODUCES,M_CO,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0121,S02
+R0122,C_JPN,PRODUCES,M_NI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0122,S03
+R0123,C_JPN,PRODUCES,M_RE,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0123,S04
+R0124,C_JPN,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0124,S06
+R0125,C_JPN,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0125,S05
+R0126,C_JPN,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0126,S07
+R0127,C_KOR,PRODUCES,M_LI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0127,S01
+R0128,C_KOR,PRODUCES,M_CO,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0128,S02
+R0129,C_KOR,PRODUCES,M_NI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0129,S03
+R0130,C_KOR,PRODUCES,M_RE,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0130,S04
+R0131,C_KOR,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0131,S06
+R0132,C_KOR,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0132,S05
+R0133,C_KOR,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0133,S07
+R0134,C_DEU,PRODUCES,M_LI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0134,S01
+R0135,C_DEU,PRODUCES,M_CO,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0135,S02
+R0136,C_DEU,PRODUCES,M_NI,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0136,S03
+R0137,C_DEU,PRODUCES,M_RE,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0137,S04
+R0138,C_DEU,PRODUCES,M_GRA,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0138,S06
+R0139,C_DEU,PRODUCES,M_MN,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0139,S05
+R0140,C_DEU,PRODUCES,M_CU,True,原始备注：USGS 原表未列该国，视为可忽略；本次修正：未列不等于零，不用于产量、替代供给或HHI统计。,R0140,S07
+R0144,C_AUS,EXPORTS_TO,C_CHN,True,锂辉石精矿主要流向中国转化,R0144,S16
+R0145,C_COD,EXPORTS_TO,C_CHN,True,钴精矿与中间品主要流向中国冶炼,R0145,S23
+R0146,C_IDN,EXPORTS_TO,C_CHN,True,镍铁与 MHP 主要流向中国,R0146,S17
+R0147,C_MMR,EXPORTS_TO,C_CHN,True,离子型稀土矿经边境口岸入华,R0147,S04
+R0148,C_ZWE,EXPORTS_TO,C_CHN,True,锂精矿主要流向中国,R0148,S12
+R0149,C_PHL,EXPORTS_TO,C_CHN,True,镍矿以原矿形式出口中国,R0149,S03
+R0150,C_ZAF,EXPORTS_TO,C_CHN,True,锰矿主要流向中国,R0150,S05
+R0151,C_GAB,EXPORTS_TO,C_CHN,True,锰矿主要流向中国,R0151,S05
+R0152,C_MDG,EXPORTS_TO,C_CHN,True,石墨精矿主要流向中国,R0152,S06
+R0153,C_PER,EXPORTS_TO,C_CHN,True,铜精矿主要流向中国,R0153,S07
+R0154,C_CHN,EXPORTS_TO,C_JPN,True,稀土氧化物与磁材出口,R0154,S13
+R0155,C_CHN,EXPORTS_TO,C_KOR,True,稀土氧化物与磁材出口,R0155,S13
+R0156,C_CHN,EXPORTS_TO,C_DEU,True,稀土氧化物与磁材出口,R0156,S13
+R0157,C_CHN,EXPORTS_TO,C_JPN,True,球形石墨与负极材料出口,R0157,S11
+R0167,M_MN,SUPPLIES,CO_DYN,True,磷酸锰铁锂路线的锰源，供应商分散,R0167,S18
+R0172,CO_EASP,SUPPLIES,CO_LGES,True,—,R0172,S18
+R0174,CO_BASF,SUPPLIES,CO_LGES,True,欧洲与亚洲工厂供货,R0174,S18
+R0192,CO_CATL,HOLDS,CO_YUNENG,True,战略持股，比例随定增变动，未核实,R0192,S18
+R0205,M_CO,REGULATED_BY,PE_20210323_SUEZ,True,航线中断，海运周期拉长,R0205,S26
+R0212,P_SIC_ANODE,SUBSTITUTES,P_GRA_ANODE,True,硅碳负极在配方与电芯工艺适配后可作为负极技术替代候选；不能据此认定完全绕开天然石墨。,R0212,S06
+R0213,P_NA_CELL,SUBSTITUTES,P_LFP_CELL,True,钠离子电芯仅在储能、低续航车辆等可接受性能取舍的场景作为LFP替代候选，仍待核实具体应用条件。,R0213,S10
+R0214,P_NISO4,SUBSTITUTES,P_COSO4,True,原备注实际指高镍低钴配方调整；硫酸镍与硫酸钴不是可直接互换的化学品，本边仅存作待核参考，排除正式替代推荐。,R0214,S18
+R0231,CO_BYD,SUPPLIES,CO_TSLA,True,A1 孤点补边：弗迪刀片电池供应 Model Y 后驱版（2023 起公开报道）；证据等级 C，仅作线索,R0231,S31
+DREQ_P_NA_CELL_M_CU,P_NA_CELL,REQUIRES,M_CU,True,由产品表确定依赖生成；本项目七矿种范围。,DREQ_P_NA_CELL_M_CU,S10
+DOPT_P_EV_M_NI,P_EV,REQUIRES,M_NI,True,按车型/配方而定，不能作为全部产品确定依赖。,DOPT_P_EV_M_NI,S10
+DOPT_P_EV_M_CO,P_EV,REQUIRES,M_CO,True,按车型/配方而定，不能作为全部产品确定依赖。,DOPT_P_EV_M_CO,S10
+DOPT_P_EV_M_GRA,P_EV,REQUIRES,M_GRA,True,按车型/配方而定，不能作为全部产品确定依赖。,DOPT_P_EV_M_GRA,S10
+E0004,P_GRA_ANODE,REGULATED_BY,PE_20231201_CN_GRA,True,,E0004,S11
+E0014,CO_HUAYOU,SUPPLIES,P_LI2SO4,True,,E0014,S12
+E0017,P_LI_CONC,REGULATED_BY,PE_20221220_ZW_LI,True,,E0017,S12
+E0024,P_NDFEB_MAGNET,REGULATED_BY,PE_20250404_CN_RE,True,,E0024,S13

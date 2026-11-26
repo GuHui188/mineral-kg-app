@@ -1,0 +1,49 @@
+﻿表名,字段名,中文名,数据类型,单位,取值范围,必填,示例,定义与口径
+全表,*_id,实体主键,string,—,C_/CO_/M_/P_/PE_ 前缀,是,CO_CATL,主键一经发布不再修改；中文名放 name_zh，不参与主键编码
+全表,source_id,来源编号,string,—,S01—S30，多值用竖线,是,S02,指向《07_来源登记表》的一行
+全表,confidence,置信度,float,0—1,0.00—1.00,是,0.95,对“这条知识为真”的概率估计；<0.80 进人工复核队列
+全表,valid_year,数据年份,int,年,1990—2026,是,2025,统计口径所属年份，不是录入年份
+01_dim_country,country_id,国家/地区编号,string,—,C_+ISO3,是,C_CHL,—；v2 起 Country 定义为「国家/地区/超国家组织」，C_EU 欧盟按此纳入（无 ISO3，iso_alpha3=NA）
+01_dim_country,iso_alpha3,ISO 三字码,string,—,ISO 3166-1,是,CHL,与 country_id 一一对应，便于对外对齐
+01_dim_country,region,所属区域,enum,—,亚洲/欧洲/北美洲/南美洲/非洲/大洋洲,是,南美洲,用于区域聚合与着色
+01_dim_country,role_in_chain,产业链角色,enum,—,资源国/加工国/消费国/资源+加工国,是,资源国,按“有没有矿、有没有冶炼、有没有市场”三问判定
+01_dim_country,reserve_li_t,锂储量,float,吨（Li 金属量）,≥0 或 NA,否,9200000,USGS 可经济开采储量；NA=该国未公布
+01_dim_country,reserve_reo_t,稀土储量,float,吨（REO）,≥0 或 NA,否,NA,同上
+01_dim_country,reserve_ni_t,镍储量,float,吨（Ni 金属量）,≥0 或 NA,否,NA,同上
+01_dim_country,reserve_co_t,钴储量,float,吨（Co 金属量）,≥0 或 NA,否,NA,同上
+02_dim_company,name_zh,企业中文名,string,—,—,是,宁德时代,以工商登记简称或通用译名为准
+02_dim_company,alias,别名,string,—,竖线分隔,否,宁王|CATL|300750,称呼、英文名、股票代码、旧名全收，供实体对齐
+02_dim_company,company_type,企业类型,enum,—,矿业/冶炼/材料/电池/整车/回收,是,电池,本体类 Company 的子类
+02_dim_company,founded_year,成立年份,int,年,1800—2026,是,2011,工商登记成立年，非上市年
+02_dim_company,listed,是否上市,enum,—,Y/N,是,Y,N=未上市
+02_dim_company,ticker,股票代码,string,—,交易所:代码,否,SZ:300750,反函数属性：代码一致即可判同一实体
+02_dim_company,stage,产业链环节,enum,—,采矿/冶炼/正极材料/负极材料/电芯/整车/回收,是,电芯,多环节取主营；v2 新增取值「材料」（负极材料/铜箔企业）与「贸易」（金属贸易平台）
+03_dim_mineral,mineral_id,矿产编号,string,—,M_+缩写,是,M_LI,—
+03_dim_mineral,unit,计量单位,string,—,吨（Li 金属量）等,是,吨（Li 金属量）,全表统一，禁止一行一单位
+03_dim_mineral,world_production_2025,2025 全球产量,float,见 unit 列,≥0,是,290000,USGS 口径；不含被隐瞒的国别数据
+03_dim_mineral,hhi,赫芬达尔指数,float,0—10000,0—10000,是,3620,各国份额平方和；>2500 视为高度集中
+03_dim_mineral,top1_share,第一大生产国份额,float,%,0—100,是,31.70,用于单点依赖判断
+04_dim_product,product_id,产品编号,string,—,P_+缩写,是,P_LFP_CELL,—
+04_dim_product,product_category,产品层级,enum,—,材料/电芯/电池包/整车,是,电芯,决定它处在产业链哪一层
+04_dim_product,chemistry,技术路线,string,—,LFP/NCM/NCA/钠电/石墨/硅碳/—,否,LFP,回答“哪条路线能绕开钴”靠这个字段
+04_dim_product,key_minerals,关键矿产,string,—,矿产名用竖线分隔,是,锂|石墨|铜,由 BOM 拆解得到，是“矿产→产品”推演的中间依据
+04_dim_product,contains_cobalt,是否含钴,enum,—,Y/N,是,N,替代路径搜索的开关
+05_dim_policy_event,event_id,事件编号,string,—,PE_+日期+国家+类型,是,PE_20250404_CN_RE,编号自带时间与国别，便于排序去重
+05_dim_policy_event,event_type,事件类型,enum,—,出口管制/关税/罢工/断航/补贴/标准/产业政策,是,出口管制,对应本体类 Event 子类，与案例三的 4 类冲击对应
+05_dim_policy_event,trigger_word,触发词,string,—,动词/名词短语,是,实施出口管制,事件抽取锚点，取自政策原文标题
+05_dim_policy_event,arguments,论元与角色,string,—,角色=值;角色=值,是,主体=中国商务部;对象=7类中重稀土;措施=出口许可,事件四要素中的论元与角色，一条事件可多组
+05_dim_policy_event,announce_date,公布日期,date,ISO 8601,YYYY-MM-DD,是,2025-04-04,日期统一 ISO 8601；只到月的补 01 并在 note 标注精度
+05_dim_policy_event,effective_date,生效日期,date,ISO 8601,YYYY-MM-DD 或 NA,否,2025-04-04,政策类必填；事件类（罢工/断航）填发生日
+05_dim_policy_event,impact_direction,影响方向,enum,—,收紧/放松/中性,是,收紧,供规则推理判断方向
+06_fact_relation,predicate,关系类型,enum,—,出产|供应|出口至|受管制于|可替代|控股|参股,是,出产,v2 共 7 种谓词。新增「参股 INVESTS_IN」按 B 组 Schema 2.2 判据落地：>50%，或虽不足 50% 但为第一大股东且形成实际控制才记控股，其余记参股；新增谓词须走 Schema 变更
+06_fact_relation,quantity,数量,float,见 unit,≥0 或 NA,否,92000,产量或贸易量，与 unit 成对出现
+06_fact_relation,share_pct,份额,float,%,0—100 或 NA,否,31.72,占全球产量/贸易量比例
+06_fact_relation,ratio_pct,（v1 遗留）持股比例,float,%,0—100 或 NA,否,NA,v1 列名，v2 起弃用。值与 hold_ratio_pct 完全一致，仅为兼容 C 组现有导入脚本而保留；C 侧切换列名后可删除本列
+06_fact_relation,since_year,起始年份,int,年,1800—2026 或 NA,否,NA,仅“供应/控股”使用；未知写 NA，不猜
+06_fact_relation,evidence_type,证据类型,enum,—,原表数值/公告原文/年报披露/媒体报道/推算,是,原表数值,决定能否直接入图：推算级只作线索
+06_fact_relation,value_status,取值状态,enum,—,实测/估计/未公布/不适用/无规模产量,是,估计,缺失值必须显式标注，禁止留空或写“—”
+06_fact_relation,mineral_id,关联矿种,string,—,M_LI|M_CO|M_NI|M_RE|M_GRA|M_MN|M_CU|NA,否,M_RE,v2 新增（A3），追加在表尾。「出口至」必填 M_xx，其余谓词填 NA。用于区分同端点的不同矿种出口边（C_CHN→C_JPN 的稀土 30% 与石墨 20%），避免 MERGE 合并导致 20% 数据静默丢失；C 组脚本优先读本列，缺失才回退 note 关键词判定
+06_fact_relation,hold_ratio_pct,持股比例,float,%,0—100|NA,否,22.0,v2 新增规范列名（A3/问题清单 A3），追加在表尾。持股比例，「控股」与「参股」共用；仅这两种谓词有值，其余填 NA。取代语义偏窄的 ratio_pct
+05_dim_policy_event,issuing_country,发布主体,string,—,C_xx|NA,否,C_EU,v2 口径（A4）：欧盟法规填 C_EU（超国家组织已入 01 维表）；断航、罢工等无发布主体的事件类型填 NA。填 NA 时 C 组脚本自动跳过、不生成「发布于」边
+05_dim_policy_event,target_mineral,涉及矿种（辅助）,string,—,M_xx|NA,否,M_RE,辅助属性，不入图。图里统一由「受管制于」边表达矿种与事件的关系，本列仅供人工阅读与交叉核对，不作为边生成依据（B3 回填口径）
+全表,note,备注与口径说明,string,—,自由文本,否,v2 A4：issuing_country C_DEU → C_EU,v2 起所有改动的理由以「｜v2 <问题号>：<原值> → <新值>（原因）」格式写进 note，保证 A/B/C 三方改动可追溯

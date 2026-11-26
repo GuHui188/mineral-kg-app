@@ -1,0 +1,1256 @@
+{
+  "intent": "production",
+  "template": "Q02",
+  "parameters": {
+    "mineral": "钴"
+  },
+  "backend": "neo4j",
+  "dataset": "mineral-20261125-v1",
+  "as_of": "2026-11-25",
+  "answer": "产量与分布：返回9条记录。",
+  "rows": [
+    {
+      "subject_id": "C_COD",
+      "note": "全球第一，占比约 74%",
+      "evidence_type": "原表数值",
+      "collection_year": 2026.0,
+      "origin": "A.fact",
+      "predicate": "出产",
+      "source_ids": [
+        "S02"
+      ],
+      "object_name": "钴",
+      "record_ids": [
+        "R0023"
+      ],
+      "id": "R0023",
+      "stat_year": 2025.0,
+      "value_status": "估计",
+      "quantity": 230000.0,
+      "kg_edge_id": "mineral-20261125-v1:R0023",
+      "confidence": 0.95,
+      "triple_id": "R0023",
+      "data_year": 2025.0,
+      "object_id": "M_CO",
+      "original_data_year": 2025.0,
+      "unit": "吨（Co 金属量）",
+      "subject_name": "刚果（金）",
+      "share_pct": 74.19,
+      "source_id": "S02",
+      "review_flag": false,
+      "dataset": "mineral-20261125-v1",
+      "source": "C_COD",
+      "target": "M_CO",
+      "type": "PRODUCES"
+    },
+    {
+      "subject_id": "C_IDN",
+      "note": "镍钴伴生，第二大生产国",
+      "evidence_type": "原表数值",
+      "collection_year": 2026.0,
+      "origin": "A.fact",
+      "predicate": "出产",
+      "source_ids": [
+        "S02"
+      ],
+      "object_name": "钴",
+      "record_ids": [
+        "R0030"
+      ],
+      "id": "R0030",
+      "stat_year": 2025.0,
+      "value_status": "估计",
+      "quantity": 44000.0,
+      "kg_edge_id": "mineral-20261125-v1:R0030",
+      "confidence": 0.95,
+      "triple_id": "R0030",
+      "data_year": 2025.0,
+      "object_id": "M_CO",
+      "original_data_year": 2025.0,
+      "unit": "吨（Co 金属量）",
+      "subject_name": "印度尼西亚",
+      "share_pct": 14.19,
+      "source_id": "S02",
+      "review_flag": false,
+      "dataset": "mineral-20261125-v1",
+      "source": "C_IDN",
+      "target": "M_CO",
+      "type": "PRODUCES"
+    },
+    {
+      "subject_id": "C_RUS",
+      "note": "—",
+      "evidence_type": "原表数值",
+      "collection_year": 2026.0,
+      "origin": "A.fact",
+      "predicate": "出产",
+      "source_ids": [
+        "S02"
+      ],
+      "object_name": "钴",
+      "record_ids": [
+        "R0058"
+      ],
+      "id": "R0058",
+      "stat_year": 2025.0,
+      "value_status": "估计",
+      "quantity": 7700.0,
+      "kg_edge_id": "mineral-20261125-v1:R0058",
+      "confidence": 0.95,
+      "triple_id": "R0058",
+      "data_year": 2025.0,
+      "object_id": "M_CO",
+      "original_data_year": 2025.0,
+      "unit": "吨（Co 金属量）",
+      "share_pct": 2.48,
+      "subject_name": "俄罗斯",
+      "source_id": "S02",
+      "review_flag": false,
+      "dataset": "mineral-20261125-v1",
+      "source": "C_RUS",
+      "target": "M_CO",
+      "type": "PRODUCES"
+    },
+    {
+      "subject_id": "C_MDG",
+      "note": "—",
+      "evidence_type": "原表数值",
+      "collection_year": 2026.0,
+      "origin": "A.fact",
+      "predicate": "出产",
+      "source_ids": [
+        "S02"
+      ],
+      "object_name": "钴",
+      "record_ids": [
+        "R0100"
+      ],
+      "id": "R0100",
+      "stat_year": 2025.0,
+      "value_status": "估计",
+      "quantity": 3900.0,
+      "kg_edge_id": "mineral-20261125-v1:R0100",
+      "confidence": 0.95,
+      "triple_id": "R0100",
+      "data_year": 2025.0,
+      "object_id": "M_CO",
+      "original_data_year": 2025.0,
+      "unit": "吨（Co 金属量）",
+      "subject_name": "马达加斯加",
+      "share_pct": 1.26,
+      "source_id": "S02",
+      "review_flag": false,
+      "dataset": "mineral-20261125-v1",
+      "source": "C_MDG",
+      "target": "M_CO",
+      "type": "PRODUCES"
+    },
+    {
+      "subject_id": "C_AUS",
+      "note": "—",
+      "evidence_type": "原表数值",
+      "collection_year": 2026.0,
+      "origin": "A.fact",
+      "predicate": "出产",
+      "source_ids": [
+        "S02"
+      ],
+      "object_name": "钴",
+      "record_ids": [
+        "R0009"
+      ],
+      "id": "R0009",
+      "stat_year": 2025.0,
+      "value_status": "估计",
+      "quantity": 3700.0,
+      "kg_edge_id": "mineral-20261125-v1:R0009",
+      "confidence": 0.95,
+      "triple_id": "R0009",
+      "data_year": 2025.0,
+      "object_id": "M_CO",
+      "original_data_year": 2025.0,
+      "unit": "吨（Co 金属量）",
+      "subject_name": "澳大利亚",
+      "share_pct": 1.19,
+      "source_id": "S02",
+      "review_flag": false,
+      "dataset": "mineral-20261125-v1",
+      "source": "C_AUS",
+      "target": "M_CO",
+      "type": "PRODUCES"
+    },
+    {
+      "subject_id": "C_PHL",
+      "note": "镍矿副产",
+      "evidence_type": "原表数值",
+      "collection_year": 2026.0,
+      "origin": "A.fact",
+      "predicate": "出产",
+      "source_ids": [
+        "S02"
+      ],
+      "object_name": "钴",
+      "record_ids": [
+        "R0051"
+      ],
+      "id": "R0051",
+      "stat_year": 2025.0,
+      "value_status": "估计",
+      "quantity": 3700.0,
+      "kg_edge_id": "mineral-20261125-v1:R0051",
+      "confidence": 0.95,
+      "triple_id": "R0051",
+      "data_year": 2025.0,
+      "object_id": "M_CO",
+      "original_data_year": 2025.0,
+      "unit": "吨（Co 金属量）",
+      "share_pct": 1.19,
+      "subject_name": "菲律宾",
+      "source_id": "S02",
+      "review_flag": false,
+      "dataset": "mineral-20261125-v1",
+      "source": "C_PHL",
+      "target": "M_CO",
+      "type": "PRODUCES"
+    },
+    {
+      "subject_id": "C_CAN",
+      "note": "—",
+      "evidence_type": "原表数值",
+      "collection_year": 2026.0,
+      "origin": "A.fact",
+      "predicate": "出产",
+      "source_ids": [
+        "S02"
+      ],
+      "object_name": "钴",
+      "record_ids": [
+        "R0086"
+      ],
+      "id": "R0086",
+      "stat_year": 2025.0,
+      "value_status": "估计",
+      "quantity": 3500.0,
+      "kg_edge_id": "mineral-20261125-v1:R0086",
+      "confidence": 0.95,
+      "triple_id": "R0086",
+      "data_year": 2025.0,
+      "object_id": "M_CO",
+      "original_data_year": 2025.0,
+      "unit": "吨（Co 金属量）",
+      "share_pct": 1.13,
+      "subject_name": "加拿大",
+      "source_id": "S02",
+      "review_flag": false,
+      "dataset": "mineral-20261125-v1",
+      "source": "C_CAN",
+      "target": "M_CO",
+      "type": "PRODUCES"
+    },
+    {
+      "subject_id": "C_CHN",
+      "note": "—",
+      "evidence_type": "原表数值",
+      "collection_year": 2026.0,
+      "origin": "A.fact",
+      "predicate": "出产",
+      "source_ids": [
+        "S02"
+      ],
+      "object_name": "钴",
+      "record_ids": [
+        "R0002"
+      ],
+      "id": "R0002",
+      "stat_year": 2025.0,
+      "value_status": "估计",
+      "quantity": 2000.0,
+      "kg_edge_id": "mineral-20261125-v1:R0002",
+      "confidence": 0.95,
+      "triple_id": "R0002",
+      "data_year": 2025.0,
+      "object_id": "M_CO",
+      "original_data_year": 2025.0,
+      "unit": "吨（Co 金属量）",
+      "share_pct": 0.65,
+      "subject_name": "中国",
+      "source_id": "S02",
+      "review_flag": false,
+      "dataset": "mineral-20261125-v1",
+      "source": "C_CHN",
+      "target": "M_CO",
+      "type": "PRODUCES"
+    },
+    {
+      "subject_id": "C_USA",
+      "note": "—",
+      "evidence_type": "原表数值",
+      "collection_year": 2026.0,
+      "origin": "A.fact",
+      "predicate": "出产",
+      "source_ids": [
+        "S02"
+      ],
+      "object_name": "钴",
+      "record_ids": [
+        "R0079"
+      ],
+      "id": "R0079",
+      "stat_year": 2025.0,
+      "value_status": "估计",
+      "quantity": 300.0,
+      "kg_edge_id": "mineral-20261125-v1:R0079",
+      "confidence": 0.95,
+      "triple_id": "R0079",
+      "data_year": 2025.0,
+      "object_id": "M_CO",
+      "original_data_year": 2025.0,
+      "unit": "吨（Co 金属量）",
+      "share_pct": 0.1,
+      "subject_name": "美国",
+      "source_id": "S02",
+      "review_flag": false,
+      "dataset": "mineral-20261125-v1",
+      "source": "C_USA",
+      "target": "M_CO",
+      "type": "PRODUCES"
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "name_zh": "中国",
+        "note": "锂、稀土、镍、钴均有储量；冶炼加工与电池制造规模全球第一",
+        "confidence": 0.95,
+        "reserve_li_t": 4600000.0,
+        "kg_id": "mineral-20261125-v1:C_CHN",
+        "label": "Country",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "role_in_chain": "资源+加工国",
+        "reserve_ni_t": 4400000.0,
+        "iso_alpha3": "CHN",
+        "name": "中国",
+        "source_id": "S01|S02|S03|S04",
+        "id": "C_CHN",
+        "region": "亚洲",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_CHN",
+        "reserve_co_t": 160000.0,
+        "reserve_reo_t": 44000000.0,
+        "name_en": "China"
+      },
+      {
+        "name_zh": "澳大利亚",
+        "note": "硬岩锂（锂辉石）第一大国；镍矿因价格低迷大量停产，2025 年镍产量降 54%",
+        "confidence": 0.95,
+        "reserve_li_t": 8400000.0,
+        "kg_id": "mineral-20261125-v1:C_AUS",
+        "label": "Country",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "role_in_chain": "资源国",
+        "reserve_ni_t": 25000000.0,
+        "iso_alpha3": "AUS",
+        "name": "澳大利亚",
+        "source_id": "S01|S02|S03|S04",
+        "id": "C_AUS",
+        "region": "大洋洲",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_AUS",
+        "reserve_reo_t": 6300000.0,
+        "name_en": "Australia"
+      },
+      {
+        "name_zh": "刚果（金）",
+        "note": "钴储量约占全球一半、产量约占四分之三",
+        "confidence": 0.95,
+        "kg_id": "mineral-20261125-v1:C_COD",
+        "label": "Country",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S02"
+        ],
+        "role_in_chain": "资源国",
+        "iso_alpha3": "COD",
+        "name": "刚果（金）",
+        "source_id": "S02",
+        "id": "C_COD",
+        "region": "非洲",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_COD",
+        "reserve_co_t": 6000000.0,
+        "name_en": "DR Congo"
+      },
+      {
+        "name_zh": "印度尼西亚",
+        "note": "镍产量全球第一（约 67%），并已成为第二大钴生产国",
+        "confidence": 0.95,
+        "kg_id": "mineral-20261125-v1:C_IDN",
+        "label": "Country",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S03",
+          "S02"
+        ],
+        "role_in_chain": "资源国",
+        "reserve_ni_t": 62000000.0,
+        "iso_alpha3": "IDN",
+        "name": "印度尼西亚",
+        "source_id": "S03|S02",
+        "id": "C_IDN",
+        "region": "亚洲",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_IDN",
+        "reserve_co_t": 760000.0,
+        "name_en": "Indonesia"
+      },
+      {
+        "name_zh": "菲律宾",
+        "note": "镍矿以原矿出口为主，2025 年产量下降 24%",
+        "confidence": 0.95,
+        "kg_id": "mineral-20261125-v1:C_PHL",
+        "label": "Country",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S03"
+        ],
+        "role_in_chain": "资源国",
+        "reserve_ni_t": 4800000.0,
+        "iso_alpha3": "PHL",
+        "name": "菲律宾",
+        "source_id": "S03",
+        "id": "C_PHL",
+        "region": "亚洲",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_PHL",
+        "reserve_co_t": 260000.0,
+        "name_en": "Philippines"
+      },
+      {
+        "name_zh": "俄罗斯",
+        "note": "镍、稀土、钴均有储量；受制裁影响贸易流向重构",
+        "confidence": 0.95,
+        "kg_id": "mineral-20261125-v1:C_RUS",
+        "label": "Country",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S02",
+          "S03"
+        ],
+        "role_in_chain": "资源国",
+        "reserve_ni_t": 8300000.0,
+        "iso_alpha3": "RUS",
+        "name": "俄罗斯",
+        "source_id": "S02|S03",
+        "id": "C_RUS",
+        "region": "欧洲",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_RUS",
+        "reserve_reo_t": 3800000.0,
+        "reserve_co_t": 800000.0,
+        "name_en": "Russia"
+      },
+      {
+        "name_zh": "美国",
+        "note": "锂产量被 USGS 隐瞒不予公布；稀土产量全球第二",
+        "confidence": 0.95,
+        "reserve_li_t": 4400000.0,
+        "kg_id": "mineral-20261125-v1:C_USA",
+        "label": "Country",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "role_in_chain": "消费国",
+        "reserve_ni_t": 340000.0,
+        "iso_alpha3": "USA",
+        "name": "美国",
+        "source_id": "S01|S02|S03",
+        "id": "C_USA",
+        "region": "北美洲",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_USA",
+        "reserve_co_t": 70000.0,
+        "reserve_reo_t": 1900000.0,
+        "name_en": "United States"
+      },
+      {
+        "name_zh": "加拿大",
+        "note": "锂、镍、钴均有产量，2025 年镍产量回升",
+        "confidence": 0.95,
+        "reserve_li_t": 1600000.0,
+        "kg_id": "mineral-20261125-v1:C_CAN",
+        "label": "Country",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "role_in_chain": "资源国",
+        "reserve_ni_t": 2200000.0,
+        "iso_alpha3": "CAN",
+        "name": "加拿大",
+        "source_id": "S01|S02|S03",
+        "id": "C_CAN",
+        "region": "北美洲",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_CAN",
+        "reserve_co_t": 220000.0,
+        "reserve_reo_t": 830000.0,
+        "name_en": "Canada"
+      },
+      {
+        "name_zh": "马达加斯加",
+        "note": "石墨与稀土伴生；2025 年钴产量 3,900 吨",
+        "confidence": 0.95,
+        "kg_id": "mineral-20261125-v1:C_MDG",
+        "label": "Country",
+        "valid_year": 2025.0,
+        "source_ids": [
+          "S06",
+          "S02"
+        ],
+        "role_in_chain": "资源国",
+        "iso_alpha3": "MDG",
+        "name": "马达加斯加",
+        "source_id": "S06|S02",
+        "id": "C_MDG",
+        "region": "非洲",
+        "dataset": "mineral-20261125-v1",
+        "country_id": "C_MDG",
+        "reserve_co_t": 100000.0,
+        "name_en": "Madagascar"
+      },
+      {
+        "name_zh": "钴",
+        "symbol": "Co",
+        "note": "刚果（金）占产量约 74%",
+        "confidence": 0.95,
+        "hhi": 5718.0,
+        "kg_id": "mineral-20261125-v1:M_CO",
+        "hhi_scope": "已收录国家产量份额的平方和，非完整全球HHI",
+        "label": "Mineral",
+        "valid_year": 2025.0,
+        "mineral_id": "M_CO",
+        "source_ids": [
+          "S02"
+        ],
+        "unit": "吨（Co 金属量）",
+        "battery_role": "三元正极中稳定晶体结构",
+        "world_production_2025": 310000.0,
+        "hhi_coverage_pct": 96.38,
+        "top1_share": 74.19,
+        "name": "钴",
+        "top1_country": "刚果（金）",
+        "hhi_recomputed": 5717.79,
+        "source_id": "S02",
+        "id": "M_CO",
+        "dataset": "mineral-20261125-v1",
+        "world_reserve": 12000000.0,
+        "name_en": "Cobalt"
+      },
+      {
+        "note": "刚果（金）占 73%",
+        "accessed_date": "2026-11-12",
+        "url_status": "直达链接",
+        "source_type": "官方统计",
+        "kg_id": "mineral-20261125-v1:S02",
+        "label": "Source",
+        "title": "Mineral Commodity Summaries 2026 — Cobalt",
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cobalt.pdf",
+        "source_ids": [
+          "S02"
+        ],
+        "name": "Mineral Commodity Summaries 2026 — Cobalt",
+        "publisher": "USGS",
+        "used_for": "01/03/06 钴产量与储量",
+        "authority_level": "A",
+        "source_id": "S02",
+        "id": "S02",
+        "dataset": "mineral-20261125-v1",
+        "publish_date": "2026-02"
+      }
+    ],
+    "edges": [
+      {
+        "source_ids": [
+          "S02"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_C_CHN_S02",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_C_CHN_S02"
+        ],
+        "id": "CITE_C_CHN_S02",
+        "review_flag": false,
+        "source_id": "S02",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_CHN",
+        "target": "S02",
+        "type": "CITES"
+      },
+      {
+        "subject_id": "C_CHN",
+        "note": "—",
+        "evidence_type": "原表数值",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "predicate": "出产",
+        "source_ids": [
+          "S02"
+        ],
+        "object_name": "钴",
+        "record_ids": [
+          "R0002"
+        ],
+        "id": "R0002",
+        "stat_year": 2025.0,
+        "value_status": "估计",
+        "quantity": 2000.0,
+        "kg_edge_id": "mineral-20261125-v1:R0002",
+        "confidence": 0.95,
+        "triple_id": "R0002",
+        "data_year": 2025.0,
+        "object_id": "M_CO",
+        "original_data_year": 2025.0,
+        "unit": "吨（Co 金属量）",
+        "share_pct": 0.65,
+        "subject_name": "中国",
+        "source_id": "S02",
+        "review_flag": false,
+        "dataset": "mineral-20261125-v1",
+        "source": "C_CHN",
+        "target": "M_CO",
+        "type": "PRODUCES"
+      },
+      {
+        "source_ids": [
+          "S02"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_C_AUS_S02",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_C_AUS_S02"
+        ],
+        "id": "CITE_C_AUS_S02",
+        "review_flag": false,
+        "source_id": "S02",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_AUS",
+        "target": "S02",
+        "type": "CITES"
+      },
+      {
+        "value_status": "推算",
+        "subject_id": "C_AUS",
+        "note": "锂辉石精矿主要流向中国转化",
+        "evidence_type": "媒体报道",
+        "kg_edge_id": "mineral-20261125-v1:R0144",
+        "collection_year": 2026.0,
+        "confidence": 0.7,
+        "origin": "A.fact",
+        "triple_id": "R0144",
+        "data_year": 2025.0,
+        "object_id": "C_CHN",
+        "mineral_id": "M_LI",
+        "original_data_year": 2025.0,
+        "predicate": "出口至",
+        "source_ids": [
+          "S16"
+        ],
+        "unit": "%",
+        "object_name": "中国",
+        "subject_name": "澳大利亚",
+        "record_ids": [
+          "R0144"
+        ],
+        "source_id": "S16",
+        "review_flag": true,
+        "id": "R0144",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_AUS",
+        "target": "C_CHN",
+        "type": "EXPORTS_TO"
+      },
+      {
+        "subject_id": "C_AUS",
+        "note": "—",
+        "evidence_type": "原表数值",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "predicate": "出产",
+        "source_ids": [
+          "S02"
+        ],
+        "object_name": "钴",
+        "record_ids": [
+          "R0009"
+        ],
+        "id": "R0009",
+        "stat_year": 2025.0,
+        "value_status": "估计",
+        "quantity": 3700.0,
+        "kg_edge_id": "mineral-20261125-v1:R0009",
+        "confidence": 0.95,
+        "triple_id": "R0009",
+        "data_year": 2025.0,
+        "object_id": "M_CO",
+        "original_data_year": 2025.0,
+        "unit": "吨（Co 金属量）",
+        "subject_name": "澳大利亚",
+        "share_pct": 1.19,
+        "source_id": "S02",
+        "review_flag": false,
+        "dataset": "mineral-20261125-v1",
+        "source": "C_AUS",
+        "target": "M_CO",
+        "type": "PRODUCES"
+      },
+      {
+        "source_ids": [
+          "S02"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_C_COD_S02",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_C_COD_S02"
+        ],
+        "id": "CITE_C_COD_S02",
+        "review_flag": false,
+        "source_id": "S02",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_COD",
+        "target": "S02",
+        "type": "CITES"
+      },
+      {
+        "subject_id": "C_COD",
+        "note": "全球第一，占比约 74%",
+        "evidence_type": "原表数值",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "predicate": "出产",
+        "source_ids": [
+          "S02"
+        ],
+        "object_name": "钴",
+        "record_ids": [
+          "R0023"
+        ],
+        "id": "R0023",
+        "stat_year": 2025.0,
+        "value_status": "估计",
+        "quantity": 230000.0,
+        "kg_edge_id": "mineral-20261125-v1:R0023",
+        "confidence": 0.95,
+        "triple_id": "R0023",
+        "data_year": 2025.0,
+        "object_id": "M_CO",
+        "original_data_year": 2025.0,
+        "unit": "吨（Co 金属量）",
+        "subject_name": "刚果（金）",
+        "share_pct": 74.19,
+        "source_id": "S02",
+        "review_flag": false,
+        "dataset": "mineral-20261125-v1",
+        "source": "C_COD",
+        "target": "M_CO",
+        "type": "PRODUCES"
+      },
+      {
+        "value_status": "推算",
+        "subject_id": "C_COD",
+        "note": "钴精矿与中间品主要流向中国冶炼",
+        "evidence_type": "媒体报道",
+        "kg_edge_id": "mineral-20261125-v1:R0145",
+        "collection_year": 2026.0,
+        "confidence": 0.75,
+        "origin": "A.fact",
+        "triple_id": "R0145",
+        "data_year": 2025.0,
+        "object_id": "C_CHN",
+        "mineral_id": "M_CO",
+        "original_data_year": 2025.0,
+        "predicate": "出口至",
+        "source_ids": [
+          "S23"
+        ],
+        "unit": "%",
+        "object_name": "中国",
+        "share_pct": 70.0,
+        "subject_name": "刚果（金）",
+        "record_ids": [
+          "R0145"
+        ],
+        "source_id": "S23",
+        "review_flag": true,
+        "id": "R0145",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_COD",
+        "target": "C_CHN",
+        "type": "EXPORTS_TO"
+      },
+      {
+        "value_status": "推算",
+        "subject_id": "C_IDN",
+        "note": "镍铁与 MHP 主要流向中国",
+        "evidence_type": "媒体报道",
+        "kg_edge_id": "mineral-20261125-v1:R0146",
+        "collection_year": 2026.0,
+        "confidence": 0.75,
+        "origin": "A.fact",
+        "triple_id": "R0146",
+        "data_year": 2025.0,
+        "object_id": "C_CHN",
+        "mineral_id": "M_NI",
+        "original_data_year": 2025.0,
+        "predicate": "出口至",
+        "source_ids": [
+          "S17"
+        ],
+        "unit": "%",
+        "object_name": "中国",
+        "share_pct": 75.0,
+        "subject_name": "印度尼西亚",
+        "record_ids": [
+          "R0146"
+        ],
+        "source_id": "S17",
+        "review_flag": true,
+        "id": "R0146",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_IDN",
+        "target": "C_CHN",
+        "type": "EXPORTS_TO"
+      },
+      {
+        "source_ids": [
+          "S02"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_C_IDN_S02",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_C_IDN_S02"
+        ],
+        "id": "CITE_C_IDN_S02",
+        "review_flag": false,
+        "source_id": "S02",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_IDN",
+        "target": "S02",
+        "type": "CITES"
+      },
+      {
+        "subject_id": "C_IDN",
+        "note": "镍钴伴生，第二大生产国",
+        "evidence_type": "原表数值",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "predicate": "出产",
+        "source_ids": [
+          "S02"
+        ],
+        "object_name": "钴",
+        "record_ids": [
+          "R0030"
+        ],
+        "id": "R0030",
+        "stat_year": 2025.0,
+        "value_status": "估计",
+        "quantity": 44000.0,
+        "kg_edge_id": "mineral-20261125-v1:R0030",
+        "confidence": 0.95,
+        "triple_id": "R0030",
+        "data_year": 2025.0,
+        "object_id": "M_CO",
+        "original_data_year": 2025.0,
+        "unit": "吨（Co 金属量）",
+        "subject_name": "印度尼西亚",
+        "share_pct": 14.19,
+        "source_id": "S02",
+        "review_flag": false,
+        "dataset": "mineral-20261125-v1",
+        "source": "C_IDN",
+        "target": "M_CO",
+        "type": "PRODUCES"
+      },
+      {
+        "source_ids": [
+          "S02"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_C_PHL_S02",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_C_PHL_S02"
+        ],
+        "id": "CITE_C_PHL_S02",
+        "review_flag": false,
+        "source_id": "S02",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_PHL",
+        "target": "S02",
+        "type": "CITES"
+      },
+      {
+        "value_status": "推算",
+        "subject_id": "C_PHL",
+        "note": "镍矿以原矿形式出口中国",
+        "evidence_type": "媒体报道",
+        "kg_edge_id": "mineral-20261125-v1:R0149",
+        "collection_year": 2026.0,
+        "confidence": 0.7,
+        "origin": "A.fact",
+        "triple_id": "R0149",
+        "data_year": 2025.0,
+        "object_id": "C_CHN",
+        "mineral_id": "M_NI",
+        "original_data_year": 2025.0,
+        "predicate": "出口至",
+        "source_ids": [
+          "S03"
+        ],
+        "unit": "%",
+        "object_name": "中国",
+        "subject_name": "菲律宾",
+        "share_pct": 90.0,
+        "record_ids": [
+          "R0149"
+        ],
+        "source_id": "S03",
+        "review_flag": true,
+        "id": "R0149",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_PHL",
+        "target": "C_CHN",
+        "type": "EXPORTS_TO"
+      },
+      {
+        "subject_id": "C_PHL",
+        "note": "镍矿副产",
+        "evidence_type": "原表数值",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "predicate": "出产",
+        "source_ids": [
+          "S02"
+        ],
+        "object_name": "钴",
+        "record_ids": [
+          "R0051"
+        ],
+        "id": "R0051",
+        "stat_year": 2025.0,
+        "value_status": "估计",
+        "quantity": 3700.0,
+        "kg_edge_id": "mineral-20261125-v1:R0051",
+        "confidence": 0.95,
+        "triple_id": "R0051",
+        "data_year": 2025.0,
+        "object_id": "M_CO",
+        "original_data_year": 2025.0,
+        "unit": "吨（Co 金属量）",
+        "share_pct": 1.19,
+        "subject_name": "菲律宾",
+        "source_id": "S02",
+        "review_flag": false,
+        "dataset": "mineral-20261125-v1",
+        "source": "C_PHL",
+        "target": "M_CO",
+        "type": "PRODUCES"
+      },
+      {
+        "source_ids": [
+          "S02"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_C_RUS_S02",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_C_RUS_S02"
+        ],
+        "id": "CITE_C_RUS_S02",
+        "review_flag": false,
+        "source_id": "S02",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_RUS",
+        "target": "S02",
+        "type": "CITES"
+      },
+      {
+        "subject_id": "C_RUS",
+        "note": "—",
+        "evidence_type": "原表数值",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "predicate": "出产",
+        "source_ids": [
+          "S02"
+        ],
+        "object_name": "钴",
+        "record_ids": [
+          "R0058"
+        ],
+        "id": "R0058",
+        "stat_year": 2025.0,
+        "value_status": "估计",
+        "quantity": 7700.0,
+        "kg_edge_id": "mineral-20261125-v1:R0058",
+        "confidence": 0.95,
+        "triple_id": "R0058",
+        "data_year": 2025.0,
+        "object_id": "M_CO",
+        "original_data_year": 2025.0,
+        "unit": "吨（Co 金属量）",
+        "share_pct": 2.48,
+        "subject_name": "俄罗斯",
+        "source_id": "S02",
+        "review_flag": false,
+        "dataset": "mineral-20261125-v1",
+        "source": "C_RUS",
+        "target": "M_CO",
+        "type": "PRODUCES"
+      },
+      {
+        "source_ids": [
+          "S02"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_C_USA_S02",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_C_USA_S02"
+        ],
+        "id": "CITE_C_USA_S02",
+        "review_flag": false,
+        "source_id": "S02",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_USA",
+        "target": "S02",
+        "type": "CITES"
+      },
+      {
+        "subject_id": "C_USA",
+        "note": "—",
+        "evidence_type": "原表数值",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "predicate": "出产",
+        "source_ids": [
+          "S02"
+        ],
+        "object_name": "钴",
+        "record_ids": [
+          "R0079"
+        ],
+        "id": "R0079",
+        "stat_year": 2025.0,
+        "value_status": "估计",
+        "quantity": 300.0,
+        "kg_edge_id": "mineral-20261125-v1:R0079",
+        "confidence": 0.95,
+        "triple_id": "R0079",
+        "data_year": 2025.0,
+        "object_id": "M_CO",
+        "original_data_year": 2025.0,
+        "unit": "吨（Co 金属量）",
+        "share_pct": 0.1,
+        "subject_name": "美国",
+        "source_id": "S02",
+        "review_flag": false,
+        "dataset": "mineral-20261125-v1",
+        "source": "C_USA",
+        "target": "M_CO",
+        "type": "PRODUCES"
+      },
+      {
+        "source_ids": [
+          "S02"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_C_CAN_S02",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_C_CAN_S02"
+        ],
+        "id": "CITE_C_CAN_S02",
+        "review_flag": false,
+        "source_id": "S02",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_CAN",
+        "target": "S02",
+        "type": "CITES"
+      },
+      {
+        "subject_id": "C_CAN",
+        "note": "—",
+        "evidence_type": "原表数值",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "predicate": "出产",
+        "source_ids": [
+          "S02"
+        ],
+        "object_name": "钴",
+        "record_ids": [
+          "R0086"
+        ],
+        "id": "R0086",
+        "stat_year": 2025.0,
+        "value_status": "估计",
+        "quantity": 3500.0,
+        "kg_edge_id": "mineral-20261125-v1:R0086",
+        "confidence": 0.95,
+        "triple_id": "R0086",
+        "data_year": 2025.0,
+        "object_id": "M_CO",
+        "original_data_year": 2025.0,
+        "unit": "吨（Co 金属量）",
+        "share_pct": 1.13,
+        "subject_name": "加拿大",
+        "source_id": "S02",
+        "review_flag": false,
+        "dataset": "mineral-20261125-v1",
+        "source": "C_CAN",
+        "target": "M_CO",
+        "type": "PRODUCES"
+      },
+      {
+        "subject_id": "C_MDG",
+        "note": "—",
+        "evidence_type": "原表数值",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "predicate": "出产",
+        "source_ids": [
+          "S02"
+        ],
+        "object_name": "钴",
+        "record_ids": [
+          "R0100"
+        ],
+        "id": "R0100",
+        "stat_year": 2025.0,
+        "value_status": "估计",
+        "quantity": 3900.0,
+        "kg_edge_id": "mineral-20261125-v1:R0100",
+        "confidence": 0.95,
+        "triple_id": "R0100",
+        "data_year": 2025.0,
+        "object_id": "M_CO",
+        "original_data_year": 2025.0,
+        "unit": "吨（Co 金属量）",
+        "subject_name": "马达加斯加",
+        "share_pct": 1.26,
+        "source_id": "S02",
+        "review_flag": false,
+        "dataset": "mineral-20261125-v1",
+        "source": "C_MDG",
+        "target": "M_CO",
+        "type": "PRODUCES"
+      },
+      {
+        "value_status": "推算",
+        "subject_id": "C_MDG",
+        "note": "石墨精矿主要流向中国",
+        "evidence_type": "媒体报道",
+        "kg_edge_id": "mineral-20261125-v1:R0152",
+        "collection_year": 2026.0,
+        "confidence": 0.6,
+        "origin": "A.fact",
+        "triple_id": "R0152",
+        "data_year": 2025.0,
+        "object_id": "C_CHN",
+        "mineral_id": "M_GRA",
+        "original_data_year": 2025.0,
+        "predicate": "出口至",
+        "source_ids": [
+          "S06"
+        ],
+        "unit": "%",
+        "object_name": "中国",
+        "share_pct": 80.0,
+        "subject_name": "马达加斯加",
+        "record_ids": [
+          "R0152"
+        ],
+        "source_id": "S06",
+        "review_flag": true,
+        "id": "R0152",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_MDG",
+        "target": "C_CHN",
+        "type": "EXPORTS_TO"
+      },
+      {
+        "source_ids": [
+          "S02"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_C_MDG_S02",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_C_MDG_S02"
+        ],
+        "id": "CITE_C_MDG_S02",
+        "review_flag": false,
+        "source_id": "S02",
+        "dataset": "mineral-20261125-v1",
+        "source": "C_MDG",
+        "target": "S02",
+        "type": "CITES"
+      },
+      {
+        "source_ids": [
+          "S02"
+        ],
+        "kg_edge_id": "mineral-20261125-v1:CITE_M_CO_S02",
+        "origin": "derived.navigation",
+        "record_ids": [
+          "CITE_M_CO_S02"
+        ],
+        "id": "CITE_M_CO_S02",
+        "review_flag": false,
+        "source_id": "S02",
+        "dataset": "mineral-20261125-v1",
+        "source": "M_CO",
+        "target": "S02",
+        "type": "CITES"
+      }
+    ]
+  },
+  "highlight_paths": [],
+  "sources": [
+    {
+      "note": "刚果（金）占 73%",
+      "accessed_date": "2026-11-12",
+      "url_status": "直达链接",
+      "source_type": "官方统计",
+      "kg_id": "mineral-20261125-v1:S02",
+      "label": "Source",
+      "title": "Mineral Commodity Summaries 2026 — Cobalt",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cobalt.pdf",
+      "source_ids": [
+        "S02"
+      ],
+      "name": "Mineral Commodity Summaries 2026 — Cobalt",
+      "publisher": "USGS",
+      "used_for": "01/03/06 钴产量与储量",
+      "authority_level": "A",
+      "source_id": "S02",
+      "id": "S02",
+      "dataset": "mineral-20261125-v1",
+      "publish_date": "2026-02"
+    }
+  ],
+  "limitations": ""
+}

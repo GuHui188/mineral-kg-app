@@ -1,0 +1,1111 @@
+{
+  "Q01": {
+    "name": "数据规模",
+    "rows": [
+      {
+        "nodes": 149,
+        "edges": 618
+      }
+    ]
+  },
+  "Q02": {
+    "name": "正产量国家",
+    "rows": [
+      {
+        "country_id": "C_COD",
+        "country": "刚果（金）",
+        "quantity": 230000.0,
+        "observed_share_pct": 74.19,
+        "edge_id": "R0023",
+        "source_ids": [
+          "S02"
+        ]
+      },
+      {
+        "country_id": "C_IDN",
+        "country": "印度尼西亚",
+        "quantity": 44000.0,
+        "observed_share_pct": 14.19,
+        "edge_id": "R0030",
+        "source_ids": [
+          "S02"
+        ]
+      },
+      {
+        "country_id": "C_RUS",
+        "country": "俄罗斯",
+        "quantity": 7700.0,
+        "observed_share_pct": 2.48,
+        "edge_id": "R0058",
+        "source_ids": [
+          "S02"
+        ]
+      },
+      {
+        "country_id": "C_MDG",
+        "country": "马达加斯加",
+        "quantity": 3900.0,
+        "observed_share_pct": 1.26,
+        "edge_id": "R0100",
+        "source_ids": [
+          "S02"
+        ]
+      },
+      {
+        "country_id": "C_AUS",
+        "country": "澳大利亚",
+        "quantity": 3700.0,
+        "observed_share_pct": 1.19,
+        "edge_id": "R0009",
+        "source_ids": [
+          "S02"
+        ]
+      },
+      {
+        "country_id": "C_PHL",
+        "country": "菲律宾",
+        "quantity": 3700.0,
+        "observed_share_pct": 1.19,
+        "edge_id": "R0051",
+        "source_ids": [
+          "S02"
+        ]
+      },
+      {
+        "country_id": "C_CAN",
+        "country": "加拿大",
+        "quantity": 3500.0,
+        "observed_share_pct": 1.13,
+        "edge_id": "R0086",
+        "source_ids": [
+          "S02"
+        ]
+      },
+      {
+        "country_id": "C_CHN",
+        "country": "中国",
+        "quantity": 2000.0,
+        "observed_share_pct": 0.65,
+        "edge_id": "R0002",
+        "source_ids": [
+          "S02"
+        ]
+      },
+      {
+        "country_id": "C_USA",
+        "country": "美国",
+        "quantity": 300.0,
+        "observed_share_pct": 0.1,
+        "edge_id": "R0079",
+        "source_ids": [
+          "S02"
+        ]
+      }
+    ]
+  },
+  "Q03": {
+    "name": "部分覆盖HHI",
+    "rows": [
+      {
+        "mineral_id": "M_LI",
+        "coverage_pct": 96.07,
+        "partial_hhi": 2013.2038999999997,
+        "countries": 7
+      },
+      {
+        "mineral_id": "M_CO",
+        "coverage_pct": 96.38,
+        "partial_hhi": 5717.7918,
+        "countries": 9
+      },
+      {
+        "mineral_id": "M_NI",
+        "coverage_pct": 88.59,
+        "partial_hhi": 4546.0608999999995,
+        "countries": 8
+      },
+      {
+        "mineral_id": "M_RE",
+        "coverage_pct": 97.26,
+        "partial_hhi": 5052.2276,
+        "countries": 7
+      },
+      {
+        "mineral_id": "M_GRA",
+        "coverage_pct": 85.83,
+        "partial_hhi": 6082.4741,
+        "countries": 3
+      },
+      {
+        "mineral_id": "M_MN",
+        "coverage_pct": 71.0,
+        "partial_hhi": 2133.0,
+        "countries": 3
+      },
+      {
+        "mineral_id": "M_CU",
+        "coverage_pct": 56.519999999999996,
+        "partial_hhi": 923.4662000000001,
+        "countries": 4
+      }
+    ]
+  },
+  "Q04": {
+    "name": "已记录出口方向与份额口径",
+    "rows": []
+  },
+  "Q05": {
+    "name": "矿种潜在多跳关联",
+    "rows": [
+      {
+        "company_id": "CO_HUAYOU",
+        "path_node_ids": [
+          "M_CO",
+          "CO_HUAYOU"
+        ],
+        "path_edge_ids": [
+          "R0160"
+        ]
+      },
+      {
+        "company_id": "CO_GEM",
+        "path_node_ids": [
+          "M_CO",
+          "CO_GEM"
+        ],
+        "path_edge_ids": [
+          "R0218"
+        ]
+      },
+      {
+        "company_id": "CO_CATL",
+        "path_node_ids": [
+          "M_CO",
+          "CO_GEM",
+          "CO_CATL"
+        ],
+        "path_edge_ids": [
+          "R0218",
+          "R0173"
+        ]
+      },
+      {
+        "company_id": "CO_FORD",
+        "path_node_ids": [
+          "M_CO",
+          "CO_GEM",
+          "CO_CATL",
+          "CO_FORD"
+        ],
+        "path_edge_ids": [
+          "R0218",
+          "R0173",
+          "R0178"
+        ]
+      },
+      {
+        "company_id": "CO_VW",
+        "path_node_ids": [
+          "M_CO",
+          "CO_GEM",
+          "CO_CATL",
+          "CO_VW"
+        ],
+        "path_edge_ids": [
+          "R0218",
+          "R0173",
+          "R0177"
+        ]
+      },
+      {
+        "company_id": "CO_BMW",
+        "path_node_ids": [
+          "M_CO",
+          "CO_GEM",
+          "CO_CATL",
+          "CO_BMW"
+        ],
+        "path_edge_ids": [
+          "R0218",
+          "R0173",
+          "R0176"
+        ]
+      },
+      {
+        "company_id": "CO_TSLA",
+        "path_node_ids": [
+          "M_CO",
+          "CO_GEM",
+          "CO_CATL",
+          "CO_TSLA"
+        ],
+        "path_edge_ids": [
+          "R0218",
+          "R0173",
+          "R0175"
+        ]
+      },
+      {
+        "company_id": "CO_CMOC",
+        "path_node_ids": [
+          "M_CO",
+          "CO_CMOC"
+        ],
+        "path_edge_ids": [
+          "R0161"
+        ]
+      }
+    ]
+  },
+  "Q06": {
+    "name": "涉目标国的政策",
+    "rows": [
+      {
+        "event_id": "PE_20200101_ID_NI",
+        "event": "印尼全面禁止镍原矿出口",
+        "issuer_country_id": "C_IDN",
+        "effective_date": "2020-01-01",
+        "original_status": "已生效",
+        "source_ids": [
+          "S17"
+        ]
+      },
+      {
+        "event_id": "PE_20210323_SUEZ",
+        "event": "“长赐号”搁浅致苏伊士运河断航",
+        "issuer_country_id": null,
+        "effective_date": "2021-03-29",
+        "original_status": "已结束",
+        "source_ids": [
+          "S26"
+        ]
+      },
+      {
+        "event_id": "PE_20220816_US_IRA",
+        "event": "美国《通胀削减法案》签署",
+        "issuer_country_id": "C_USA",
+        "effective_date": "2023-01-01",
+        "original_status": "已生效",
+        "source_ids": [
+          "S21"
+        ]
+      },
+      {
+        "event_id": "PE_20221220_ZW_LI",
+        "event": "津巴布韦禁止未加工锂矿出口",
+        "issuer_country_id": "C_ZWE",
+        "effective_date": "2022-12-20",
+        "original_status": "已生效",
+        "source_ids": [
+          "S12"
+        ]
+      },
+      {
+        "event_id": "PE_20230420_CL_LI",
+        "event": "智利发布《国家锂战略》",
+        "issuer_country_id": "C_CHL",
+        "effective_date": "2023-04-20",
+        "original_status": "已生效",
+        "source_ids": [
+          "S24"
+        ]
+      },
+      {
+        "event_id": "PE_20230817_EU_BATREG",
+        "event": "欧盟《新电池法规》生效",
+        "issuer_country_id": "C_EU",
+        "effective_date": "2023-08-17",
+        "original_status": "分阶段生效",
+        "source_ids": [
+          "S20"
+        ]
+      },
+      {
+        "event_id": "PE_20240523_EU_CRMA",
+        "event": "欧盟《关键原材料法案》生效",
+        "issuer_country_id": "C_EU",
+        "effective_date": "2024-05-23",
+        "original_status": "已生效",
+        "source_ids": [
+          "S20"
+        ]
+      },
+      {
+        "event_id": "PE_20240927_US_301",
+        "event": "美国 301 复审对华电池与电动车加税生效",
+        "issuer_country_id": "C_USA",
+        "effective_date": "2024-09-27",
+        "original_status": "已生效",
+        "source_ids": [
+          "S21"
+        ]
+      },
+      {
+        "event_id": "PE_20241001_US_PORT",
+        "event": "美国东海岸与墨西哥湾港口工人罢工",
+        "issuer_country_id": null,
+        "effective_date": "2024-10-03",
+        "original_status": "已结束",
+        "source_ids": [
+          "S27"
+        ]
+      },
+      {
+        "event_id": "PE_20250222_CD_CO",
+        "event": "刚果（金）暂停钴出口",
+        "issuer_country_id": "C_COD",
+        "effective_date": "2025-02-22",
+        "original_status": "已转为配额",
+        "source_ids": [
+          "S23"
+        ]
+      },
+      {
+        "event_id": "PE_20250402_US_TARIFF",
+        "event": "美国宣布“对等关税”",
+        "issuer_country_id": "C_USA",
+        "effective_date": "2025-04-05",
+        "original_status": "部分调整",
+        "source_ids": [
+          "S21"
+        ]
+      },
+      {
+        "event_id": "PE_20250710_US_MP",
+        "event": "美国国防部入股 MP Materials",
+        "issuer_country_id": "C_USA",
+        "effective_date": "2025-07-10",
+        "original_status": "已生效",
+        "source_ids": [
+          "S28"
+        ]
+      },
+      {
+        "event_id": "PE_20251015_CD_COQUOTA",
+        "event": "刚果（金）以出口配额取代钴出口禁令",
+        "issuer_country_id": "C_COD",
+        "effective_date": "2025-10-16",
+        "original_status": "已生效",
+        "source_ids": [
+          "S23"
+        ]
+      }
+    ]
+  },
+  "Q07": {
+    "name": "供应及股权上游关联",
+    "rows": [
+      {
+        "upstream_id": "CO_RONBAY",
+        "path_node_ids": [
+          "CO_CATL",
+          "CO_RONBAY"
+        ],
+        "path_edge_ids": [
+          "R0170"
+        ]
+      },
+      {
+        "upstream_id": "CO_YUNENG",
+        "path_node_ids": [
+          "CO_CATL",
+          "CO_YUNENG"
+        ],
+        "path_edge_ids": [
+          "R0168"
+        ]
+      },
+      {
+        "upstream_id": "CO_DYN",
+        "path_node_ids": [
+          "CO_CATL",
+          "CO_DYN"
+        ],
+        "path_edge_ids": [
+          "R0169"
+        ]
+      },
+      {
+        "upstream_id": "CO_GEM",
+        "path_node_ids": [
+          "CO_CATL",
+          "CO_GEM"
+        ],
+        "path_edge_ids": [
+          "R0173"
+        ]
+      },
+      {
+        "upstream_id": "M_CO",
+        "path_node_ids": [
+          "CO_CATL",
+          "CO_GEM",
+          "M_CO"
+        ],
+        "path_edge_ids": [
+          "R0173",
+          "R0218"
+        ]
+      },
+      {
+        "upstream_id": "M_MN",
+        "path_node_ids": [
+          "CO_CATL",
+          "CO_GEM",
+          "M_MN"
+        ],
+        "path_edge_ids": [
+          "R0173",
+          "R0222"
+        ]
+      },
+      {
+        "upstream_id": "M_MN",
+        "path_node_ids": [
+          "CO_CATL",
+          "CO_RONBAY",
+          "M_MN"
+        ],
+        "path_edge_ids": [
+          "R0170",
+          "R0223"
+        ]
+      }
+    ]
+  },
+  "Q08": {
+    "name": "避开目标矿种的有条件替代",
+    "rows": [
+      {
+        "alternative_id": "P_LFP_CATH",
+        "replaces_id": "P_NCM",
+        "edge_id": "R0211",
+        "condition": "磷酸铁锂正极路线可在重新设计配方与工艺的条件下替代三元正极路线，属于无镍钴技术路线。",
+        "source_ids": [
+          "S18"
+        ]
+      },
+      {
+        "alternative_id": "P_LFP_CELL",
+        "replaces_id": "P_NCM_CELL",
+        "edge_id": "R0210",
+        "condition": "LFP电芯可在接受相应性能取舍、重新适配的场景替代三元电芯；在本包矿种范围可绕开镍钴。",
+        "source_ids": [
+          "S10"
+        ]
+      }
+    ]
+  },
+  "Q09": {
+    "name": "默认有向业务子图的入度加出度",
+    "rows": [
+      {
+        "id": "M_LI",
+        "degree": 29
+      },
+      {
+        "id": "C_CHN",
+        "degree": 23
+      },
+      {
+        "id": "M_CO",
+        "degree": 23
+      },
+      {
+        "id": "M_NI",
+        "degree": 19
+      },
+      {
+        "id": "M_RE",
+        "degree": 16
+      },
+      {
+        "id": "M_CU",
+        "degree": 12
+      },
+      {
+        "id": "M_GRA",
+        "degree": 11
+      },
+      {
+        "id": "PE_20220816_US_IRA",
+        "degree": 10
+      },
+      {
+        "id": "PE_20230817_EU_BATREG",
+        "degree": 10
+      },
+      {
+        "id": "C_USA",
+        "degree": 9
+      },
+      {
+        "id": "CO_CATL",
+        "degree": 8
+      },
+      {
+        "id": "P_NCM_CELL",
+        "degree": 8
+      },
+      {
+        "id": "C_CHL",
+        "degree": 7
+      },
+      {
+        "id": "M_MN",
+        "degree": 6
+      },
+      {
+        "id": "P_LFP_CELL",
+        "degree": 6
+      },
+      {
+        "id": "C_AUS",
+        "degree": 5
+      },
+      {
+        "id": "P_EV",
+        "degree": 5
+      },
+      {
+        "id": "CO_CMOC",
+        "degree": 4
+      },
+      {
+        "id": "C_COD",
+        "degree": 4
+      },
+      {
+        "id": "C_RUS",
+        "degree": 4
+      },
+      {
+        "id": "C_BRA",
+        "degree": 4
+      },
+      {
+        "id": "PE_20231201_CN_GRA",
+        "degree": 4
+      },
+      {
+        "id": "PE_20250404_CN_RE",
+        "degree": 4
+      },
+      {
+        "id": "P_NCM",
+        "degree": 4
+      },
+      {
+        "id": "CO_HUAYOU",
+        "degree": 3
+      },
+      {
+        "id": "CO_GEM",
+        "degree": 3
+      },
+      {
+        "id": "CO_LGES",
+        "degree": 3
+      },
+      {
+        "id": "CO_TSLA",
+        "degree": 3
+      },
+      {
+        "id": "CO_VW",
+        "degree": 3
+      },
+      {
+        "id": "CO_BMW",
+        "degree": 3
+      },
+      {
+        "id": "CO_FORD",
+        "degree": 3
+      },
+      {
+        "id": "C_IDN",
+        "degree": 3
+      },
+      {
+        "id": "C_CAN",
+        "degree": 3
+      },
+      {
+        "id": "C_MDG",
+        "degree": 3
+      },
+      {
+        "id": "PE_20200101_ID_NI",
+        "degree": 3
+      },
+      {
+        "id": "PE_20221220_ZW_LI",
+        "degree": 3
+      },
+      {
+        "id": "PE_20230420_CL_LI",
+        "degree": 3
+      },
+      {
+        "id": "PE_20240523_EU_CRMA",
+        "degree": 3
+      },
+      {
+        "id": "PE_20240927_US_301",
+        "degree": 3
+      },
+      {
+        "id": "PE_20250222_CD_CO",
+        "degree": 3
+      },
+      {
+        "id": "PE_20250402_US_TARIFF",
+        "degree": 3
+      },
+      {
+        "id": "PE_20251015_CD_COQUOTA",
+        "degree": 3
+      },
+      {
+        "id": "P_PCAM",
+        "degree": 3
+      },
+      {
+        "id": "CO_SQM",
+        "degree": 2
+      },
+      {
+        "id": "CO_TIANQI",
+        "degree": 2
+      },
+      {
+        "id": "CO_NRE",
+        "degree": 2
+      },
+      {
+        "id": "CO_CREG",
+        "degree": 2
+      },
+      {
+        "id": "CO_RONBAY",
+        "degree": 2
+      },
+      {
+        "id": "CO_SDI",
+        "degree": 2
+      },
+      {
+        "id": "CO_SKON",
+        "degree": 2
+      },
+      {
+        "id": "CO_GOTION",
+        "degree": 2
+      },
+      {
+        "id": "CO_HYUN",
+        "degree": 2
+      },
+      {
+        "id": "CO_CODELCO",
+        "degree": 2
+      },
+      {
+        "id": "C_ZWE",
+        "degree": 2
+      },
+      {
+        "id": "C_PHL",
+        "degree": 2
+      },
+      {
+        "id": "C_EU",
+        "degree": 2
+      },
+      {
+        "id": "PE_20241001_US_PORT",
+        "degree": 2
+      },
+      {
+        "id": "PE_20250710_US_MP",
+        "degree": 2
+      },
+      {
+        "id": "P_LFP_CATH",
+        "degree": 2
+      },
+      {
+        "id": "P_ESS",
+        "degree": 2
+      },
+      {
+        "id": "P_SPH_GRAPHITE",
+        "degree": 2
+      },
+      {
+        "id": "P_SMCO_MAGNET",
+        "degree": 2
+      },
+      {
+        "id": "P_Y2O3",
+        "degree": 2
+      },
+      {
+        "id": "CO_ALB",
+        "degree": 1
+      },
+      {
+        "id": "CO_GANF",
+        "degree": 1
+      },
+      {
+        "id": "CO_PILB",
+        "degree": 1
+      },
+      {
+        "id": "CO_SMM",
+        "degree": 1
+      },
+      {
+        "id": "CO_TSING",
+        "degree": 1
+      },
+      {
+        "id": "CO_VALE",
+        "degree": 1
+      },
+      {
+        "id": "CO_BHP",
+        "degree": 1
+      },
+      {
+        "id": "CO_RIO",
+        "degree": 1
+      },
+      {
+        "id": "CO_LYNAS",
+        "degree": 1
+      },
+      {
+        "id": "CO_MP",
+        "degree": 1
+      },
+      {
+        "id": "CO_EASP",
+        "degree": 1
+      },
+      {
+        "id": "CO_YUNENG",
+        "degree": 1
+      },
+      {
+        "id": "CO_DYN",
+        "degree": 1
+      },
+      {
+        "id": "CO_PANA",
+        "degree": 1
+      },
+      {
+        "id": "CO_EVE",
+        "degree": 1
+      },
+      {
+        "id": "CO_BTR",
+        "degree": 1
+      },
+      {
+        "id": "CO_PUTAILAI",
+        "degree": 1
+      },
+      {
+        "id": "CO_SHANSHAN",
+        "degree": 1
+      },
+      {
+        "id": "CO_JIAYUAN",
+        "degree": 1
+      },
+      {
+        "id": "CO_NUODE",
+        "degree": 1
+      },
+      {
+        "id": "CO_GLENCORE",
+        "degree": 1
+      },
+      {
+        "id": "CO_IXM",
+        "degree": 1
+      },
+      {
+        "id": "CO_LPI",
+        "degree": 1
+      },
+      {
+        "id": "CO_PROSPECT_LZ",
+        "degree": 1
+      },
+      {
+        "id": "CO_BAOGANG",
+        "degree": 1
+      },
+      {
+        "id": "C_ARG",
+        "degree": 1
+      },
+      {
+        "id": "C_ZAF",
+        "degree": 1
+      },
+      {
+        "id": "C_MMR",
+        "degree": 1
+      },
+      {
+        "id": "C_GAB",
+        "degree": 1
+      },
+      {
+        "id": "C_PER",
+        "degree": 1
+      },
+      {
+        "id": "C_JPN",
+        "degree": 1
+      },
+      {
+        "id": "C_KOR",
+        "degree": 1
+      },
+      {
+        "id": "C_DEU",
+        "degree": 1
+      },
+      {
+        "id": "PE_20210323_SUEZ",
+        "degree": 1
+      },
+      {
+        "id": "P_LI2CO3",
+        "degree": 1
+      },
+      {
+        "id": "P_LIOH",
+        "degree": 1
+      },
+      {
+        "id": "P_NISO4",
+        "degree": 1
+      },
+      {
+        "id": "P_COSO4",
+        "degree": 1
+      },
+      {
+        "id": "P_EXP_GRAPHITE",
+        "degree": 1
+      },
+      {
+        "id": "P_LI2SO4",
+        "degree": 1
+      },
+      {
+        "id": "P_LI_CONC",
+        "degree": 1
+      },
+      {
+        "id": "P_NDFEB_MAGNET",
+        "degree": 1
+      },
+      {
+        "id": "CO_BASF",
+        "degree": 0
+      },
+      {
+        "id": "CO_BYD",
+        "degree": 0
+      },
+      {
+        "id": "CO_CHENGXIN",
+        "degree": 0
+      },
+      {
+        "id": "CO_SALAR_FUTURO",
+        "degree": 0
+      },
+      {
+        "id": "C_CHE",
+        "degree": 0
+      },
+      {
+        "id": "P_GRA_ANODE",
+        "degree": 0
+      },
+      {
+        "id": "P_SIC_ANODE",
+        "degree": 0
+      },
+      {
+        "id": "P_NA_CELL",
+        "degree": 0
+      }
+    ]
+  },
+  "Q10": {
+    "name": "事件锚点与当前数据范围",
+    "rows": [
+      {
+        "event_id": "PE_20200101_ID_NI",
+        "effective_date": "2020-01-01",
+        "target_mineral": "M_NI",
+        "data_year": 2025.0,
+        "scope": "当前数据不支持政策前后因果或历史对比"
+      }
+    ]
+  },
+  "Q11": {
+    "name": "事实级来源回查",
+    "rows": [
+      {
+        "subject_id": "CO_BAOGANG",
+        "predicate": "HOLDS",
+        "object_id": "CO_NRE",
+        "edge_id": "R0191",
+        "record_ids": [
+          "R0191"
+        ],
+        "note": "v3 修正：原为「中国-控股->北方稀土」直连（跳过中间节点），按规则 R-03 逐跳建边改为包钢（集团）持股 38.03%；链头实控人为内蒙古自治区人民政府，因 Schema 无「省级国资委」实体类型，控制链止于包钢集团",
+        "source_id": "S35",
+        "title": "北方稀土（600111）2026 年半年度报告：前十名股东持股情况",
+        "url": "http://www.cninfo.com.cn/"
+      }
+    ]
+  },
+  "Q12": {
+    "name": "来源对应业务事实数",
+    "rows": [
+      {
+        "source_id": "S18",
+        "fact_count": 33
+      },
+      {
+        "source_id": "S10",
+        "fact_count": 27
+      },
+      {
+        "source_id": "S01",
+        "fact_count": 24
+      },
+      {
+        "source_id": "S03",
+        "fact_count": 23
+      },
+      {
+        "source_id": "S04",
+        "fact_count": 23
+      },
+      {
+        "source_id": "S07",
+        "fact_count": 23
+      },
+      {
+        "source_id": "S05",
+        "fact_count": 22
+      },
+      {
+        "source_id": "S06",
+        "fact_count": 22
+      },
+      {
+        "source_id": "S02",
+        "fact_count": 21
+      },
+      {
+        "source_id": "S21",
+        "fact_count": 16
+      },
+      {
+        "source_id": "S20",
+        "fact_count": 13
+      },
+      {
+        "source_id": "S13",
+        "fact_count": 12
+      },
+      {
+        "source_id": "S23",
+        "fact_count": 10
+      },
+      {
+        "source_id": "S12",
+        "fact_count": 9
+      },
+      {
+        "source_id": "S11",
+        "fact_count": 8
+      },
+      {
+        "source_id": "S24",
+        "fact_count": 7
+      },
+      {
+        "source_id": "S17",
+        "fact_count": 4
+      },
+      {
+        "source_id": "S09",
+        "fact_count": 3
+      },
+      {
+        "source_id": "S28",
+        "fact_count": 3
+      },
+      {
+        "source_id": "S29",
+        "fact_count": 3
+      },
+      {
+        "source_id": "S16",
+        "fact_count": 2
+      },
+      {
+        "source_id": "S27",
+        "fact_count": 2
+      },
+      {
+        "source_id": "S26",
+        "fact_count": 2
+      },
+      {
+        "source_id": "S30",
+        "fact_count": 2
+      },
+      {
+        "source_id": "S15",
+        "fact_count": 1
+      },
+      {
+        "source_id": "S32",
+        "fact_count": 1
+      },
+      {
+        "source_id": "S31",
+        "fact_count": 1
+      },
+      {
+        "source_id": "S19",
+        "fact_count": 1
+      },
+      {
+        "source_id": "S35",
+        "fact_count": 1
+      },
+      {
+        "source_id": "S25",
+        "fact_count": 1
+      }
+    ]
+  }
+}

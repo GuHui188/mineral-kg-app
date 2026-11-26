@@ -1,0 +1,1466 @@
+{
+  "c_chn": [
+    "C_CHN"
+  ],
+  "中国": [
+    "C_CHN"
+  ],
+  "china": [
+    "C_CHN"
+  ],
+  "c_aus": [
+    "C_AUS"
+  ],
+  "澳大利亚": [
+    "C_AUS"
+  ],
+  "australia": [
+    "C_AUS"
+  ],
+  "c_chl": [
+    "C_CHL"
+  ],
+  "智利": [
+    "C_CHL"
+  ],
+  "chile": [
+    "C_CHL"
+  ],
+  "c_cod": [
+    "C_COD"
+  ],
+  "刚果（金）": [
+    "C_COD"
+  ],
+  "dr congo": [
+    "C_COD"
+  ],
+  "c_idn": [
+    "C_IDN"
+  ],
+  "印度尼西亚": [
+    "C_IDN"
+  ],
+  "indonesia": [
+    "C_IDN"
+  ],
+  "c_arg": [
+    "C_ARG"
+  ],
+  "阿根廷": [
+    "C_ARG"
+  ],
+  "argentina": [
+    "C_ARG"
+  ],
+  "c_zwe": [
+    "C_ZWE"
+  ],
+  "津巴布韦": [
+    "C_ZWE"
+  ],
+  "zimbabwe": [
+    "C_ZWE"
+  ],
+  "c_phl": [
+    "C_PHL"
+  ],
+  "菲律宾": [
+    "C_PHL"
+  ],
+  "philippines": [
+    "C_PHL"
+  ],
+  "c_rus": [
+    "C_RUS"
+  ],
+  "俄罗斯": [
+    "C_RUS"
+  ],
+  "russia": [
+    "C_RUS"
+  ],
+  "c_zaf": [
+    "C_ZAF"
+  ],
+  "南非": [
+    "C_ZAF"
+  ],
+  "south africa": [
+    "C_ZAF"
+  ],
+  "c_bra": [
+    "C_BRA"
+  ],
+  "巴西": [
+    "C_BRA"
+  ],
+  "brazil": [
+    "C_BRA"
+  ],
+  "c_usa": [
+    "C_USA"
+  ],
+  "美国": [
+    "C_USA"
+  ],
+  "united states": [
+    "C_USA"
+  ],
+  "c_can": [
+    "C_CAN"
+  ],
+  "加拿大": [
+    "C_CAN"
+  ],
+  "canada": [
+    "C_CAN"
+  ],
+  "c_mmr": [
+    "C_MMR"
+  ],
+  "缅甸": [
+    "C_MMR"
+  ],
+  "myanmar": [
+    "C_MMR"
+  ],
+  "c_mdg": [
+    "C_MDG"
+  ],
+  "马达加斯加": [
+    "C_MDG"
+  ],
+  "madagascar": [
+    "C_MDG"
+  ],
+  "c_gab": [
+    "C_GAB"
+  ],
+  "加蓬": [
+    "C_GAB"
+  ],
+  "gabon": [
+    "C_GAB"
+  ],
+  "c_per": [
+    "C_PER"
+  ],
+  "秘鲁": [
+    "C_PER"
+  ],
+  "peru": [
+    "C_PER"
+  ],
+  "c_jpn": [
+    "C_JPN"
+  ],
+  "日本": [
+    "C_JPN"
+  ],
+  "japan": [
+    "C_JPN"
+  ],
+  "c_kor": [
+    "C_KOR"
+  ],
+  "韩国": [
+    "C_KOR"
+  ],
+  "korea": [
+    "C_KOR"
+  ],
+  "c_deu": [
+    "C_DEU"
+  ],
+  "德国": [
+    "C_DEU"
+  ],
+  "germany": [
+    "C_DEU"
+  ],
+  "c_eu": [
+    "C_EU"
+  ],
+  "欧盟": [
+    "C_EU"
+  ],
+  "european union": [
+    "C_EU"
+  ],
+  "c_che": [
+    "C_CHE"
+  ],
+  "瑞士": [
+    "C_CHE"
+  ],
+  "switzerland": [
+    "C_CHE"
+  ],
+  "co_sqm": [
+    "CO_SQM"
+  ],
+  "sqm": [
+    "CO_SQM"
+  ],
+  "sociedad quimica y minera de chile": [
+    "CO_SQM"
+  ],
+  "化学矿业公司": [
+    "CO_SQM"
+  ],
+  "co_alb": [
+    "CO_ALB"
+  ],
+  "雅保": [
+    "CO_ALB"
+  ],
+  "albemarle": [
+    "CO_ALB"
+  ],
+  "洛克伍德": [
+    "CO_ALB"
+  ],
+  "alb": [
+    "CO_ALB"
+  ],
+  "co_ganf": [
+    "CO_GANF"
+  ],
+  "赣锋锂业": [
+    "CO_GANF"
+  ],
+  "ganfeng lithium": [
+    "CO_GANF"
+  ],
+  "赣锋": [
+    "CO_GANF"
+  ],
+  "ganfeng": [
+    "CO_GANF"
+  ],
+  "co_tianqi": [
+    "CO_TIANQI"
+  ],
+  "天齐锂业": [
+    "CO_TIANQI"
+  ],
+  "tianqi lithium": [
+    "CO_TIANQI"
+  ],
+  "天齐": [
+    "CO_TIANQI"
+  ],
+  "tianqi": [
+    "CO_TIANQI"
+  ],
+  "co_pilb": [
+    "CO_PILB"
+  ],
+  "皮尔巴拉矿业": [
+    "CO_PILB"
+  ],
+  "pilbara minerals": [
+    "CO_PILB"
+  ],
+  "pilbara": [
+    "CO_PILB"
+  ],
+  "pls": [
+    "CO_PILB"
+  ],
+  "co_smm": [
+    "CO_SMM"
+  ],
+  "住友金属矿山": [
+    "CO_SMM"
+  ],
+  "sumitomo metal mining": [
+    "CO_SMM"
+  ],
+  "住友矿山": [
+    "CO_SMM"
+  ],
+  "smm": [
+    "CO_SMM"
+  ],
+  "co_cmoc": [
+    "CO_CMOC"
+  ],
+  "洛阳钼业": [
+    "CO_CMOC"
+  ],
+  "cmoc group": [
+    "CO_CMOC"
+  ],
+  "cmoc": [
+    "CO_CMOC"
+  ],
+  "co_huayou": [
+    "CO_HUAYOU"
+  ],
+  "华友钴业": [
+    "CO_HUAYOU"
+  ],
+  "huayou cobalt": [
+    "CO_HUAYOU"
+  ],
+  "华友": [
+    "CO_HUAYOU"
+  ],
+  "huayou": [
+    "CO_HUAYOU"
+  ],
+  "co_tsing": [
+    "CO_TSING"
+  ],
+  "青山控股": [
+    "CO_TSING"
+  ],
+  "tsingshan holding": [
+    "CO_TSING"
+  ],
+  "青山": [
+    "CO_TSING"
+  ],
+  "tsingshan": [
+    "CO_TSING"
+  ],
+  "co_vale": [
+    "CO_VALE"
+  ],
+  "淡水河谷": [
+    "CO_VALE"
+  ],
+  "vale": [
+    "CO_VALE"
+  ],
+  "co_bhp": [
+    "CO_BHP"
+  ],
+  "必和必拓": [
+    "CO_BHP"
+  ],
+  "bhp": [
+    "CO_BHP"
+  ],
+  "co_rio": [
+    "CO_RIO"
+  ],
+  "力拓": [
+    "CO_RIO"
+  ],
+  "rio tinto": [
+    "CO_RIO"
+  ],
+  "co_nre": [
+    "CO_NRE"
+  ],
+  "北方稀土": [
+    "CO_NRE"
+  ],
+  "china northern rare earth": [
+    "CO_NRE"
+  ],
+  "包钢稀土": [
+    "CO_NRE"
+  ],
+  "co_creg": [
+    "CO_CREG"
+  ],
+  "中国稀土集团": [
+    "CO_CREG"
+  ],
+  "china rare earth group": [
+    "CO_CREG"
+  ],
+  "中稀集团": [
+    "CO_CREG"
+  ],
+  "creg": [
+    "CO_CREG"
+  ],
+  "co_lynas": [
+    "CO_LYNAS"
+  ],
+  "莱纳斯": [
+    "CO_LYNAS"
+  ],
+  "lynas rare earths": [
+    "CO_LYNAS"
+  ],
+  "lynas": [
+    "CO_LYNAS"
+  ],
+  "co_mp": [
+    "CO_MP"
+  ],
+  "mp materials": [
+    "CO_MP"
+  ],
+  "mp": [
+    "CO_MP"
+  ],
+  "芒廷帕斯": [
+    "CO_MP"
+  ],
+  "co_ronbay": [
+    "CO_RONBAY"
+  ],
+  "容百科技": [
+    "CO_RONBAY"
+  ],
+  "ronbay technology": [
+    "CO_RONBAY"
+  ],
+  "容百": [
+    "CO_RONBAY"
+  ],
+  "ronbay": [
+    "CO_RONBAY"
+  ],
+  "co_easp": [
+    "CO_EASP"
+  ],
+  "当升科技": [
+    "CO_EASP"
+  ],
+  "easpring material": [
+    "CO_EASP"
+  ],
+  "当升": [
+    "CO_EASP"
+  ],
+  "easpring": [
+    "CO_EASP"
+  ],
+  "co_yuneng": [
+    "CO_YUNENG"
+  ],
+  "湖南裕能": [
+    "CO_YUNENG"
+  ],
+  "hunan yuneng": [
+    "CO_YUNENG"
+  ],
+  "裕能": [
+    "CO_YUNENG"
+  ],
+  "yuneng": [
+    "CO_YUNENG"
+  ],
+  "co_dyn": [
+    "CO_DYN"
+  ],
+  "德方纳米": [
+    "CO_DYN"
+  ],
+  "dynanonic": [
+    "CO_DYN"
+  ],
+  "德方": [
+    "CO_DYN"
+  ],
+  "co_basf": [
+    "CO_BASF"
+  ],
+  "巴斯夫": [
+    "CO_BASF"
+  ],
+  "basf": [
+    "CO_BASF"
+  ],
+  "co_gem": [
+    "CO_GEM"
+  ],
+  "格林美": [
+    "CO_GEM"
+  ],
+  "gem": [
+    "CO_GEM"
+  ],
+  "co_catl": [
+    "CO_CATL"
+  ],
+  "宁德时代": [
+    "CO_CATL"
+  ],
+  "catl": [
+    "CO_CATL"
+  ],
+  "宁王": [
+    "CO_CATL"
+  ],
+  "300750": [
+    "CO_CATL"
+  ],
+  "co_byd": [
+    "CO_BYD"
+  ],
+  "比亚迪": [
+    "CO_BYD"
+  ],
+  "byd": [
+    "CO_BYD"
+  ],
+  "比亚迪汽车": [
+    "CO_BYD"
+  ],
+  "co_lges": [
+    "CO_LGES"
+  ],
+  "lg新能源": [
+    "CO_LGES"
+  ],
+  "lg energy solution": [
+    "CO_LGES"
+  ],
+  "lges": [
+    "CO_LGES"
+  ],
+  "co_sdi": [
+    "CO_SDI"
+  ],
+  "三星sdi": [
+    "CO_SDI"
+  ],
+  "samsung sdi": [
+    "CO_SDI"
+  ],
+  "sdi": [
+    "CO_SDI"
+  ],
+  "co_skon": [
+    "CO_SKON"
+  ],
+  "sk on": [
+    "CO_SKON"
+  ],
+  "skon": [
+    "CO_SKON"
+  ],
+  "co_pana": [
+    "CO_PANA"
+  ],
+  "松下能源": [
+    "CO_PANA"
+  ],
+  "panasonic energy": [
+    "CO_PANA"
+  ],
+  "松下": [
+    "CO_PANA"
+  ],
+  "panasonic": [
+    "CO_PANA"
+  ],
+  "三洋": [
+    "CO_PANA"
+  ],
+  "co_eve": [
+    "CO_EVE"
+  ],
+  "亿纬锂能": [
+    "CO_EVE"
+  ],
+  "eve energy": [
+    "CO_EVE"
+  ],
+  "亿纬": [
+    "CO_EVE"
+  ],
+  "eve": [
+    "CO_EVE"
+  ],
+  "co_gotion": [
+    "CO_GOTION"
+  ],
+  "国轩高科": [
+    "CO_GOTION"
+  ],
+  "gotion high-tech": [
+    "CO_GOTION"
+  ],
+  "国轩": [
+    "CO_GOTION"
+  ],
+  "gotion": [
+    "CO_GOTION"
+  ],
+  "co_tsla": [
+    "CO_TSLA"
+  ],
+  "特斯拉": [
+    "CO_TSLA"
+  ],
+  "tesla": [
+    "CO_TSLA"
+  ],
+  "特斯拉汽车": [
+    "CO_TSLA"
+  ],
+  "co_vw": [
+    "CO_VW"
+  ],
+  "大众集团": [
+    "CO_VW"
+  ],
+  "volkswagen group": [
+    "CO_VW"
+  ],
+  "大众": [
+    "CO_VW"
+  ],
+  "vw": [
+    "CO_VW"
+  ],
+  "volkswagen": [
+    "CO_VW"
+  ],
+  "co_bmw": [
+    "CO_BMW"
+  ],
+  "宝马集团": [
+    "CO_BMW"
+  ],
+  "bmw group": [
+    "CO_BMW"
+  ],
+  "宝马": [
+    "CO_BMW"
+  ],
+  "bmw": [
+    "CO_BMW"
+  ],
+  "co_ford": [
+    "CO_FORD"
+  ],
+  "福特": [
+    "CO_FORD"
+  ],
+  "ford motor": [
+    "CO_FORD"
+  ],
+  "ford": [
+    "CO_FORD"
+  ],
+  "co_hyun": [
+    "CO_HYUN"
+  ],
+  "现代汽车": [
+    "CO_HYUN"
+  ],
+  "hyundai motor": [
+    "CO_HYUN"
+  ],
+  "现代": [
+    "CO_HYUN"
+  ],
+  "hyundai": [
+    "CO_HYUN"
+  ],
+  "co_btr": [
+    "CO_BTR"
+  ],
+  "贝特瑞": [
+    "CO_BTR"
+  ],
+  "btr new material group": [
+    "CO_BTR"
+  ],
+  "btr": [
+    "CO_BTR"
+  ],
+  "835185": [
+    "CO_BTR"
+  ],
+  "co_putailai": [
+    "CO_PUTAILAI"
+  ],
+  "璞泰来": [
+    "CO_PUTAILAI"
+  ],
+  "shanghai putailai new energy": [
+    "CO_PUTAILAI"
+  ],
+  "putailai": [
+    "CO_PUTAILAI"
+  ],
+  "603659": [
+    "CO_PUTAILAI"
+  ],
+  "co_shanshan": [
+    "CO_SHANSHAN"
+  ],
+  "杉杉股份": [
+    "CO_SHANSHAN"
+  ],
+  "shanshan co., ltd.": [
+    "CO_SHANSHAN"
+  ],
+  "杉杉": [
+    "CO_SHANSHAN"
+  ],
+  "600884": [
+    "CO_SHANSHAN"
+  ],
+  "co_jiayuan": [
+    "CO_JIAYUAN"
+  ],
+  "嘉元科技": [
+    "CO_JIAYUAN"
+  ],
+  "guangdong jiayuan technology": [
+    "CO_JIAYUAN"
+  ],
+  "嘉元": [
+    "CO_JIAYUAN"
+  ],
+  "688388": [
+    "CO_JIAYUAN"
+  ],
+  "co_nuode": [
+    "CO_NUODE"
+  ],
+  "诺德股份": [
+    "CO_NUODE"
+  ],
+  "nuode investment co., ltd.": [
+    "CO_NUODE"
+  ],
+  "诺德": [
+    "CO_NUODE"
+  ],
+  "600110": [
+    "CO_NUODE"
+  ],
+  "co_glencore": [
+    "CO_GLENCORE"
+  ],
+  "嘉能可": [
+    "CO_GLENCORE"
+  ],
+  "glencore plc": [
+    "CO_GLENCORE"
+  ],
+  "glencore": [
+    "CO_GLENCORE"
+  ],
+  "glen": [
+    "CO_GLENCORE"
+  ],
+  "co_chengxin": [
+    "CO_CHENGXIN"
+  ],
+  "盛新锂能": [
+    "CO_CHENGXIN"
+  ],
+  "chengxin lithium group": [
+    "CO_CHENGXIN"
+  ],
+  "盛新": [
+    "CO_CHENGXIN"
+  ],
+  "chengxin": [
+    "CO_CHENGXIN"
+  ],
+  "002240": [
+    "CO_CHENGXIN"
+  ],
+  "co_ixm": [
+    "CO_IXM"
+  ],
+  "ixm": [
+    "CO_IXM"
+  ],
+  "ixm s.a.": [
+    "CO_IXM"
+  ],
+  "埃珂森": [
+    "CO_IXM"
+  ],
+  "ldc metals": [
+    "CO_IXM"
+  ],
+  "co_codelco": [
+    "CO_CODELCO"
+  ],
+  "codelco": [
+    "CO_CODELCO"
+  ],
+  "corporación nacional del cobre de chile": [
+    "CO_CODELCO"
+  ],
+  "智利国家铜业公司": [
+    "CO_CODELCO"
+  ],
+  "智利铜业": [
+    "CO_CODELCO"
+  ],
+  "co_salar_futuro": [
+    "CO_SALAR_FUTURO"
+  ],
+  "salar futuro": [
+    "CO_SALAR_FUTURO"
+  ],
+  "salar futuro / nova andino litio": [
+    "CO_SALAR_FUTURO"
+  ],
+  "nova andino litio": [
+    "CO_SALAR_FUTURO"
+  ],
+  "novaandino": [
+    "CO_SALAR_FUTURO"
+  ],
+  "co_lpi": [
+    "CO_LPI"
+  ],
+  "lithium power international": [
+    "CO_LPI"
+  ],
+  "lithium power international ltd": [
+    "CO_LPI"
+  ],
+  "lpi": [
+    "CO_LPI"
+  ],
+  "lithium power": [
+    "CO_LPI"
+  ],
+  "lpi.ax": [
+    "CO_LPI"
+  ],
+  "co_prospect_lz": [
+    "CO_PROSPECT_LZ"
+  ],
+  "prospect lithium zimbabwe": [
+    "CO_PROSPECT_LZ"
+  ],
+  "prospect lithium zimbabwe (pvt) ltd": [
+    "CO_PROSPECT_LZ"
+  ],
+  "plz": [
+    "CO_PROSPECT_LZ"
+  ],
+  "华友津巴布韦锂矿": [
+    "CO_PROSPECT_LZ"
+  ],
+  "co_baogang": [
+    "CO_BAOGANG"
+  ],
+  "包头钢铁（集团）有限责任公司": [
+    "CO_BAOGANG"
+  ],
+  "baotou steel (group) co., ltd.": [
+    "CO_BAOGANG"
+  ],
+  "包钢": [
+    "CO_BAOGANG"
+  ],
+  "包钢集团": [
+    "CO_BAOGANG"
+  ],
+  "baotou steel": [
+    "CO_BAOGANG"
+  ],
+  "m_li": [
+    "M_LI"
+  ],
+  "锂": [
+    "M_LI"
+  ],
+  "lithium": [
+    "M_LI"
+  ],
+  "m_co": [
+    "M_CO"
+  ],
+  "钴": [
+    "M_CO"
+  ],
+  "cobalt": [
+    "M_CO"
+  ],
+  "m_ni": [
+    "M_NI"
+  ],
+  "镍": [
+    "M_NI"
+  ],
+  "nickel": [
+    "M_NI"
+  ],
+  "m_re": [
+    "M_RE"
+  ],
+  "稀土": [
+    "M_RE"
+  ],
+  "rare earths": [
+    "M_RE"
+  ],
+  "m_gra": [
+    "M_GRA"
+  ],
+  "石墨": [
+    "M_GRA"
+  ],
+  "natural graphite": [
+    "M_GRA"
+  ],
+  "m_mn": [
+    "M_MN"
+  ],
+  "锰": [
+    "M_MN"
+  ],
+  "manganese": [
+    "M_MN"
+  ],
+  "m_cu": [
+    "M_CU"
+  ],
+  "铜": [
+    "M_CU"
+  ],
+  "copper": [
+    "M_CU"
+  ],
+  "p_li2co3": [
+    "P_LI2CO3"
+  ],
+  "碳酸锂": [
+    "P_LI2CO3"
+  ],
+  "lithium carbonate": [
+    "P_LI2CO3"
+  ],
+  "p_lioh": [
+    "P_LIOH"
+  ],
+  "氢氧化锂": [
+    "P_LIOH"
+  ],
+  "lithium hydroxide": [
+    "P_LIOH"
+  ],
+  "p_niso4": [
+    "P_NISO4"
+  ],
+  "硫酸镍": [
+    "P_NISO4"
+  ],
+  "nickel sulfate": [
+    "P_NISO4"
+  ],
+  "p_coso4": [
+    "P_COSO4"
+  ],
+  "硫酸钴": [
+    "P_COSO4"
+  ],
+  "cobalt sulfate": [
+    "P_COSO4"
+  ],
+  "p_pcam": [
+    "P_PCAM"
+  ],
+  "三元前驱体": [
+    "P_PCAM"
+  ],
+  "ncm precursor": [
+    "P_PCAM"
+  ],
+  "p_ncm": [
+    "P_NCM"
+  ],
+  "三元正极材料": [
+    "P_NCM"
+  ],
+  "ncm/nca cathode": [
+    "P_NCM"
+  ],
+  "p_lfp_cath": [
+    "P_LFP_CATH"
+  ],
+  "磷酸铁锂正极材料": [
+    "P_LFP_CATH"
+  ],
+  "lfp cathode": [
+    "P_LFP_CATH"
+  ],
+  "p_gra_anode": [
+    "P_GRA_ANODE"
+  ],
+  "人造石墨负极": [
+    "P_GRA_ANODE"
+  ],
+  "synthetic graphite anode": [
+    "P_GRA_ANODE"
+  ],
+  "p_sic_anode": [
+    "P_SIC_ANODE"
+  ],
+  "硅碳负极": [
+    "P_SIC_ANODE"
+  ],
+  "silicon-carbon anode": [
+    "P_SIC_ANODE"
+  ],
+  "p_ncm_cell": [
+    "P_NCM_CELL"
+  ],
+  "三元电池（电芯）": [
+    "P_NCM_CELL"
+  ],
+  "ncm cell": [
+    "P_NCM_CELL"
+  ],
+  "p_lfp_cell": [
+    "P_LFP_CELL"
+  ],
+  "磷酸铁锂电池（电芯）": [
+    "P_LFP_CELL"
+  ],
+  "lfp cell": [
+    "P_LFP_CELL"
+  ],
+  "p_na_cell": [
+    "P_NA_CELL"
+  ],
+  "钠离子电池（电芯）": [
+    "P_NA_CELL"
+  ],
+  "sodium-ion cell": [
+    "P_NA_CELL"
+  ],
+  "p_ev": [
+    "P_EV"
+  ],
+  "新能源整车": [
+    "P_EV"
+  ],
+  "battery electric vehicle": [
+    "P_EV"
+  ],
+  "p_ess": [
+    "P_ESS"
+  ],
+  "储能电池系统": [
+    "P_ESS"
+  ],
+  "battery energy storage system": [
+    "P_ESS"
+  ],
+  "p_sph_graphite": [
+    "P_SPH_GRAPHITE"
+  ],
+  "球化石墨": [
+    "P_SPH_GRAPHITE"
+  ],
+  "spheroidized graphite": [
+    "P_SPH_GRAPHITE"
+  ],
+  "p_exp_graphite": [
+    "P_EXP_GRAPHITE"
+  ],
+  "膨胀石墨": [
+    "P_EXP_GRAPHITE"
+  ],
+  "expanded graphite": [
+    "P_EXP_GRAPHITE"
+  ],
+  "p_li2so4": [
+    "P_LI2SO4"
+  ],
+  "硫酸锂": [
+    "P_LI2SO4"
+  ],
+  "lithium sulphate": [
+    "P_LI2SO4"
+  ],
+  "p_li_conc": [
+    "P_LI_CONC"
+  ],
+  "锂精矿": [
+    "P_LI_CONC"
+  ],
+  "lithium (spodumene) concentrate": [
+    "P_LI_CONC"
+  ],
+  "p_smco_magnet": [
+    "P_SMCO_MAGNET"
+  ],
+  "钐钴永磁材料": [
+    "P_SMCO_MAGNET"
+  ],
+  "smco permanent magnet": [
+    "P_SMCO_MAGNET"
+  ],
+  "p_ndfeb_magnet": [
+    "P_NDFEB_MAGNET"
+  ],
+  "钕铁硼永磁材料": [
+    "P_NDFEB_MAGNET"
+  ],
+  "ndfeb permanent magnet": [
+    "P_NDFEB_MAGNET"
+  ],
+  "p_y2o3": [
+    "P_Y2O3"
+  ],
+  "氧化钇": [
+    "P_Y2O3"
+  ],
+  "yttrium oxide": [
+    "P_Y2O3"
+  ],
+  "pe_20200101_id_ni": [
+    "PE_20200101_ID_NI"
+  ],
+  "印尼全面禁止镍原矿出口": [
+    "PE_20200101_ID_NI"
+  ],
+  "pe_20210323_suez": [
+    "PE_20210323_SUEZ"
+  ],
+  "“长赐号”搁浅致苏伊士运河断航": [
+    "PE_20210323_SUEZ"
+  ],
+  "pe_20220816_us_ira": [
+    "PE_20220816_US_IRA"
+  ],
+  "美国《通胀削减法案》签署": [
+    "PE_20220816_US_IRA"
+  ],
+  "pe_20221220_zw_li": [
+    "PE_20221220_ZW_LI"
+  ],
+  "津巴布韦禁止未加工锂矿出口": [
+    "PE_20221220_ZW_LI"
+  ],
+  "pe_20230420_cl_li": [
+    "PE_20230420_CL_LI"
+  ],
+  "智利发布《国家锂战略》": [
+    "PE_20230420_CL_LI"
+  ],
+  "pe_20230817_eu_batreg": [
+    "PE_20230817_EU_BATREG"
+  ],
+  "欧盟《新电池法规》生效": [
+    "PE_20230817_EU_BATREG"
+  ],
+  "pe_20231201_cn_gra": [
+    "PE_20231201_CN_GRA"
+  ],
+  "中国对石墨物项实施出口管制": [
+    "PE_20231201_CN_GRA"
+  ],
+  "pe_20240523_eu_crma": [
+    "PE_20240523_EU_CRMA"
+  ],
+  "欧盟《关键原材料法案》生效": [
+    "PE_20240523_EU_CRMA"
+  ],
+  "pe_20240927_us_301": [
+    "PE_20240927_US_301"
+  ],
+  "美国 301 复审对华电池与电动车加税生效": [
+    "PE_20240927_US_301"
+  ],
+  "pe_20241001_us_port": [
+    "PE_20241001_US_PORT"
+  ],
+  "美国东海岸与墨西哥湾港口工人罢工": [
+    "PE_20241001_US_PORT"
+  ],
+  "pe_20250222_cd_co": [
+    "PE_20250222_CD_CO"
+  ],
+  "刚果（金）暂停钴出口": [
+    "PE_20250222_CD_CO"
+  ],
+  "pe_20250402_us_tariff": [
+    "PE_20250402_US_TARIFF"
+  ],
+  "美国宣布“对等关税”": [
+    "PE_20250402_US_TARIFF"
+  ],
+  "pe_20250404_cn_re": [
+    "PE_20250404_CN_RE"
+  ],
+  "中国对 7 类中重稀土实施出口管制": [
+    "PE_20250404_CN_RE"
+  ],
+  "pe_20250710_us_mp": [
+    "PE_20250710_US_MP"
+  ],
+  "美国国防部入股 mp materials": [
+    "PE_20250710_US_MP"
+  ],
+  "pe_20251015_cd_coquota": [
+    "PE_20251015_CD_COQUOTA"
+  ],
+  "刚果（金）以出口配额取代钴出口禁令": [
+    "PE_20251015_CD_COQUOTA"
+  ],
+  "s01": [
+    "S01"
+  ],
+  "mineral commodity summaries 2026 — lithium": [
+    "S01"
+  ],
+  "s02": [
+    "S02"
+  ],
+  "mineral commodity summaries 2026 — cobalt": [
+    "S02"
+  ],
+  "s03": [
+    "S03"
+  ],
+  "mineral commodity summaries 2026 — nickel": [
+    "S03"
+  ],
+  "s04": [
+    "S04"
+  ],
+  "mineral commodity summaries 2026 — rare earths": [
+    "S04"
+  ],
+  "s05": [
+    "S05"
+  ],
+  "mineral commodity summaries 2026 — manganese": [
+    "S05"
+  ],
+  "s06": [
+    "S06"
+  ],
+  "mineral commodity summaries 2026 — graphite (natural)": [
+    "S06"
+  ],
+  "s07": [
+    "S07"
+  ],
+  "mineral commodity summaries 2026 — copper": [
+    "S07"
+  ],
+  "s08": [
+    "S08"
+  ],
+  "进出口商品收发货人所在地统计（锂镍钴矿及精矿）": [
+    "S08"
+  ],
+  "s09": [
+    "S09"
+  ],
+  "2025 年智利为全球第三大锂生产国及最大碳酸锂出口国": [
+    "S09"
+  ],
+  "s10": [
+    "S10"
+  ],
+  "宁德时代/比亚迪/特斯拉/亿纬/国轩 年度报告": [
+    "S10"
+  ],
+  "s11": [
+    "S11"
+  ],
+  "关于优化调整石墨物项临时出口管制措施的公告（2023年第39号）": [
+    "S11"
+  ],
+  "s12": [
+    "S12"
+  ],
+  "锂矿原矿出口禁令（base minerals export control）": [
+    "S12"
+  ],
+  "s13": [
+    "S13"
+  ],
+  "关于对中重稀土相关物项实施出口管制的公告（2025年第18号）": [
+    "S13"
+  ],
+  "s14": [
+    "S14"
+  ],
+  "lg新能源/三星sdi/sk on/松下/现代 年报与季报": [
+    "S14"
+  ],
+  "s15": [
+    "S15"
+  ],
+  "赣锋锂业、天齐锂业 年度报告": [
+    "S15"
+  ],
+  "s16": [
+    "S16"
+  ],
+  "pilbara minerals 年报与季度经营报告": [
+    "S16"
+  ],
+  "s17": [
+    "S17"
+  ],
+  "印尼能矿部矿业统计、青山控股公开资料": [
+    "S17"
+  ],
+  "s18": [
+    "S18"
+  ],
+  "华友钴业/洛阳钼业/容百/当升/裕能/德方/格林美 年报": [
+    "S18"
+  ],
+  "s19": [
+    "S19"
+  ],
+  "basf、volkswagen、bmw 年报": [
+    "S19"
+  ],
+  "s20": [
+    "S20"
+  ],
+  "(eu) 2023/1542 新电池法规；(eu) 2024/1252 关键原材料法案": [
+    "S20"
+  ],
+  "s21": [
+    "S21"
+  ],
+  "h.r.5376 通胀削减法案；ustr 301 复审报告": [
+    "S21"
+  ],
+  "s22": [
+    "S22"
+  ],
+  "pp 19/2025 矿产特许权使用费条例": [
+    "S22"
+  ],
+  "s23": [
+    "S23"
+  ],
+  "钴出口暂停令与出口配额公告": [
+    "S23"
+  ],
+  "s24": [
+    "S24"
+  ],
+  "智利《国家锂战略》": [
+    "S24"
+  ],
+  "s25": [
+    "S25"
+  ],
+  "global critical minerals outlook 2025": [
+    "S25"
+  ],
+  "s26": [
+    "S26"
+  ],
+  "“长赐号”搁浅与苏伊士运河复航": [
+    "S26"
+  ],
+  "s27": [
+    "S27"
+  ],
+  "ila-usmx 罢工与临时协议": [
+    "S27"
+  ],
+  "s28": [
+    "S28"
+  ],
+  "国防部与 mp materials 合作协议": [
+    "S28"
+  ],
+  "s29": [
+    "S29"
+  ],
+  "贝特瑞 835185 / 璞泰来 603659 / 杉杉股份 600884 年度报告（负极材料）": [
+    "S29"
+  ],
+  "s30": [
+    "S30"
+  ],
+  "嘉元科技 688388 / 诺德股份 600110 年度报告（锂电铜箔）": [
+    "S30"
+  ],
+  "s31": [
+    "S31"
+  ],
+  "比亚迪弗迪刀片电池配套特斯拉 model y 后驱版（2023 年起）": [
+    "S31"
+  ],
+  "s32": [
+    "S32"
+  ],
+  "格林美（002340）投资者关系活动记录表（2021-08-30）及深交所互动易问答": [
+    "S32"
+  ],
+  "s33": [
+    "S33"
+  ],
+  "锂电负极材料与钠离子电池行业数据汇编（ggii / 华经产业研究院口径，公开渠道转引）": [
+    "S33"
+  ],
+  "s34": [
+    "S34"
+  ],
+  "东方证券《华友钴业：上半年业绩亮眼，正极产业链垂直布局优势显现》研报（图 20—22 三元前驱体吨耗）": [
+    "S34"
+  ],
+  "s35": [
+    "S35"
+  ],
+  "北方稀土（600111）2026 年半年度报告：前十名股东持股情况": [
+    "S35"
+  ],
+  "s36": [
+    "S36"
+  ],
+  "grid energy storage supply chain deep dive assessment (2022)": [
+    "S36"
+  ],
+  "印尼": [
+    "C_IDN"
+  ],
+  "刚果金": [
+    "C_COD"
+  ],
+  "刚果(金)": [
+    "C_COD"
+  ],
+  "刚果民主共和国": [
+    "C_COD"
+  ],
+  "drc": [
+    "C_COD"
+  ],
+  "美利坚": [
+    "C_USA"
+  ],
+  "usa": [
+    "C_USA"
+  ],
+  "俄国": [
+    "C_RUS"
+  ],
+  "澳洲": [
+    "C_AUS"
+  ],
+  "南韩": [
+    "C_KOR"
+  ],
+  "稀土元素": [
+    "M_RE"
+  ],
+  "ree": [
+    "M_RE"
+  ],
+  "天然石墨": [
+    "M_GRA"
+  ],
+  "津巴布韦锂精矿": [
+    "P_LI_CONC"
+  ]
+}

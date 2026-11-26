@@ -1,0 +1,41 @@
+{
+  "login": [
+    {
+      "ready": 1
+    }
+  ],
+  "version": [
+    {
+      "name": "Neo4j Kernel",
+      "versions": [
+        "5.26.34"
+      ],
+      "edition": "community"
+    }
+  ],
+  "databases": [
+    {
+      "name": "neo4j",
+      "currentStatus": "online"
+    },
+    {
+      "name": "system",
+      "currentStatus": "online"
+    }
+  ],
+  "existing_nodes": [
+    {
+      "nodes": 0
+    }
+  ],
+  "existing_edges": [
+    {
+      "edges": 0
+    }
+  ],
+  "existing_dataset": [
+    {
+      "nodes": 0
+    }
+  ]
+}

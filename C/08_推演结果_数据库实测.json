@@ -1,0 +1,810 @@
+[
+  {
+    "scenario": {
+      "country_id": "C_COD",
+      "country": "刚果（金）",
+      "mineral_id": "M_CO",
+      "mineral": "钴",
+      "max_hops": 4,
+      "as_of": "2026-11-25",
+      "include_review": false
+    },
+    "status": "potential_association_only",
+    "scope": "国家产量仅作为情景锚点；矿产到企业为矿种关联，未确认这些企业从该国采购。不同产矿国的同矿种企业列表可能相同。无库存/流量数据，不计算损失量或断供概率。",
+    "production": [
+      {
+        "subject_id": "C_COD",
+        "note": "全球第一，占比约 74%",
+        "evidence_type": "原表数值",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "predicate": "出产",
+        "source_ids": [
+          "S02"
+        ],
+        "object_name": "钴",
+        "record_ids": [
+          "R0023"
+        ],
+        "id": "R0023",
+        "stat_year": 2025.0,
+        "value_status": "估计",
+        "quantity": 230000.0,
+        "kg_edge_id": "mineral-20261125-v1:R0023",
+        "confidence": 0.95,
+        "triple_id": "R0023",
+        "data_year": 2025.0,
+        "object_id": "M_CO",
+        "original_data_year": 2025.0,
+        "unit": "吨（Co 金属量）",
+        "subject_name": "刚果（金）",
+        "share_pct": 74.19,
+        "source_id": "S02",
+        "review_flag": false,
+        "dataset": "mineral-20261125-v1",
+        "source": "C_COD",
+        "target": "M_CO",
+        "type": "PRODUCES"
+      }
+    ],
+    "observed_country_share_pct": 74.19,
+    "companies": [
+      {
+        "id": "CO_HUAYOU",
+        "name": "华友钴业",
+        "label": "Company",
+        "level": 1,
+        "path_node_ids": [
+          "M_CO",
+          "CO_HUAYOU"
+        ],
+        "path_edge_ids": [
+          "R0160"
+        ]
+      },
+      {
+        "id": "CO_CMOC",
+        "name": "洛阳钼业",
+        "label": "Company",
+        "level": 1,
+        "path_node_ids": [
+          "M_CO",
+          "CO_CMOC"
+        ],
+        "path_edge_ids": [
+          "R0161"
+        ]
+      },
+      {
+        "id": "CO_GEM",
+        "name": "格林美",
+        "label": "Company",
+        "level": 1,
+        "path_node_ids": [
+          "M_CO",
+          "CO_GEM"
+        ],
+        "path_edge_ids": [
+          "R0218"
+        ]
+      },
+      {
+        "id": "CO_CATL",
+        "name": "宁德时代",
+        "label": "Company",
+        "level": 2,
+        "path_node_ids": [
+          "M_CO",
+          "CO_GEM",
+          "CO_CATL"
+        ],
+        "path_edge_ids": [
+          "R0218",
+          "R0173"
+        ]
+      },
+      {
+        "id": "CO_TSLA",
+        "name": "特斯拉",
+        "label": "Company",
+        "level": 3,
+        "path_node_ids": [
+          "M_CO",
+          "CO_GEM",
+          "CO_CATL",
+          "CO_TSLA"
+        ],
+        "path_edge_ids": [
+          "R0218",
+          "R0173",
+          "R0175"
+        ]
+      },
+      {
+        "id": "CO_BMW",
+        "name": "宝马集团",
+        "label": "Company",
+        "level": 3,
+        "path_node_ids": [
+          "M_CO",
+          "CO_GEM",
+          "CO_CATL",
+          "CO_BMW"
+        ],
+        "path_edge_ids": [
+          "R0218",
+          "R0173",
+          "R0176"
+        ]
+      },
+      {
+        "id": "CO_VW",
+        "name": "大众集团",
+        "label": "Company",
+        "level": 3,
+        "path_node_ids": [
+          "M_CO",
+          "CO_GEM",
+          "CO_CATL",
+          "CO_VW"
+        ],
+        "path_edge_ids": [
+          "R0218",
+          "R0173",
+          "R0177"
+        ]
+      },
+      {
+        "id": "CO_FORD",
+        "name": "福特",
+        "label": "Company",
+        "level": 3,
+        "path_node_ids": [
+          "M_CO",
+          "CO_GEM",
+          "CO_CATL",
+          "CO_FORD"
+        ],
+        "path_edge_ids": [
+          "R0218",
+          "R0173",
+          "R0178"
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "P_COSO4",
+        "name": "硫酸钴",
+        "dependency_edge_id": "DREQ_P_COSO4_M_CO",
+        "review_flag": false
+      },
+      {
+        "id": "P_PCAM",
+        "name": "三元前驱体",
+        "dependency_edge_id": "DREQ_P_PCAM_M_CO",
+        "review_flag": false
+      },
+      {
+        "id": "P_NCM",
+        "name": "三元正极材料",
+        "dependency_edge_id": "DREQ_P_NCM_M_CO",
+        "review_flag": false
+      },
+      {
+        "id": "P_NCM_CELL",
+        "name": "三元电池（电芯）",
+        "dependency_edge_id": "DREQ_P_NCM_CELL_M_CO",
+        "review_flag": false
+      },
+      {
+        "id": "P_SMCO_MAGNET",
+        "name": "钐钴永磁材料",
+        "dependency_edge_id": "DREQ_P_SMCO_MAGNET_M_CO",
+        "review_flag": false
+      }
+    ],
+    "levels": {
+      "1": 3,
+      "2": 1,
+      "3": 4
+    },
+    "company_count": 8,
+    "product_count": 5,
+    "alternatives": [
+      {
+        "alternative_id": "P_LFP_CATH",
+        "alternative": "磷酸铁锂正极材料",
+        "replaces_id": "P_NCM",
+        "replaces": "三元正极材料",
+        "edge_id": "R0211",
+        "condition": "磷酸铁锂正极路线可在重新设计配方与工艺的条件下替代三元正极路线，属于无镍钴技术路线。",
+        "source_ids": [
+          "S18"
+        ],
+        "review_flag": false,
+        "scope": "技术路线候选；需要工艺/性能适配；未证明现有产能可以立即切换。"
+      },
+      {
+        "alternative_id": "P_LFP_CELL",
+        "alternative": "磷酸铁锂电池（电芯）",
+        "replaces_id": "P_NCM_CELL",
+        "replaces": "三元电池（电芯）",
+        "edge_id": "R0210",
+        "condition": "LFP电芯可在接受相应性能取舍、重新适配的场景替代三元电芯；在本包矿种范围可绕开镍钴。",
+        "source_ids": [
+          "S10"
+        ],
+        "review_flag": false,
+        "scope": "技术路线候选；需要工艺/性能适配；未证明现有产能可以立即切换。"
+      }
+    ],
+    "alternatives_scope": "仅列本包中通过筛选的技术候选；空列表不表示现实中不存在替代路线。",
+    "other_recorded_producers": [
+      {
+        "country_id": "C_IDN",
+        "country": "印度尼西亚",
+        "observed_share_pct": 14.19,
+        "production_edge_id": "R0030",
+        "source_ids": [
+          "S02"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      },
+      {
+        "country_id": "C_RUS",
+        "country": "俄罗斯",
+        "observed_share_pct": 2.48,
+        "production_edge_id": "R0058",
+        "source_ids": [
+          "S02"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      },
+      {
+        "country_id": "C_MDG",
+        "country": "马达加斯加",
+        "observed_share_pct": 1.26,
+        "production_edge_id": "R0100",
+        "source_ids": [
+          "S02"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      },
+      {
+        "country_id": "C_AUS",
+        "country": "澳大利亚",
+        "observed_share_pct": 1.19,
+        "production_edge_id": "R0009",
+        "source_ids": [
+          "S02"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      },
+      {
+        "country_id": "C_PHL",
+        "country": "菲律宾",
+        "observed_share_pct": 1.19,
+        "production_edge_id": "R0051",
+        "source_ids": [
+          "S02"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      },
+      {
+        "country_id": "C_CAN",
+        "country": "加拿大",
+        "observed_share_pct": 1.13,
+        "production_edge_id": "R0086",
+        "source_ids": [
+          "S02"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      },
+      {
+        "country_id": "C_CHN",
+        "country": "中国",
+        "observed_share_pct": 0.65,
+        "production_edge_id": "R0002",
+        "source_ids": [
+          "S02"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      },
+      {
+        "country_id": "C_USA",
+        "country": "美国",
+        "observed_share_pct": 0.1,
+        "production_edge_id": "R0079",
+        "source_ids": [
+          "S02"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      }
+    ],
+    "path_node_ids": [
+      "CO_BMW",
+      "CO_CATL",
+      "CO_CMOC",
+      "CO_FORD",
+      "CO_GEM",
+      "CO_HUAYOU",
+      "CO_TSLA",
+      "CO_VW",
+      "C_COD",
+      "M_CO"
+    ],
+    "path_edge_ids": [
+      "DREQ_P_COSO4_M_CO",
+      "DREQ_P_NCM_CELL_M_CO",
+      "DREQ_P_NCM_M_CO",
+      "DREQ_P_PCAM_M_CO",
+      "DREQ_P_SMCO_MAGNET_M_CO",
+      "R0023",
+      "R0160",
+      "R0161",
+      "R0173",
+      "R0175",
+      "R0176",
+      "R0177",
+      "R0178",
+      "R0218"
+    ],
+    "source_ids": [
+      "S02",
+      "S10",
+      "S13",
+      "S18"
+    ]
+  },
+  {
+    "scenario": {
+      "country_id": "C_CHN",
+      "country": "中国",
+      "mineral_id": "M_GRA",
+      "mineral": "石墨",
+      "max_hops": 4,
+      "as_of": "2026-11-25",
+      "include_review": false
+    },
+    "status": "potential_association_only",
+    "scope": "国家产量仅作为情景锚点；矿产到企业为矿种关联，未确认这些企业从该国采购。不同产矿国的同矿种企业列表可能相同。无库存/流量数据，不计算损失量或断供概率。",
+    "production": [
+      {
+        "subject_id": "C_CHN",
+        "note": "全球约 78%",
+        "evidence_type": "原表数值",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "predicate": "出产",
+        "source_ids": [
+          "S06"
+        ],
+        "object_name": "石墨",
+        "record_ids": [
+          "R0005"
+        ],
+        "id": "R0005",
+        "stat_year": 2025.0,
+        "value_status": "估计",
+        "quantity": 1400000.0,
+        "kg_edge_id": "mineral-20261125-v1:R0005",
+        "confidence": 0.95,
+        "triple_id": "R0005",
+        "data_year": 2025.0,
+        "object_id": "M_GRA",
+        "original_data_year": 2025.0,
+        "unit": "吨（天然石墨）",
+        "share_pct": 77.78,
+        "subject_name": "中国",
+        "source_id": "S06",
+        "review_flag": false,
+        "dataset": "mineral-20261125-v1",
+        "source": "C_CHN",
+        "target": "M_GRA",
+        "type": "PRODUCES"
+      }
+    ],
+    "observed_country_share_pct": 77.78,
+    "companies": [
+      {
+        "id": "CO_BTR",
+        "name": "贝特瑞",
+        "label": "Company",
+        "level": 1,
+        "path_node_ids": [
+          "M_GRA",
+          "CO_BTR"
+        ],
+        "path_edge_ids": [
+          "R0224"
+        ]
+      },
+      {
+        "id": "CO_PUTAILAI",
+        "name": "璞泰来",
+        "label": "Company",
+        "level": 1,
+        "path_node_ids": [
+          "M_GRA",
+          "CO_PUTAILAI"
+        ],
+        "path_edge_ids": [
+          "R0225"
+        ]
+      },
+      {
+        "id": "CO_SHANSHAN",
+        "name": "杉杉股份",
+        "label": "Company",
+        "level": 1,
+        "path_node_ids": [
+          "M_GRA",
+          "CO_SHANSHAN"
+        ],
+        "path_edge_ids": [
+          "R0226"
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "P_SPH_GRAPHITE",
+        "name": "球化石墨",
+        "dependency_edge_id": "DREQ_P_SPH_GRAPHITE_M_GRA",
+        "review_flag": false
+      },
+      {
+        "id": "P_EXP_GRAPHITE",
+        "name": "膨胀石墨",
+        "dependency_edge_id": "DREQ_P_EXP_GRAPHITE_M_GRA",
+        "review_flag": false
+      }
+    ],
+    "levels": {
+      "1": 3
+    },
+    "company_count": 3,
+    "product_count": 2,
+    "alternatives": [],
+    "alternatives_scope": "仅列本包中通过筛选的技术候选；空列表不表示现实中不存在替代路线。",
+    "other_recorded_producers": [
+      {
+        "country_id": "C_MDG",
+        "country": "马达加斯加",
+        "observed_share_pct": 4.44,
+        "production_edge_id": "R0103",
+        "source_ids": [
+          "S06"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      },
+      {
+        "country_id": "C_BRA",
+        "country": "巴西",
+        "observed_share_pct": 3.61,
+        "production_edge_id": "R0075",
+        "source_ids": [
+          "S06"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      }
+    ],
+    "path_node_ids": [
+      "CO_BTR",
+      "CO_PUTAILAI",
+      "CO_SHANSHAN",
+      "C_CHN",
+      "M_GRA"
+    ],
+    "path_edge_ids": [
+      "DREQ_P_EXP_GRAPHITE_M_GRA",
+      "DREQ_P_SPH_GRAPHITE_M_GRA",
+      "R0005",
+      "R0224",
+      "R0225",
+      "R0226"
+    ],
+    "source_ids": [
+      "S06",
+      "S11"
+    ]
+  },
+  {
+    "scenario": {
+      "country_id": "C_AUS",
+      "country": "澳大利亚",
+      "mineral_id": "M_LI",
+      "mineral": "锂",
+      "max_hops": 4,
+      "as_of": "2026-11-25",
+      "include_review": false
+    },
+    "status": "potential_association_only",
+    "scope": "国家产量仅作为情景锚点；矿产到企业为矿种关联，未确认这些企业从该国采购。不同产矿国的同矿种企业列表可能相同。无库存/流量数据，不计算损失量或断供概率。",
+    "production": [
+      {
+        "subject_id": "C_AUS",
+        "note": "全球第一；锂辉石精矿为主",
+        "evidence_type": "原表数值",
+        "collection_year": 2026.0,
+        "origin": "A.fact",
+        "predicate": "出产",
+        "source_ids": [
+          "S01"
+        ],
+        "object_name": "锂",
+        "record_ids": [
+          "R0008"
+        ],
+        "id": "R0008",
+        "stat_year": 2025.0,
+        "value_status": "估计",
+        "quantity": 92000.0,
+        "kg_edge_id": "mineral-20261125-v1:R0008",
+        "confidence": 0.95,
+        "triple_id": "R0008",
+        "data_year": 2025.0,
+        "object_id": "M_LI",
+        "original_data_year": 2025.0,
+        "unit": "吨（Li 金属量）",
+        "subject_name": "澳大利亚",
+        "share_pct": 31.72,
+        "source_id": "S01",
+        "review_flag": false,
+        "dataset": "mineral-20261125-v1",
+        "source": "C_AUS",
+        "target": "M_LI",
+        "type": "PRODUCES"
+      }
+    ],
+    "observed_country_share_pct": 31.72,
+    "companies": [
+      {
+        "id": "CO_GANF",
+        "name": "赣锋锂业",
+        "label": "Company",
+        "level": 1,
+        "path_node_ids": [
+          "M_LI",
+          "CO_GANF"
+        ],
+        "path_edge_ids": [
+          "R0158"
+        ]
+      },
+      {
+        "id": "CO_TIANQI",
+        "name": "天齐锂业",
+        "label": "Company",
+        "level": 1,
+        "path_node_ids": [
+          "M_LI",
+          "CO_TIANQI"
+        ],
+        "path_edge_ids": [
+          "R0159"
+        ]
+      },
+      {
+        "id": "CO_ALB",
+        "name": "雅保",
+        "label": "Company",
+        "level": 1,
+        "path_node_ids": [
+          "M_LI",
+          "CO_ALB"
+        ],
+        "path_edge_ids": [
+          "R0215"
+        ]
+      },
+      {
+        "id": "CO_PILB",
+        "name": "皮尔巴拉矿业",
+        "label": "Company",
+        "level": 1,
+        "path_node_ids": [
+          "M_LI",
+          "CO_PILB"
+        ],
+        "path_edge_ids": [
+          "R0216"
+        ]
+      },
+      {
+        "id": "CO_RIO",
+        "name": "力拓",
+        "label": "Company",
+        "level": 1,
+        "path_node_ids": [
+          "M_LI",
+          "CO_RIO"
+        ],
+        "path_edge_ids": [
+          "R0217"
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "P_LI2CO3",
+        "name": "碳酸锂",
+        "dependency_edge_id": "DREQ_P_LI2CO3_M_LI",
+        "review_flag": false
+      },
+      {
+        "id": "P_LIOH",
+        "name": "氢氧化锂",
+        "dependency_edge_id": "DREQ_P_LIOH_M_LI",
+        "review_flag": false
+      },
+      {
+        "id": "P_NCM",
+        "name": "三元正极材料",
+        "dependency_edge_id": "DREQ_P_NCM_M_LI",
+        "review_flag": false
+      },
+      {
+        "id": "P_LFP_CATH",
+        "name": "磷酸铁锂正极材料",
+        "dependency_edge_id": "DREQ_P_LFP_CATH_M_LI",
+        "review_flag": false
+      },
+      {
+        "id": "P_NCM_CELL",
+        "name": "三元电池（电芯）",
+        "dependency_edge_id": "DREQ_P_NCM_CELL_M_LI",
+        "review_flag": false
+      },
+      {
+        "id": "P_LFP_CELL",
+        "name": "磷酸铁锂电池（电芯）",
+        "dependency_edge_id": "DREQ_P_LFP_CELL_M_LI",
+        "review_flag": false
+      },
+      {
+        "id": "P_EV",
+        "name": "新能源整车",
+        "dependency_edge_id": "DREQ_P_EV_M_LI",
+        "review_flag": false
+      },
+      {
+        "id": "P_ESS",
+        "name": "储能电池系统",
+        "dependency_edge_id": "DREQ_P_ESS_M_LI",
+        "review_flag": false
+      },
+      {
+        "id": "P_LI2SO4",
+        "name": "硫酸锂",
+        "dependency_edge_id": "DREQ_P_LI2SO4_M_LI",
+        "review_flag": false
+      },
+      {
+        "id": "P_LI_CONC",
+        "name": "锂精矿",
+        "dependency_edge_id": "DREQ_P_LI_CONC_M_LI",
+        "review_flag": false
+      }
+    ],
+    "levels": {
+      "1": 5
+    },
+    "company_count": 5,
+    "product_count": 10,
+    "alternatives": [],
+    "alternatives_scope": "仅列本包中通过筛选的技术候选；空列表不表示现实中不存在替代路线。",
+    "other_recorded_producers": [
+      {
+        "country_id": "C_CHN",
+        "country": "中国",
+        "observed_share_pct": 21.38,
+        "production_edge_id": "R0001",
+        "source_ids": [
+          "S01"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      },
+      {
+        "country_id": "C_CHL",
+        "country": "智利",
+        "observed_share_pct": 19.31,
+        "production_edge_id": "R0015",
+        "source_ids": [
+          "S01"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      },
+      {
+        "country_id": "C_ZWE",
+        "country": "津巴布韦",
+        "observed_share_pct": 9.66,
+        "production_edge_id": "R0043",
+        "source_ids": [
+          "S01"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      },
+      {
+        "country_id": "C_ARG",
+        "country": "阿根廷",
+        "observed_share_pct": 7.93,
+        "production_edge_id": "R0036",
+        "source_ids": [
+          "S01"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      },
+      {
+        "country_id": "C_BRA",
+        "country": "巴西",
+        "observed_share_pct": 4.14,
+        "production_edge_id": "R0071",
+        "source_ids": [
+          "S01"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      },
+      {
+        "country_id": "C_CAN",
+        "country": "加拿大",
+        "observed_share_pct": 1.93,
+        "production_edge_id": "R0085",
+        "source_ids": [
+          "S01"
+        ],
+        "spare_capacity": null,
+        "scope": "仅为其他已记录生产国，未验证剩余产能或对接贸易通道。"
+      }
+    ],
+    "path_node_ids": [
+      "CO_ALB",
+      "CO_GANF",
+      "CO_PILB",
+      "CO_RIO",
+      "CO_TIANQI",
+      "C_AUS",
+      "M_LI"
+    ],
+    "path_edge_ids": [
+      "DREQ_P_ESS_M_LI",
+      "DREQ_P_EV_M_LI",
+      "DREQ_P_LFP_CATH_M_LI",
+      "DREQ_P_LFP_CELL_M_LI",
+      "DREQ_P_LI2CO3_M_LI",
+      "DREQ_P_LI2SO4_M_LI",
+      "DREQ_P_LIOH_M_LI",
+      "DREQ_P_LI_CONC_M_LI",
+      "DREQ_P_NCM_CELL_M_LI",
+      "DREQ_P_NCM_M_LI",
+      "R0008",
+      "R0158",
+      "R0159",
+      "R0215",
+      "R0216",
+      "R0217"
+    ],
+    "source_ids": [
+      "S01",
+      "S10",
+      "S12",
+      "S18"
+    ]
+  }
+]

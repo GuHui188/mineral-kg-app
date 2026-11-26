@@ -1,0 +1,1114 @@
+{
+  "count": 65,
+  "all_records_matched": true,
+  "checks": [
+    {
+      "triple_id": "E0001",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0002",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0003",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0004",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0005",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0006",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0007",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0008",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0009",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0010",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0011",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0012",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0013",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0014",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0015",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0016",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0017",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0018",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0019",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0020",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0021",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0022",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0023",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0024",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0025",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0026",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0027",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0028",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0029",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0030",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0031",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0032",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0033",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0034",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0035",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0036",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0037",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0038",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0039",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0040",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0041",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0042",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0043",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0044",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0045",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0046",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0047",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0048",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0049",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0050",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0051",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0052",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0053",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0054",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0055",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0056",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0057",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0058",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0059",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0060",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0061",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0062",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0063",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0064",
+      "matched_saved_record": true
+    },
+    {
+      "triple_id": "E0065",
+      "matched_saved_record": true
+    }
+  ],
+  "aligned_records": [
+    {
+      "subject": "石墨",
+      "predicate": "受管制于",
+      "object": "中国对石墨物项实施出口管制",
+      "evidence": "对部分物项实施出口管制……（二）天然鳞片石墨及其制品",
+      "subject_id": "M_GRA",
+      "object_id": "PE_20231201_CN_GRA",
+      "source_id": "S11",
+      "sequence_in_source": 1,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0001"
+    },
+    {
+      "subject": "中国对石墨物项实施出口管制",
+      "predicate": "发布于",
+      "object": "中国",
+      "evidence": "商务部 海关总署公告2023年第39号……经国务院批准",
+      "subject_id": "PE_20231201_CN_GRA",
+      "object_id": "C_CHN",
+      "source_id": "S11",
+      "sequence_in_source": 2,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0002"
+    },
+    {
+      "subject": "人造石墨负极",
+      "predicate": "需要",
+      "object": "石墨",
+      "evidence": "高纯度、高强度、高密度的人造石墨材料及其制品",
+      "subject_id": "P_GRA_ANODE",
+      "object_id": "M_GRA",
+      "source_id": "S11",
+      "sequence_in_source": 3,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0003"
+    },
+    {
+      "subject": "人造石墨负极",
+      "predicate": "受管制于",
+      "object": "中国对石墨物项实施出口管制",
+      "evidence": "（一）高纯度（纯度>99.9%）……的人造石墨材料及其制品",
+      "subject_id": "P_GRA_ANODE",
+      "object_id": "PE_20231201_CN_GRA",
+      "source_id": "S11",
+      "sequence_in_source": 4,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0004"
+    },
+    {
+      "subject": "球化石墨(新)",
+      "predicate": "受管制于",
+      "object": "中国对石墨物项实施出口管制",
+      "evidence": "天然鳞片石墨及其制品（包含球化石墨、膨胀石墨等）",
+      "subject_id": "P_SPH_GRAPHITE",
+      "object_id": "PE_20231201_CN_GRA",
+      "source_id": "S11",
+      "sequence_in_source": 5,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0005"
+    },
+    {
+      "subject": "球化石墨(新)",
+      "predicate": "需要",
+      "object": "石墨",
+      "evidence": "天然鳞片石墨及其制品（包含球化石墨、膨胀石墨等）",
+      "subject_id": "P_SPH_GRAPHITE",
+      "object_id": "M_GRA",
+      "source_id": "S11",
+      "sequence_in_source": 6,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0006"
+    },
+    {
+      "subject": "膨胀石墨(新)",
+      "predicate": "需要",
+      "object": "石墨",
+      "evidence": "天然鳞片石墨及其制品（包含球化石墨、膨胀石墨等）",
+      "subject_id": "P_EXP_GRAPHITE",
+      "object_id": "M_GRA",
+      "source_id": "S11",
+      "sequence_in_source": 7,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0007"
+    },
+    {
+      "subject": "中国对石墨物项实施出口管制",
+      "predicate": "作用于",
+      "object": "中国",
+      "evidence": "出口经营者应按照相关规定办理出口许可手续，通过省级商务主管部门向商务部提出申请",
+      "subject_id": "PE_20231201_CN_GRA",
+      "object_id": "C_CHN",
+      "source_id": "S11",
+      "sequence_in_source": 8,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0008"
+    },
+    {
+      "subject": "锂",
+      "predicate": "受管制于",
+      "object": "津巴布韦禁止未加工锂矿出口",
+      "evidence": "banned exports of raw, unprocessed lithium ore under Statutory Instrument 213 of 2022",
+      "subject_id": "M_LI",
+      "object_id": "PE_20221220_ZW_LI",
+      "source_id": "S12",
+      "sequence_in_source": 1,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0009"
+    },
+    {
+      "subject": "津巴布韦禁止未加工锂矿出口",
+      "predicate": "发布于",
+      "object": "津巴布韦",
+      "evidence": "the Base Minerals Export Control (Unbeneficiated Lithium Bearing Ores) Order（津巴布韦矿业与矿业发展部）",
+      "subject_id": "PE_20221220_ZW_LI",
+      "object_id": "C_ZWE",
+      "source_id": "S12",
+      "sequence_in_source": 2,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0010"
+    },
+    {
+      "subject": "津巴布韦",
+      "predicate": "出产",
+      "object": "锂",
+      "evidence": "Zimbabwe is Africa's leading lithium producer",
+      "subject_id": "C_ZWE",
+      "object_id": "M_LI",
+      "source_id": "S12",
+      "sequence_in_source": 3,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0011"
+    },
+    {
+      "subject": "津巴布韦",
+      "predicate": "出口至",
+      "object": "中国",
+      "evidence": "accounting for approximately 15% of China's total lithium import volumes in 2025",
+      "subject_id": "C_ZWE",
+      "object_id": "C_CHN",
+      "source_id": "S12",
+      "sequence_in_source": 4,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0012"
+    },
+    {
+      "subject": "华友钴业",
+      "predicate": "控股",
+      "object": "Prospect Lithium Zimbabwe(新)",
+      "evidence": "Prospect Lithium Zimbabwe, owned by China's Zhejiang Huayou Cobalt",
+      "subject_id": "CO_HUAYOU",
+      "object_id": "CO_PROSPECT_LZ",
+      "source_id": "S12",
+      "sequence_in_source": 5,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0013"
+    },
+    {
+      "subject": "华友钴业",
+      "predicate": "供应",
+      "object": "硫酸锂(新)",
+      "evidence": "a refinery by Zhejiang Huayou Cobalt — Africa's first lithium sulphate processing facility",
+      "subject_id": "CO_HUAYOU",
+      "object_id": "P_LI2SO4",
+      "source_id": "S12",
+      "sequence_in_source": 6,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0014"
+    },
+    {
+      "subject": "盛新锂能(新)",
+      "predicate": "供应",
+      "object": "津巴布韦锂精矿(新)",
+      "evidence": "a $300 million investment from Chengxin Lithium（盛新锂能在津巴布韦投资锂矿加工）",
+      "subject_id": "CO_CHENGXIN",
+      "object_id": "P_LI_CONC",
+      "source_id": "S12",
+      "sequence_in_source": 7,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0015"
+    },
+    {
+      "subject": "津巴布韦",
+      "predicate": "出口至",
+      "object": "南非",
+      "evidence": "initially to curb smuggling into South Africa and Mozambique",
+      "subject_id": "C_ZWE",
+      "object_id": "C_ZAF",
+      "source_id": "S12",
+      "sequence_in_source": 8,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0016"
+    },
+    {
+      "subject": "锂精矿(新)",
+      "predicate": "受管制于",
+      "object": "津巴布韦禁止未加工锂矿出口",
+      "evidence": "on 10 June 2025, the government announced that exports of lithium concentrates would also be prohibited from January 2027",
+      "subject_id": "P_LI_CONC",
+      "object_id": "PE_20221220_ZW_LI",
+      "source_id": "S12",
+      "sequence_in_source": 9,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0017"
+    },
+    {
+      "subject": "稀土",
+      "predicate": "受管制于",
+      "object": "中国对 7 类中重稀土实施出口管制",
+      "evidence": "决定对下列物项实施出口管制：一、钐相关物项……七、钇相关物项",
+      "subject_id": "M_RE",
+      "object_id": "PE_20250404_CN_RE",
+      "source_id": "S13",
+      "sequence_in_source": 1,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0018"
+    },
+    {
+      "subject": "中国对 7 类中重稀土实施出口管制",
+      "predicate": "发布于",
+      "object": "中国",
+      "evidence": "商务部 海关总署公告2025年第18号……经国务院批准",
+      "subject_id": "PE_20250404_CN_RE",
+      "object_id": "C_CHN",
+      "source_id": "S13",
+      "sequence_in_source": 2,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0019"
+    },
+    {
+      "subject": "中国对 7 类中重稀土实施出口管制",
+      "predicate": "作用于",
+      "object": "中国",
+      "evidence": "本公告自发布之日起正式实施（中国境内出口经营者须申请许可）",
+      "subject_id": "PE_20250404_CN_RE",
+      "object_id": "C_CHN",
+      "source_id": "S13",
+      "sequence_in_source": 3,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0020"
+    },
+    {
+      "subject": "钐钴永磁材料(新)",
+      "predicate": "需要",
+      "object": "钴",
+      "evidence": "含钐的合金：a.钐钴合金……4.钐钴永磁材料",
+      "subject_id": "P_SMCO_MAGNET",
+      "object_id": "M_CO",
+      "source_id": "S13",
+      "sequence_in_source": 4,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0021"
+    },
+    {
+      "subject": "钐钴永磁材料(新)",
+      "predicate": "需要",
+      "object": "稀土",
+      "evidence": "钐相关物项：金属钐、含钐的合金及相关制品……钐钴永磁材料",
+      "subject_id": "P_SMCO_MAGNET",
+      "object_id": "M_RE",
+      "source_id": "S13",
+      "sequence_in_source": 5,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0022"
+    },
+    {
+      "subject": "钕铁硼永磁材料(新)",
+      "predicate": "需要",
+      "object": "稀土",
+      "evidence": "含铽的钕铁硼永磁材料；含镝的钕铁硼永磁材料",
+      "subject_id": "P_NDFEB_MAGNET",
+      "object_id": "M_RE",
+      "source_id": "S13",
+      "sequence_in_source": 6,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0023"
+    },
+    {
+      "subject": "钕铁硼永磁材料(新)",
+      "predicate": "受管制于",
+      "object": "中国对 7 类中重稀土实施出口管制",
+      "evidence": "三、铽相关物项……含铽的钕铁硼永磁材料",
+      "subject_id": "P_NDFEB_MAGNET",
+      "object_id": "PE_20250404_CN_RE",
+      "source_id": "S13",
+      "sequence_in_source": 7,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0024"
+    },
+    {
+      "subject": "氧化钇(新)",
+      "predicate": "受管制于",
+      "object": "中国对 7 类中重稀土实施出口管制",
+      "evidence": "（二）1C908.b 氧化钇及其混合物",
+      "subject_id": "P_Y2O3",
+      "object_id": "PE_20250404_CN_RE",
+      "source_id": "S13",
+      "sequence_in_source": 8,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0025"
+    },
+    {
+      "subject": "欧盟《新电池法规》生效",
+      "predicate": "发布于",
+      "object": "欧盟(新)",
+      "evidence": "Regulation (EU) 2023/1542, the EU Battery Regulation（欧盟立法，非成员国）",
+      "subject_id": "PE_20230817_EU_BATREG",
+      "object_id": "C_EU",
+      "source_id": "S20",
+      "sequence_in_source": 1,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0026"
+    },
+    {
+      "subject": "新能源整车",
+      "predicate": "受管制于",
+      "object": "欧盟《新电池法规》生效",
+      "evidence": "every EV battery... must carry a registered digital battery passport",
+      "subject_id": "P_EV",
+      "object_id": "PE_20230817_EU_BATREG",
+      "source_id": "S20",
+      "sequence_in_source": 2,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0027"
+    },
+    {
+      "subject": "三元电池（电芯）",
+      "predicate": "受管制于",
+      "object": "欧盟《新电池法规》生效",
+      "evidence": "batteries of every category placed on the EU market: portable, LMT, EV, industrial and SLI",
+      "subject_id": "P_NCM_CELL",
+      "object_id": "PE_20230817_EU_BATREG",
+      "source_id": "S20",
+      "sequence_in_source": 3,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0028"
+    },
+    {
+      "subject": "磷酸铁锂电池（电芯）",
+      "predicate": "受管制于",
+      "object": "欧盟《新电池法规》生效",
+      "evidence": "batteries of every category placed on the EU market",
+      "subject_id": "P_LFP_CELL",
+      "object_id": "PE_20230817_EU_BATREG",
+      "source_id": "S20",
+      "sequence_in_source": 4,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0029"
+    },
+    {
+      "subject": "钴",
+      "predicate": "受管制于",
+      "object": "欧盟《新电池法规》生效",
+      "evidence": "due-diligence policies for the origin and impact of cobalt, natural graphite, lithium and nickel",
+      "subject_id": "M_CO",
+      "object_id": "PE_20230817_EU_BATREG",
+      "source_id": "S20",
+      "sequence_in_source": 5,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0030"
+    },
+    {
+      "subject": "锂",
+      "predicate": "受管制于",
+      "object": "欧盟《新电池法规》生效",
+      "evidence": "due-diligence policies for the origin and impact of cobalt, natural graphite, lithium and nickel",
+      "subject_id": "M_LI",
+      "object_id": "PE_20230817_EU_BATREG",
+      "source_id": "S20",
+      "sequence_in_source": 6,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0031"
+    },
+    {
+      "subject": "镍",
+      "predicate": "受管制于",
+      "object": "欧盟《新电池法规》生效",
+      "evidence": "due-diligence policies for the origin and impact of cobalt, natural graphite, lithium and nickel",
+      "subject_id": "M_NI",
+      "object_id": "PE_20230817_EU_BATREG",
+      "source_id": "S20",
+      "sequence_in_source": 7,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0032"
+    },
+    {
+      "subject": "石墨",
+      "predicate": "受管制于",
+      "object": "欧盟《新电池法规》生效",
+      "evidence": "due-diligence policies for the origin and impact of cobalt, natural graphite, lithium and nickel",
+      "subject_id": "M_GRA",
+      "object_id": "PE_20230817_EU_BATREG",
+      "source_id": "S20",
+      "sequence_in_source": 8,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0033"
+    },
+    {
+      "subject": "欧盟《新电池法规》生效",
+      "predicate": "作用于",
+      "object": "德国",
+      "evidence": "It applies directly in all Member States（德国为成员国之一）",
+      "subject_id": "PE_20230817_EU_BATREG",
+      "object_id": "C_DEU",
+      "source_id": "S20",
+      "sequence_in_source": 9,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0034"
+    },
+    {
+      "subject": "欧盟《新电池法规》生效",
+      "predicate": "作用于",
+      "object": "中国",
+      "evidence": "对中国出口欧盟电池产品构成合规要求（据上下文推断）",
+      "subject_id": "PE_20230817_EU_BATREG",
+      "object_id": "C_CHN",
+      "source_id": "S20",
+      "sequence_in_source": 10,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0035"
+    },
+    {
+      "subject": "美国《通胀削减法案》签署",
+      "predicate": "发布于",
+      "object": "美国",
+      "evidence": "The Inflation Reduction Act of 2022 (IRA), signed on August 16, 2022",
+      "subject_id": "PE_20220816_US_IRA",
+      "object_id": "C_USA",
+      "source_id": "S21",
+      "sequence_in_source": 1,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0036"
+    },
+    {
+      "subject": "美国《通胀削减法案》签署",
+      "predicate": "作用于",
+      "object": "中国",
+      "evidence": "a government of a covered nation — North Korea, Iran, Russia and China",
+      "subject_id": "PE_20220816_US_IRA",
+      "object_id": "C_CHN",
+      "source_id": "S21",
+      "sequence_in_source": 2,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0037"
+    },
+    {
+      "subject": "新能源整车",
+      "predicate": "受管制于",
+      "object": "美国《通胀削减法案》签署",
+      "evidence": "an eligible clean vehicle may not contain any battery components manufactured or assembled by a FEOC",
+      "subject_id": "P_EV",
+      "object_id": "PE_20220816_US_IRA",
+      "source_id": "S21",
+      "sequence_in_source": 3,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0038"
+    },
+    {
+      "subject": "三元电池（电芯）",
+      "predicate": "受管制于",
+      "object": "美国《通胀削减法案》签署",
+      "evidence": "no battery components were sourced from an FEOC beginning in 2024",
+      "subject_id": "P_NCM_CELL",
+      "object_id": "PE_20220816_US_IRA",
+      "source_id": "S21",
+      "sequence_in_source": 4,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0039"
+    },
+    {
+      "subject": "磷酸铁锂电池（电芯）",
+      "predicate": "受管制于",
+      "object": "美国《通胀削减法案》签署",
+      "evidence": "no battery components were sourced from an FEOC beginning in 2024",
+      "subject_id": "P_LFP_CELL",
+      "object_id": "PE_20220816_US_IRA",
+      "source_id": "S21",
+      "sequence_in_source": 5,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0040"
+    },
+    {
+      "subject": "锂",
+      "predicate": "受管制于",
+      "object": "美国《通胀削减法案》签署",
+      "evidence": "no critical minerals were sourced from an FEOC beginning in 2025",
+      "subject_id": "M_LI",
+      "object_id": "PE_20220816_US_IRA",
+      "source_id": "S21",
+      "sequence_in_source": 6,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0041"
+    },
+    {
+      "subject": "钴",
+      "predicate": "受管制于",
+      "object": "美国《通胀削减法案》签署",
+      "evidence": "no critical minerals were sourced from an FEOC beginning in 2025",
+      "subject_id": "M_CO",
+      "object_id": "PE_20220816_US_IRA",
+      "source_id": "S21",
+      "sequence_in_source": 7,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0042"
+    },
+    {
+      "subject": "镍",
+      "predicate": "受管制于",
+      "object": "美国《通胀削减法案》签署",
+      "evidence": "no critical minerals were sourced from an FEOC beginning in 2025",
+      "subject_id": "M_NI",
+      "object_id": "PE_20220816_US_IRA",
+      "source_id": "S21",
+      "sequence_in_source": 8,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0043"
+    },
+    {
+      "subject": "石墨",
+      "predicate": "受管制于",
+      "object": "美国《通胀削减法案》签署",
+      "evidence": "no critical minerals were sourced from an FEOC beginning in 2025",
+      "subject_id": "M_GRA",
+      "object_id": "PE_20220816_US_IRA",
+      "source_id": "S21",
+      "sequence_in_source": 9,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0044"
+    },
+    {
+      "subject": "美国《通胀削减法案》签署",
+      "predicate": "作用于",
+      "object": "俄罗斯",
+      "evidence": "a covered nation is defined as North Korea, Iran, Russia and China",
+      "subject_id": "PE_20220816_US_IRA",
+      "object_id": "C_RUS",
+      "source_id": "S21",
+      "sequence_in_source": 10,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0045"
+    },
+    {
+      "subject": "钴",
+      "predicate": "受管制于",
+      "object": "刚果（金）暂停钴出口",
+      "evidence": "suspending the export of cobalt from the Democratic Republic of Congo",
+      "subject_id": "M_CO",
+      "object_id": "PE_20250222_CD_CO",
+      "source_id": "S23",
+      "sequence_in_source": 1,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0046"
+    },
+    {
+      "subject": "刚果（金）暂停钴出口",
+      "predicate": "发布于",
+      "object": "刚果（金）",
+      "evidence": "ARECOMS imposed Decision No. 001/ARECOMS/2025 of February 22, 2025",
+      "subject_id": "PE_20250222_CD_CO",
+      "object_id": "C_COD",
+      "source_id": "S23",
+      "sequence_in_source": 2,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0047"
+    },
+    {
+      "subject": "钴",
+      "predicate": "受管制于",
+      "object": "刚果（金）以出口配额取代钴出口禁令",
+      "evidence": "a new policy establishing an export quota, to be implemented from 16 October 2025",
+      "subject_id": "M_CO",
+      "object_id": "PE_20251015_CD_COQUOTA",
+      "source_id": "S23",
+      "sequence_in_source": 3,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0048"
+    },
+    {
+      "subject": "刚果（金）以出口配额取代钴出口禁令",
+      "predicate": "发布于",
+      "object": "刚果（金）",
+      "evidence": "On 21 September 2025, ARECOMS extended the ban further to 15 October 2025, along with a new policy establishing an export quota",
+      "subject_id": "PE_20251015_CD_COQUOTA",
+      "object_id": "C_COD",
+      "source_id": "S23",
+      "sequence_in_source": 4,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0049"
+    },
+    {
+      "subject": "刚果（金）",
+      "predicate": "出产",
+      "object": "钴",
+      "evidence": "The Democratic Republic of Congo accounts for about three quarters of global cobalt supply",
+      "subject_id": "C_COD",
+      "object_id": "M_CO",
+      "source_id": "S23",
+      "sequence_in_source": 5,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0050"
+    },
+    {
+      "subject": "洛阳钼业",
+      "predicate": "出产",
+      "object": "钴",
+      "evidence": "Chinese mining giant CMOC, the world's largest cobalt producer with two mines in the DRC",
+      "subject_id": "CO_CMOC",
+      "object_id": "M_CO",
+      "source_id": "S23",
+      "sequence_in_source": 6,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0051"
+    },
+    {
+      "subject": "洛阳钼业",
+      "predicate": "控股",
+      "object": "IXM(新)",
+      "evidence": "its trading arm IXM declared force majeure on cobalt delivery contracts",
+      "subject_id": "CO_CMOC",
+      "object_id": "CO_IXM",
+      "source_id": "S23",
+      "sequence_in_source": 7,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0052"
+    },
+    {
+      "subject": "嘉能可",
+      "predicate": "出产",
+      "object": "钴",
+      "evidence": "Glencore, the second-largest cobalt producer, stockpiled its DRC cobalt",
+      "subject_id": "CO_GLENCORE",
+      "object_id": "M_CO",
+      "source_id": "S23",
+      "sequence_in_source": 8,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0053"
+    },
+    {
+      "subject": "刚果（金）以出口配额取代钴出口禁令",
+      "predicate": "作用于",
+      "object": "中国",
+      "evidence": "China's CMOC Group, the world's largest cobalt producer with two mines in the DRC, has been among the most affected",
+      "subject_id": "PE_20251015_CD_COQUOTA",
+      "object_id": "C_CHN",
+      "source_id": "S23",
+      "sequence_in_source": 9,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0054"
+    },
+    {
+      "subject": "刚果（金）",
+      "predicate": "出口至",
+      "object": "中国",
+      "evidence": "cobalt hydroxide, the main product exported from the DRC（主要流向中国冶炼，据上下文）",
+      "subject_id": "C_COD",
+      "object_id": "C_CHN",
+      "source_id": "S23",
+      "sequence_in_source": 10,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0055"
+    },
+    {
+      "subject": "锂",
+      "predicate": "受管制于",
+      "object": "智利发布《国家锂战略》",
+      "evidence": "mandating state majority control in strategically significant lithium projects",
+      "subject_id": "M_LI",
+      "object_id": "PE_20230420_CL_LI",
+      "source_id": "S24",
+      "sequence_in_source": 1,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0056"
+    },
+    {
+      "subject": "智利发布《国家锂战略》",
+      "predicate": "发布于",
+      "object": "智利",
+      "evidence": "In April 2023, Chile announced its National Lithium Strategy",
+      "subject_id": "PE_20230420_CL_LI",
+      "object_id": "C_CHL",
+      "source_id": "S24",
+      "sequence_in_source": 2,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0057"
+    },
+    {
+      "subject": "智利",
+      "predicate": "出产",
+      "object": "锂",
+      "evidence": "Chile is the world's second-largest lithium producer after Australia",
+      "subject_id": "C_CHL",
+      "object_id": "M_LI",
+      "source_id": "S24",
+      "sequence_in_source": 3,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0058"
+    },
+    {
+      "subject": "智利",
+      "predicate": "控股",
+      "object": "Codelco(新)",
+      "evidence": "state copper company Codelco（智利国有铜业公司）",
+      "subject_id": "C_CHL",
+      "object_id": "CO_CODELCO",
+      "source_id": "S24",
+      "sequence_in_source": 4,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0059"
+    },
+    {
+      "subject": "Codelco(新)",
+      "predicate": "控股",
+      "object": "Salar Futuro(新)",
+      "evidence": "from 2031 to 2060 Codelco holds 50 percent plus one share",
+      "subject_id": "CO_CODELCO",
+      "object_id": "CO_SALAR_FUTURO",
+      "source_id": "S24",
+      "sequence_in_source": 5,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0060"
+    },
+    {
+      "subject": "SQM",
+      "predicate": "控股",
+      "object": "Salar Futuro(新)",
+      "evidence": "The Codelco–SQM joint venture (Salar Futuro / Nova Andino Litio)",
+      "subject_id": "CO_SQM",
+      "object_id": "CO_SALAR_FUTURO",
+      "source_id": "S24",
+      "sequence_in_source": 6,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0061"
+    },
+    {
+      "subject": "天齐锂业",
+      "predicate": "控股",
+      "object": "SQM",
+      "evidence": "SQM is partly owned by China's Tianqi Lithium",
+      "subject_id": "CO_TIANQI",
+      "object_id": "CO_SQM",
+      "source_id": "S24",
+      "sequence_in_source": 7,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0062"
+    },
+    {
+      "subject": "Codelco(新)",
+      "predicate": "控股",
+      "object": "Lithium Power International(新)",
+      "evidence": "In October 2023, Codelco acquired Lithium Power International",
+      "subject_id": "CO_CODELCO",
+      "object_id": "CO_LPI",
+      "source_id": "S24",
+      "sequence_in_source": 8,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0063"
+    },
+    {
+      "subject": "SQM",
+      "predicate": "供应",
+      "object": "锂",
+      "evidence": "the Salar de Atacama operations supplying about 20% of world lithium production",
+      "subject_id": "CO_SQM",
+      "object_id": "M_LI",
+      "source_id": "S24",
+      "sequence_in_source": 9,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0064"
+    },
+    {
+      "subject": "澳大利亚",
+      "predicate": "出产",
+      "object": "锂",
+      "evidence": "Chile is the world's second-largest lithium producer after Australia",
+      "subject_id": "C_AUS",
+      "object_id": "M_LI",
+      "source_id": "S24",
+      "sequence_in_source": 10,
+      "alignment_status": "aligned",
+      "alignment_notes": [],
+      "original_triple_id": "E0065"
+    }
+  ],
+  "scope": "仅重放已保存JSON及实体对齐；不是重新运行原模型，不恢复缺失的原始会话。"
+}

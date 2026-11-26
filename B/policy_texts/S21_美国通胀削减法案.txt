@@ -1,0 +1,17 @@
+## S21
+来源：美国《通胀削减法案》（Inflation Reduction Act of 2022, H.R.5376）第 30D 条清洁车辆税收抵免及 FEOC 条款
+签署时间：2022年8月16日；FEOC 细则由财政部/能源部后续发布（2023-12 拟议、2024-05 最终规则）
+原文链接：https://www.congress.gov/bill/117th-congress/house-bill/5376
+转引：美国财政部/IRS 最终条例（T.D. 9995）、能源部 FEOC 解释指南
+
+The Inflation Reduction Act of 2022 (IRA), signed on August 16, 2022, provides a Section 30D Clean Vehicle Tax Credit of up to $7,500 per vehicle, split into two $3,750 components: one for critical minerals, one for battery components.
+
+Critical minerals requirement: a percentage of the value of the battery's critical minerals must be extracted or processed in the United States or a country with which the U.S. has a free trade agreement, or be recycled in North America. The threshold began at 40% in 2023 and increases by 10% annually, capping at 80% from 2027.
+
+Battery components requirement: a percentage of the value of battery components must be manufactured or assembled in North America — 50% in 2023, rising 10% each year to 100% by 2029.
+
+Foreign Entity of Concern (FEOC) exclusion: beginning in 2024, an eligible clean vehicle may not contain any battery components manufactured or assembled by a FEOC; beginning in 2025, it may not contain any critical minerals extracted, processed, or recycled by a FEOC. A FEOC is defined as an entity owned by, controlled by, or subject to the jurisdiction or direction of a government of a "covered nation" — North Korea, Iran, Russia and China — including firms headquartered there or at least 25% owned by such entities.
+
+Additional statutory criteria include final assembly in North America and MSRP caps of $80,000 for vans/pickups/SUVs and $55,000 for other vehicles. The FEOC rules require manufacturers to conduct supply-chain due diligence tracing battery components and critical minerals through all phases of extraction, processing, and recycling; for example, a mineral extracted by a non-FEOC entity but processed by a FEOC would not be compliant.
+
+The Act also created manufacturing credits under Section 45X (US$35/kWh for cells, US$10/kWh for modules). Since enactment, companies have announced nearly $100 billion in new clean vehicle and battery investments in the United States.

@@ -1,0 +1,50 @@
+[
+  {
+    "check": "Q01_count",
+    "passed": true
+  },
+  {
+    "check": "Q02_positive_producers",
+    "passed": true
+  },
+  {
+    "check": "Q03_partial_hhi",
+    "passed": true
+  },
+  {
+    "check": "Q04_review_filtered_trade",
+    "passed": true
+  },
+  {
+    "check": "Q05_downstream_companies",
+    "passed": true
+  },
+  {
+    "check": "Q06_target_country_policies",
+    "passed": true
+  },
+  {
+    "check": "Q07_upstream_entities",
+    "passed": true
+  },
+  {
+    "check": "Q08_qualified_substitutes",
+    "passed": true
+  },
+  {
+    "check": "Q09_directed_degree",
+    "passed": true
+  },
+  {
+    "check": "Q10_event_anchor",
+    "passed": true
+  },
+  {
+    "check": "Q11_fact_sources",
+    "passed": true
+  },
+  {
+    "check": "Q12_source_fact_counts",
+    "passed": true
+  }
+]

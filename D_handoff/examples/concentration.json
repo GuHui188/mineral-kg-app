@@ -1,0 +1,679 @@
+{
+  "intent": "concentration",
+  "template": "Q03",
+  "parameters": {},
+  "backend": "snapshot",
+  "dataset": "mineral-20261125-v1",
+  "as_of": "2026-11-25",
+  "answer": "覆盖范围与集中度：返回7条记录。只展示已收录国家覆盖率与份额平方和；不评全球HHI等级。",
+  "rows": [
+    {
+      "mineral_id": "M_LI",
+      "mineral": "锂",
+      "coverage_pct": 96.07,
+      "partial_hhi": 2013.2,
+      "countries": 7,
+      "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+      "source_ids": [
+        "S01"
+      ]
+    },
+    {
+      "mineral_id": "M_CO",
+      "mineral": "钴",
+      "coverage_pct": 96.38,
+      "partial_hhi": 5717.79,
+      "countries": 9,
+      "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+      "source_ids": [
+        "S02"
+      ]
+    },
+    {
+      "mineral_id": "M_NI",
+      "mineral": "镍",
+      "coverage_pct": 88.59,
+      "partial_hhi": 4546.06,
+      "countries": 8,
+      "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+      "source_ids": [
+        "S03"
+      ]
+    },
+    {
+      "mineral_id": "M_RE",
+      "mineral": "稀土",
+      "coverage_pct": 97.26,
+      "partial_hhi": 5052.23,
+      "countries": 7,
+      "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+      "source_ids": [
+        "S04"
+      ]
+    },
+    {
+      "mineral_id": "M_GRA",
+      "mineral": "石墨",
+      "coverage_pct": 85.83,
+      "partial_hhi": 6082.47,
+      "countries": 3,
+      "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "mineral_id": "M_MN",
+      "mineral": "锰",
+      "coverage_pct": 71.0,
+      "partial_hhi": 2133.0,
+      "countries": 3,
+      "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+      "source_ids": [
+        "S05"
+      ]
+    },
+    {
+      "mineral_id": "M_CU",
+      "mineral": "铜",
+      "coverage_pct": 56.52,
+      "partial_hhi": 923.47,
+      "countries": 4,
+      "scope": "收录份额平方和，非全球完整HHI，不套用全球集中等级",
+      "source_ids": [
+        "S07"
+      ]
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "mineral_id": "M_LI",
+        "name_zh": "锂",
+        "name_en": "Lithium",
+        "symbol": "Li",
+        "unit": "吨（Li 金属量）",
+        "world_production_2025": 290000.0,
+        "world_reserve": 37000000.0,
+        "top1_country": "澳大利亚",
+        "top1_share": 31.72,
+        "hhi": 2013.0,
+        "battery_role": "正极与电解液锂盐的源头",
+        "note": "USGS 世界合计不含美国（美国产量被隐瞒）",
+        "source_id": "S01",
+        "valid_year": 2025.0,
+        "confidence": 0.95,
+        "hhi_scope": "已收录国家产量份额的平方和，非完整全球HHI",
+        "hhi_coverage_pct": 96.07,
+        "hhi_recomputed": 2013.2,
+        "id": "M_LI",
+        "label": "Mineral",
+        "dataset": "mineral-20261125-v1",
+        "name": "锂",
+        "source_ids": [
+          "S01"
+        ]
+      },
+      {
+        "mineral_id": "M_CO",
+        "name_zh": "钴",
+        "name_en": "Cobalt",
+        "symbol": "Co",
+        "unit": "吨（Co 金属量）",
+        "world_production_2025": 310000.0,
+        "world_reserve": 12000000.0,
+        "top1_country": "刚果（金）",
+        "top1_share": 74.19,
+        "hhi": 5718.0,
+        "battery_role": "三元正极中稳定晶体结构",
+        "note": "刚果（金）占产量约 74%",
+        "source_id": "S02",
+        "valid_year": 2025.0,
+        "confidence": 0.95,
+        "hhi_scope": "已收录国家产量份额的平方和，非完整全球HHI",
+        "hhi_coverage_pct": 96.38,
+        "hhi_recomputed": 5717.79,
+        "id": "M_CO",
+        "label": "Mineral",
+        "dataset": "mineral-20261125-v1",
+        "name": "钴",
+        "source_ids": [
+          "S02"
+        ]
+      },
+      {
+        "mineral_id": "M_NI",
+        "name_zh": "镍",
+        "name_en": "Nickel",
+        "symbol": "Ni",
+        "unit": "吨（Ni 金属量）",
+        "world_production_2025": 3900000.0,
+        "world_reserve": 140000000.0,
+        "top1_country": "印度尼西亚",
+        "top1_share": 66.67,
+        "hhi": 4546.0,
+        "battery_role": "高镍三元正极的核心",
+        "note": "印尼占产量约 67%，2025 年全球产量增 5%",
+        "source_id": "S03",
+        "valid_year": 2025.0,
+        "confidence": 0.95,
+        "hhi_scope": "已收录国家产量份额的平方和，非完整全球HHI",
+        "hhi_coverage_pct": 88.59,
+        "hhi_recomputed": 4546.06,
+        "id": "M_NI",
+        "label": "Mineral",
+        "dataset": "mineral-20261125-v1",
+        "name": "镍",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "mineral_id": "M_RE",
+        "name_zh": "稀土",
+        "name_en": "Rare earths",
+        "symbol": "REE",
+        "unit": "吨（REO）",
+        "world_production_2025": 390000.0,
+        "world_reserve": 85000000.0,
+        "top1_country": "中国",
+        "top1_share": 69.23,
+        "hhi": 5052.0,
+        "battery_role": "永磁同步电机、催化剂",
+        "note": "中国占矿端约 69%，分离环节约 90%",
+        "source_id": "S04",
+        "valid_year": 2025.0,
+        "confidence": 0.95,
+        "hhi_scope": "已收录国家产量份额的平方和，非完整全球HHI",
+        "hhi_coverage_pct": 97.26,
+        "hhi_recomputed": 5052.23,
+        "id": "M_RE",
+        "label": "Mineral",
+        "dataset": "mineral-20261125-v1",
+        "name": "稀土",
+        "source_ids": [
+          "S04"
+        ]
+      },
+      {
+        "mineral_id": "M_GRA",
+        "name_zh": "石墨",
+        "name_en": "Natural graphite",
+        "symbol": "C",
+        "unit": "吨（天然石墨）",
+        "world_production_2025": 1800000.0,
+        "world_reserve": 310000000.0,
+        "top1_country": "中国",
+        "top1_share": 77.78,
+        "hhi": 6082.0,
+        "battery_role": "负极材料主流路线",
+        "note": "中国占产量约 78%",
+        "source_id": "S06",
+        "valid_year": 2025.0,
+        "confidence": 0.95,
+        "hhi_scope": "已收录国家产量份额的平方和，非完整全球HHI",
+        "hhi_coverage_pct": 85.83,
+        "hhi_recomputed": 6082.47,
+        "id": "M_GRA",
+        "label": "Mineral",
+        "dataset": "mineral-20261125-v1",
+        "name": "石墨",
+        "source_ids": [
+          "S06"
+        ]
+      },
+      {
+        "mineral_id": "M_MN",
+        "name_zh": "锰",
+        "name_en": "Manganese",
+        "symbol": "Mn",
+        "unit": "吨（Mn 金属量）",
+        "world_production_2025": 20000000.0,
+        "world_reserve": 1800000000.0,
+        "top1_country": "南非",
+        "top1_share": 38.0,
+        "hhi": 2133.0,
+        "battery_role": "磷酸锰铁锂、三元正极配比",
+        "note": "南非、加蓬两国合计约 63%",
+        "source_id": "S05",
+        "valid_year": 2025.0,
+        "confidence": 0.95,
+        "hhi_scope": "已收录国家产量份额的平方和，非完整全球HHI",
+        "hhi_coverage_pct": 71.0,
+        "hhi_recomputed": 2133.0,
+        "id": "M_MN",
+        "label": "Mineral",
+        "dataset": "mineral-20261125-v1",
+        "name": "锰",
+        "source_ids": [
+          "S05"
+        ]
+      },
+      {
+        "mineral_id": "M_CU",
+        "name_zh": "铜",
+        "name_en": "Copper",
+        "symbol": "Cu",
+        "unit": "吨（Cu 金属量）",
+        "world_production_2025": 23000000.0,
+        "world_reserve": 980000000.0,
+        "top1_country": "智利",
+        "top1_share": 23.04,
+        "hhi": 924.0,
+        "battery_role": "集流体、线束、电机绕组",
+        "note": "矿山集中在智利、刚果（金）、秘鲁",
+        "source_id": "S07",
+        "valid_year": 2025.0,
+        "confidence": 0.95,
+        "hhi_scope": "已收录国家产量份额的平方和，非完整全球HHI",
+        "hhi_coverage_pct": 56.52,
+        "hhi_recomputed": 923.47,
+        "id": "M_CU",
+        "label": "Mineral",
+        "dataset": "mineral-20261125-v1",
+        "name": "铜",
+        "source_ids": [
+          "S07"
+        ]
+      },
+      {
+        "source_id": "S01",
+        "source_type": "官方统计",
+        "title": "Mineral Commodity Summaries 2026 — Lithium",
+        "publisher": "美国地质调查局 USGS",
+        "publish_date": "2026-02",
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf",
+        "url_status": "直达链接",
+        "accessed_date": "2026-11-12",
+        "authority_level": "A",
+        "used_for": "01/03/06 锂产量与储量",
+        "note": "USGS 世界合计不含美国",
+        "id": "S01",
+        "label": "Source",
+        "dataset": "mineral-20261125-v1",
+        "name": "Mineral Commodity Summaries 2026 — Lithium",
+        "source_ids": [
+          "S01"
+        ]
+      },
+      {
+        "source_id": "S02",
+        "source_type": "官方统计",
+        "title": "Mineral Commodity Summaries 2026 — Cobalt",
+        "publisher": "USGS",
+        "publish_date": "2026-02",
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cobalt.pdf",
+        "url_status": "直达链接",
+        "accessed_date": "2026-11-12",
+        "authority_level": "A",
+        "used_for": "01/03/06 钴产量与储量",
+        "note": "刚果（金）占 73%",
+        "id": "S02",
+        "label": "Source",
+        "dataset": "mineral-20261125-v1",
+        "name": "Mineral Commodity Summaries 2026 — Cobalt",
+        "source_ids": [
+          "S02"
+        ]
+      },
+      {
+        "source_id": "S03",
+        "source_type": "官方统计",
+        "title": "Mineral Commodity Summaries 2026 — Nickel",
+        "publisher": "USGS",
+        "publish_date": "2026-02",
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nickel.pdf",
+        "url_status": "直达链接",
+        "accessed_date": "2026-11-12",
+        "authority_level": "A",
+        "used_for": "01/03/06 镍产量与储量",
+        "note": "印尼占 67%",
+        "id": "S03",
+        "label": "Source",
+        "dataset": "mineral-20261125-v1",
+        "name": "Mineral Commodity Summaries 2026 — Nickel",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "source_id": "S04",
+        "source_type": "官方统计",
+        "title": "Mineral Commodity Summaries 2026 — Rare Earths",
+        "publisher": "USGS",
+        "publish_date": "2026-02",
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf",
+        "url_status": "直达链接",
+        "accessed_date": "2026-11-12",
+        "authority_level": "A",
+        "used_for": "01/03/06 稀土产量与储量",
+        "note": "中国产量为配额口径",
+        "id": "S04",
+        "label": "Source",
+        "dataset": "mineral-20261125-v1",
+        "name": "Mineral Commodity Summaries 2026 — Rare Earths",
+        "source_ids": [
+          "S04"
+        ]
+      },
+      {
+        "source_id": "S05",
+        "source_type": "官方统计",
+        "title": "Mineral Commodity Summaries 2026 — Manganese",
+        "publisher": "USGS",
+        "publish_date": "2026-02",
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-manganese.pdf",
+        "url_status": "直达链接",
+        "accessed_date": "2026-11-12",
+        "authority_level": "A",
+        "used_for": "03/06 锰产量",
+        "note": "单位为锰含量千吨，已换算为吨",
+        "id": "S05",
+        "label": "Source",
+        "dataset": "mineral-20261125-v1",
+        "name": "Mineral Commodity Summaries 2026 — Manganese",
+        "source_ids": [
+          "S05"
+        ]
+      },
+      {
+        "source_id": "S06",
+        "source_type": "官方统计",
+        "title": "Mineral Commodity Summaries 2026 — Graphite (Natural)",
+        "publisher": "USGS",
+        "publish_date": "2026-02",
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-graphite.pdf",
+        "url_status": "直达链接",
+        "accessed_date": "2026-11-12",
+        "authority_level": "A",
+        "used_for": "03/06 石墨产量",
+        "note": "—",
+        "id": "S06",
+        "label": "Source",
+        "dataset": "mineral-20261125-v1",
+        "name": "Mineral Commodity Summaries 2026 — Graphite (Natural)",
+        "source_ids": [
+          "S06"
+        ]
+      },
+      {
+        "source_id": "S07",
+        "source_type": "官方统计",
+        "title": "Mineral Commodity Summaries 2026 — Copper",
+        "publisher": "USGS",
+        "publish_date": "2026-02",
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf",
+        "url_status": "直达链接",
+        "accessed_date": "2026-11-12",
+        "authority_level": "A",
+        "used_for": "03/06 铜产量",
+        "note": "—",
+        "id": "S07",
+        "label": "Source",
+        "dataset": "mineral-20261125-v1",
+        "name": "Mineral Commodity Summaries 2026 — Copper",
+        "source_ids": [
+          "S07"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source_id": "S02",
+        "review_flag": false,
+        "id": "CITE_M_CO_S02",
+        "source": "M_CO",
+        "target": "S02",
+        "type": "CITES",
+        "record_ids": [
+          "CITE_M_CO_S02"
+        ],
+        "origin": "derived.navigation",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S02"
+        ]
+      },
+      {
+        "source_id": "S07",
+        "review_flag": false,
+        "id": "CITE_M_CU_S07",
+        "source": "M_CU",
+        "target": "S07",
+        "type": "CITES",
+        "record_ids": [
+          "CITE_M_CU_S07"
+        ],
+        "origin": "derived.navigation",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S07"
+        ]
+      },
+      {
+        "source_id": "S06",
+        "review_flag": false,
+        "id": "CITE_M_GRA_S06",
+        "source": "M_GRA",
+        "target": "S06",
+        "type": "CITES",
+        "record_ids": [
+          "CITE_M_GRA_S06"
+        ],
+        "origin": "derived.navigation",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S06"
+        ]
+      },
+      {
+        "source_id": "S01",
+        "review_flag": false,
+        "id": "CITE_M_LI_S01",
+        "source": "M_LI",
+        "target": "S01",
+        "type": "CITES",
+        "record_ids": [
+          "CITE_M_LI_S01"
+        ],
+        "origin": "derived.navigation",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S01"
+        ]
+      },
+      {
+        "source_id": "S05",
+        "review_flag": false,
+        "id": "CITE_M_MN_S05",
+        "source": "M_MN",
+        "target": "S05",
+        "type": "CITES",
+        "record_ids": [
+          "CITE_M_MN_S05"
+        ],
+        "origin": "derived.navigation",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S05"
+        ]
+      },
+      {
+        "source_id": "S03",
+        "review_flag": false,
+        "id": "CITE_M_NI_S03",
+        "source": "M_NI",
+        "target": "S03",
+        "type": "CITES",
+        "record_ids": [
+          "CITE_M_NI_S03"
+        ],
+        "origin": "derived.navigation",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "source_id": "S04",
+        "review_flag": false,
+        "id": "CITE_M_RE_S04",
+        "source": "M_RE",
+        "target": "S04",
+        "type": "CITES",
+        "record_ids": [
+          "CITE_M_RE_S04"
+        ],
+        "origin": "derived.navigation",
+        "dataset": "mineral-20261125-v1",
+        "source_ids": [
+          "S04"
+        ]
+      }
+    ]
+  },
+  "highlight_paths": [],
+  "sources": [
+    {
+      "source_id": "S01",
+      "source_type": "官方统计",
+      "title": "Mineral Commodity Summaries 2026 — Lithium",
+      "publisher": "美国地质调查局 USGS",
+      "publish_date": "2026-02",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf",
+      "url_status": "直达链接",
+      "accessed_date": "2026-11-12",
+      "authority_level": "A",
+      "used_for": "01/03/06 锂产量与储量",
+      "note": "USGS 世界合计不含美国",
+      "id": "S01",
+      "label": "Source",
+      "dataset": "mineral-20261125-v1",
+      "name": "Mineral Commodity Summaries 2026 — Lithium",
+      "source_ids": [
+        "S01"
+      ]
+    },
+    {
+      "source_id": "S02",
+      "source_type": "官方统计",
+      "title": "Mineral Commodity Summaries 2026 — Cobalt",
+      "publisher": "USGS",
+      "publish_date": "2026-02",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cobalt.pdf",
+      "url_status": "直达链接",
+      "accessed_date": "2026-11-12",
+      "authority_level": "A",
+      "used_for": "01/03/06 钴产量与储量",
+      "note": "刚果（金）占 73%",
+      "id": "S02",
+      "label": "Source",
+      "dataset": "mineral-20261125-v1",
+      "name": "Mineral Commodity Summaries 2026 — Cobalt",
+      "source_ids": [
+        "S02"
+      ]
+    },
+    {
+      "source_id": "S03",
+      "source_type": "官方统计",
+      "title": "Mineral Commodity Summaries 2026 — Nickel",
+      "publisher": "USGS",
+      "publish_date": "2026-02",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nickel.pdf",
+      "url_status": "直达链接",
+      "accessed_date": "2026-11-12",
+      "authority_level": "A",
+      "used_for": "01/03/06 镍产量与储量",
+      "note": "印尼占 67%",
+      "id": "S03",
+      "label": "Source",
+      "dataset": "mineral-20261125-v1",
+      "name": "Mineral Commodity Summaries 2026 — Nickel",
+      "source_ids": [
+        "S03"
+      ]
+    },
+    {
+      "source_id": "S04",
+      "source_type": "官方统计",
+      "title": "Mineral Commodity Summaries 2026 — Rare Earths",
+      "publisher": "USGS",
+      "publish_date": "2026-02",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf",
+      "url_status": "直达链接",
+      "accessed_date": "2026-11-12",
+      "authority_level": "A",
+      "used_for": "01/03/06 稀土产量与储量",
+      "note": "中国产量为配额口径",
+      "id": "S04",
+      "label": "Source",
+      "dataset": "mineral-20261125-v1",
+      "name": "Mineral Commodity Summaries 2026 — Rare Earths",
+      "source_ids": [
+        "S04"
+      ]
+    },
+    {
+      "source_id": "S05",
+      "source_type": "官方统计",
+      "title": "Mineral Commodity Summaries 2026 — Manganese",
+      "publisher": "USGS",
+      "publish_date": "2026-02",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-manganese.pdf",
+      "url_status": "直达链接",
+      "accessed_date": "2026-11-12",
+      "authority_level": "A",
+      "used_for": "03/06 锰产量",
+      "note": "单位为锰含量千吨，已换算为吨",
+      "id": "S05",
+      "label": "Source",
+      "dataset": "mineral-20261125-v1",
+      "name": "Mineral Commodity Summaries 2026 — Manganese",
+      "source_ids": [
+        "S05"
+      ]
+    },
+    {
+      "source_id": "S06",
+      "source_type": "官方统计",
+      "title": "Mineral Commodity Summaries 2026 — Graphite (Natural)",
+      "publisher": "USGS",
+      "publish_date": "2026-02",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-graphite.pdf",
+      "url_status": "直达链接",
+      "accessed_date": "2026-11-12",
+      "authority_level": "A",
+      "used_for": "03/06 石墨产量",
+      "note": "—",
+      "id": "S06",
+      "label": "Source",
+      "dataset": "mineral-20261125-v1",
+      "name": "Mineral Commodity Summaries 2026 — Graphite (Natural)",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "source_id": "S07",
+      "source_type": "官方统计",
+      "title": "Mineral Commodity Summaries 2026 — Copper",
+      "publisher": "USGS",
+      "publish_date": "2026-02",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf",
+      "url_status": "直达链接",
+      "accessed_date": "2026-11-12",
+      "authority_level": "A",
+      "used_for": "03/06 铜产量",
+      "note": "—",
+      "id": "S07",
+      "label": "Source",
+      "dataset": "mineral-20261125-v1",
+      "name": "Mineral Commodity Summaries 2026 — Copper",
+      "source_ids": [
+        "S07"
+      ]
+    }
+  ],
+  "limitations": "只展示已收录国家覆盖率与份额平方和；不评全球HHI等级。"
+}

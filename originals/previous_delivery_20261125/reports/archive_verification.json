@@ -1,0 +1,38 @@
+[
+  {
+    "zip": "A_补充材料.zip",
+    "files": 12,
+    "all_archived_bytes_match_zip": true,
+    "sha256": "90deeea517e74ba3ca41cfdbf0eb3fdc71d7c9a607949714c655981cb56d7729"
+  },
+  {
+    "zip": "C_part.zip",
+    "files": 16,
+    "all_archived_bytes_match_zip": true,
+    "sha256": "2f6262179e2244180d09b3fe5bc8fa91176d8144dd8093a06d0146159a8fd137"
+  },
+  {
+    "zip": "关键矿产供应链数据包--李天语_v3.zip",
+    "files": 13,
+    "all_archived_bytes_match_zip": true,
+    "sha256": "9f9bda5bc9d430713eeb193c8eb37fdeb8871dc44fa716d2935c87db813a1856"
+  },
+  {
+    "zip": "给A_替代核对.zip",
+    "files": 2,
+    "all_archived_bytes_match_zip": true,
+    "sha256": "dc7ded4d4b229724882e12e7074e73974eb5c905aba2eb7e01fb74545e04252a"
+  },
+  {
+    "zip": "给C_v6.1交付.zip",
+    "files": 5,
+    "all_archived_bytes_match_zip": true,
+    "sha256": "70efae27e37316db3a78f540f804952262d7e8f12594f9e54e0b0ad1d10d8e26"
+  },
+  {
+    "zip": "给D_B补充材料.zip",
+    "files": 26,
+    "all_archived_bytes_match_zip": true,
+    "sha256": "f066225ee5f8d292eca464651f897fe42f718f7f187e540f7407ee386d028118"
+  }
+]

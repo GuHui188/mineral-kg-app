@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "overview_carries_mineral_and_country",
+    "hierarchical_graph_renders_all_nodes",
+    "catalog_row_selection_opens_details",
+    "excel_csv_download",
+    "all_workspaces_and_original_candidate_counts",
+    "compact_1024_layout"
+  ],
+  "page_errors": [],
+  "graph_node_count": 18
+}

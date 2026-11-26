@@ -1,0 +1,12 @@
+# 凭据与环境：绝不入库
+.env
+.env.local
+.env.*.local
+.streamlit/secrets.toml
+
+# Python / 系统缓存
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+Thumbs.db
